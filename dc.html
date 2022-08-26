@@ -66,7 +66,14 @@
 
                 setPlateWeight(i);
             }
-            document.getElementById("totalweight").innerHTML = total/1000;
+            document.getElementById("totalweight").innerHTML = total / 1000;
+
+            for (i = 1; i <= 15; i++) {
+                var vv = document.getElementById("w" + i).innerHTML;
+                if (vv > 0) {
+                    document.getElementById("w" + i).innerHTML = vv + " (" + Math.round((vv / (total / 1000)) * 100) + "%)"
+                }
+            }
         }
     </script>
     <style>
@@ -82,6 +89,9 @@
         input.c{
             width:50px;
         }
+        td.e{background-color:powderblue;}
+        td.n{background-color:yellowgreen;}
+        td.w{font-size:80%;}
     </style>
 </head>
 <body onload="setDedaults()">
@@ -106,136 +116,136 @@
             <td><input type="number" id="a1" class="a" onkeyup="cal()" /></td>
             <td><input type="number" id="b1" class="b" onkeyup="cal()" /></td>
             <td><input type="number" id="c1" class="c" onkeyup="cal()" /></td>
-            <td id="w1"></td>
+            <td id="w1" class="w"></td>
             <td id="d1"></td>
-            <td id="e1"></td>
-            <td id="n1"></td>
+            <td id="e1" class="e"></td>
+            <td id="n1" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a2" onkeyup="cal()" /></td>
             <td><input type="number" id="b2" onkeyup="cal()" /></td>
             <td><input type="number" id="c2" class="c" onkeyup="cal()" /></td>
-            <td id="w2"></td>
+            <td id="w2" class="w"></td>
             <td id="d2"></td>
-            <td id="e2"></td>
-            <td id="n2"></td>
+            <td id="e2" class="e"></td>
+            <td id="n2" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a3" onkeyup="cal()" /></td>
             <td><input type="number" id="b3" onkeyup="cal()" /></td>
             <td><input type="number" id="c3" class="c" onkeyup="cal()" /></td>
-            <td id="w3"></td>
+            <td id="w3" class="w"></td>
             <td id="d3"></td>
-            <td id="e3"></td>
-            <td id="n3"></td>
+            <td id="e3" class="e"></td>
+            <td id="n3" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a4" onkeyup="cal()" /></td>
             <td><input type="number" id="b4" onkeyup="cal()" /></td>
             <td><input type="number" id="c4" class="c" onkeyup="cal()" /></td>
-            <td id="w4"></td>
+            <td id="w4" class="w"></td>
             <td id="d4"></td>
-            <td id="e4"></td>
-            <td id="n4"></td>
+            <td id="e4" class="e"></td>
+            <td id="n4" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a5" onkeyup="cal()" /></td>
             <td><input type="number" id="b5" onkeyup="cal()" /></td>
             <td><input type="number" id="c5" class="c" onkeyup="cal()" /></td>
-            <td id="w5"></td>
+            <td id="w5" class="w"></td>
             <td id="d5"></td>
-            <td id="e5"></td>
-            <td id="n5"></td>
+            <td id="e5" class="e"></td>
+            <td id="n5" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a6" onkeyup="cal()" /></td>
             <td><input type="number" id="b6" onkeyup="cal()" /></td>
             <td><input type="number" id="c6" class="c" onkeyup="cal()" /></td>
-            <td id="w6"></td>
+            <td id="w6" class="w"></td>
             <td id="d6"></td>
-            <td id="e6"></td>
-            <td id="n6"></td>
+            <td id="e6" class="e"></td>
+            <td id="n6" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a7" onkeyup="cal()" /></td>
             <td><input type="number" id="b7" onkeyup="cal()" /></td>
             <td><input type="number" id="c7" class="c" onkeyup="cal()" /></td>
-            <td id="w7"></td>
+            <td id="w7" class="w"></td>
             <td id="d7"></td>
-            <td id="e7"></td>
-            <td id="n7"></td>
+            <td id="e7" class="e"></td>
+            <td id="n7" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a8" onkeyup="cal()" /></td>
             <td><input type="number" id="b8" onkeyup="cal()" /></td>
             <td><input type="number" id="c8" class="c" onkeyup="cal()" /></td>
-            <td id="w8"></td>
+            <td id="w8" class="w"></td>
             <td id="d8"></td>
-            <td id="e8"></td>
-            <td id="n8"></td>
+            <td id="e8" class="e"></td>
+            <td id="n8" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a9" onkeyup="cal()" /></td>
             <td><input type="number" id="b9" onkeyup="cal()" /></td>
             <td><input type="number" id="c9" class="c" onkeyup="cal()" /></td>
-            <td id="w9"></td>
+            <td id="w9" class="w"></td>
             <td id="d9"></td>
-            <td id="e9"></td>
-            <td id="n9"></td>
+            <td id="e9" class="e"></td>
+            <td id="n9" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a10" onkeyup="cal()" /></td>
             <td><input type="number" id="b10" onkeyup="cal()" /></td>
             <td><input type="number" id="c10" class="c" onkeyup="cal()" /></td>
-            <td id="w10"></td>
+            <td id="w10" class="w"></td>
             <td id="d10"></td>
-            <td id="e10"></td>
-            <td id="n10"></td>
+            <td id="e10" class="e"></td>
+            <td id="n10" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a11" onkeyup="cal()" /></td>
             <td><input type="number" id="b11" onkeyup="cal()" /></td>
             <td><input type="number" id="c11" class="c" onkeyup="cal()" /></td>
-            <td id="w11"></td>
+            <td id="w11" class="w"></td>
             <td id="d11"></td>
-            <td id="e11"></td>
-            <td id="n11"></td>
+            <td id="e11" class="e"></td>
+            <td id="n11" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a12" onkeyup="cal()" /></td>
             <td><input type="number" id="b12" onkeyup="cal()" /></td>
             <td><input type="number" id="c12" class="c" onkeyup="cal()" /></td>
-            <td id="w12"></td>
+            <td id="w12" class="w"></td>
             <td id="d12"></td>
-            <td id="e12"></td>
-            <td id="n12"></td>
+            <td id="e12" class="e"></td>
+            <td id="n12" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a13" onkeyup="cal()" /></td>
             <td><input type="number" id="b13" onkeyup="cal()" /></td>
             <td><input type="number" id="c13" class="c" onkeyup="cal()" /></td>
-            <td id="w13"></td>
+            <td id="w13" class="w"></td>
             <td id="d13"></td>
-            <td id="e13"></td>
-            <td id="n13"></td>
+            <td id="e13" class="e"></td>
+            <td id="n13" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a14" onkeyup="cal()" /></td>
             <td><input type="number" id="b14" onkeyup="cal()" /></td>
             <td><input type="number" id="c14" class="c" onkeyup="cal()" /></td>
-            <td id="w14"></td>
+            <td id="w14" class="w"></td>
             <td id="d14"></td>
-            <td id="e14"></td>
-            <td id="n14"></td>
+            <td id="e14" class="e"></td>
+            <td id="n14" class="n"></td>
         </tr>
         <tr>
             <td><input type="number" id="a15" onkeyup="cal()" /></td>
             <td><input type="number" id="b15" onkeyup="cal()" /></td>
             <td><input type="number" id="c15" class="c" onkeyup="cal()" /></td>
-            <td id="w15"></td>
+            <td id="w15" class="w"></td>
             <td id="d15"></td>
-            <td id="e15"></td>
-            <td id="n15"></td>
+            <td id="e15" class="e"></td>
+            <td id="n15" class="n"></td>
         </tr>
     </table>
 </body>
