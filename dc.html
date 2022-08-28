@@ -62,8 +62,9 @@
                 total += weight;
 
                 var v = document.getElementById(a).value;
+                var n = Math.round((document.getElementById(b).value * document.getElementById(c).value / 30) * 10) / 10;
 
-                document.getElementById("n" + i).innerHTML = (v <= 200 && v > 0) ? document.getElementById(b).value * document.getElementById(c).value / 30 : "-";
+                document.getElementById("n" + i).innerHTML = (v <= 200 && v > 0) ? n : "-";
 
                 setPlateWeight(i);
             }
