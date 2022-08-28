@@ -57,8 +57,8 @@
                 var b = "b" + i;
                 var c = "c" + i;
                 var w = "w" + i;
-                var weight = document.getElementById(a).value * document.getElementById(b).value * document.getElementById(c).value;
-                document.getElementById(w).innerHTML = weight > 0 ? weight / 1000 : "";
+                var weight = document.getElementById(a).value * document.getElementById(b).value * document.getElementById(c).value / 1000;
+                document.getElementById(w).innerHTML = weight > 0 ? weight.toFixed(2) : "";
                 total += weight;
 
                 var v = document.getElementById(a).value;
@@ -68,12 +68,12 @@
 
                 setPlateWeight(i);
             }
-            document.getElementById("totalweight").innerHTML = total / 1000;
+            document.getElementById("totalweight").innerHTML = total.toFixed(2);
 
             for (i = 1; i <= 15; i++) {
                 var vv = document.getElementById("w" + i).innerHTML;
                 if (vv > 0) {
-                    document.getElementById("w" + i).innerHTML = vv + " (" + Math.round((vv / (total / 1000)) * 100) + "%)"
+                    document.getElementById("w" + i).innerHTML = vv + " (" + Math.round((vv / (total)) * 100) + "%)"
                 }
             }
         }
