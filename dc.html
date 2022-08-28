@@ -39,6 +39,7 @@
 
         function setPlateWeight(row) {
             var v = document.getElementById("a" + row).value;
+            document.getElementById("e" + row).innerHTML = "";
             if (v <= 200 && v > 0) {
                 var plate = v * 30;
                 var extra = Math.floor(plate / 1000) * 10 //add 5g extra for every 500g
