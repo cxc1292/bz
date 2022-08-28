@@ -73,7 +73,9 @@
             for (i = 1; i <= 15; i++) {
                 var vv = document.getElementById("w" + i).innerHTML;
                 if (vv > 0) {
-                    document.getElementById("w" + i).innerHTML = vv + " (" + Math.round((vv / (total)) * 100) + "%)"
+                    var pct = Math.round((vv / (total)) * 100) + "%";
+                    var str =  vv + "<div title='" + pct + "' class='bar' style='width:" + pct + "'>&nbsp;</div>";
+                    document.getElementById("w" + i).innerHTML = str;
                 }
             }
         }
@@ -93,7 +95,16 @@
         }
         td.e{background-color:powderblue;}
         td.n{background-color:yellowgreen;}
-        td.w{font-size:80%;}
+        td.w {
+            position: relative;
+        }
+        div.bar {
+            position: absolute;
+            top: 0px;
+            height: 100%;
+            background-color: darkgreen;
+            opacity: 0.2;
+        }
     </style>
 </head>
 <body onload="setDedaults()">
