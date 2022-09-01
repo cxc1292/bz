@@ -73,8 +73,8 @@
                 var vv = document.getElementById("w" + i).innerHTML;
                 if (vv > 0) {
                     var pct = Math.round((vv / (total)) * 100) + "%";
-                    //var str = vv + "<div title='" + pct + "' class='bar' style='width:" + pct + "'>&nbsp;</div>";
-                    var str = vv;
+                    var str = vv + "<div title='" + pct + "' class='bar' style='width:" + pct + "'>&nbsp;</div>";
+                    //var str = vv;
                     document.getElementById("w" + i).innerHTML = str;
                 }
             }
@@ -84,15 +84,15 @@
         body{font-size:150%;}
         td{vertical-align:middle;text-align:right;padding:2px;}
         input {
-            /*width: 90px;*/
+            width: 90px;
             width:50%;
             vertical-align:middle;
-            /*height:25px;*/
+            height:25px;
             text-align:right;
             font-size:85%;
         }
         input.c{
-            /*width:50px;*/
+            width:50px;
         }
         td.e{background-color:powderblue;}
         td.n{background-color:yellowgreen;}
