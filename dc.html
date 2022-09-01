@@ -1,13 +1,15 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <title></title>
-    <script language = "JavaScript1.2">
+    <script language="JavaScript1.2">
 
         function setDedaults() {
-            var date = new Date();
-            document.getElementById("title").innerHTML = "Dough Calculator (" + date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear() + ")";
+            const date = new Date();
+            var m = date.getMonth() + 1;
+            document.getElementById("title").innerHTML = "Dough Calculator (" + date.getDate() + "/" + m + "/" + date.getFullYear() + ")";
 
             document.getElementById("a1").value = "35";
             document.getElementById("b1").value = "96";
@@ -44,9 +46,10 @@
                 var plate = v * 30;
                 var extra = Math.floor(plate / 1000) * 10 //add 5g extra for every 500g
                 document.getElementById("e" + row).innerHTML = plate + extra;
+
             }
         }
-        
+
         function cal() {
 
             var total = 0;
@@ -74,31 +77,46 @@
                 if (vv > 0) {
                     var pct = Math.round((vv / (total)) * 100) + "%";
                     var str = vv + "<div title='" + pct + "' class='bar' style='width:" + pct + "'>&nbsp;</div>";
-                    //var str = vv;
                     document.getElementById("w" + i).innerHTML = str;
                 }
             }
         }
     </script>
     <style>
-        body{font-size:150%;}
-        td{vertical-align:middle;text-align:right;padding:2px;}
+        body {
+            font-size: 150%;
+        }
+
+        td {
+            vertical-align: middle;
+            text-align: right;
+            padding: 2px;
+        }
+
         input {
             width: 90px;
-            width:50%;
-            vertical-align:middle;
-            height:25px;
-            text-align:right;
-            font-size:85%;
+            vertical-align: middle;
+            height: 25px;
+            text-align: right;
+            font-size: 85%;
         }
-        input.c{
-            width:50px;
+
+            input.c {
+                width: 50px;
+            }
+
+        td.e {
+            background-color: powderblue;
         }
-        td.e{background-color:powderblue;}
-        td.n{background-color:yellowgreen;}
+
+        td.n {
+            background-color: yellowgreen;
+        }
+
         td.w {
             position: relative;
         }
+
         div.bar {
             position: absolute;
             top: 0px;

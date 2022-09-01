@@ -7,8 +7,9 @@
     <script language="JavaScript1.2">
 
         function setDedaults() {
-            var date = new Date();
-            document.getElementById("title").innerHTML = "Dough Calculator (" + date.getDate() + "/" + date.getMonth() + "/" + date.getFullYear() + ")";
+            const date = new Date();
+            var m = date.getMonth() + 1;
+            document.getElementById("title").innerHTML = "Dough Calculator (" + date.getDate() + "/" + m + "/" + date.getFullYear() + ")";
 
             document.getElementById("a1").value = "35";
             document.getElementById("b1").value = "96";
