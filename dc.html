@@ -73,6 +73,8 @@
                 setPlateWeight(i);
             }
             document.getElementById("totalweight").innerHTML = total.toFixed(2);
+            var n = total / 47;
+            document.getElementById("batches").innerHTML = n.toFixed(2);
 
             for (i = 1; i <= 15; i++) {
                 var vv = document.getElementById("w" + i).innerHTML;
@@ -80,6 +82,7 @@
                     var pct = Math.round((vv / (total)) * 100) + "%";
                     var str = vv + "<div title='" + pct + "' class='bar' style='width:" + pct + "'>&nbsp;</div>";
                     document.getElementById("w" + i).innerHTML = str;
+
                 }
             }
         }
@@ -134,6 +137,10 @@
         <tr>
             <td>总重(kg): </td>
             <td id="totalweight"></td>
+        </tr>
+        <tr>
+            <td>缸数(47kg/缸): </td>
+            <td id="batches"></td>
         </tr>
     </table>
     <table border="1">
