@@ -27,7 +27,7 @@
             setPlateWeight(3);
 
             document.getElementById("a4").value = "100";
-            document.getElementById("b4").value = "54";
+            document.getElementById("b4").value = "60";
             document.getElementById("d4").innerHTML = "5.0";
             setPlateWeight(4);
 
@@ -39,6 +39,8 @@
             document.getElementById("b7").value = "1";
             document.getElementById("a8").value = "900";
             document.getElementById("b8").value = "1";
+            document.getElementById("a9").value = "4200";
+            document.getElementById("b9").value = "1";
         }
 
         function setPlateWeight(row) {
@@ -73,7 +75,7 @@
                 setPlateWeight(i);
             }
             document.getElementById("totalweight").innerHTML = total.toFixed(2);
-            var n = total / 47;
+            var n = total / 49;
             document.getElementById("batches").innerHTML = n.toFixed(1);
 
             for (i = 1; i <= 15; i++) {
@@ -139,7 +141,7 @@
             <td id="totalweight"></td>
         </tr>
         <tr>
-            <td>缸数(47kg/缸): </td>
+            <td>缸数(49kg/缸): </td>
             <td id="batches"></td>
         </tr>
     </table>
