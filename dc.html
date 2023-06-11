@@ -9,7 +9,7 @@
         function setDedaults() {
             const date = new Date();
             var m = date.getMonth() + 1;
-            document.getElementById("title").innerHTML = "Dough Calculator (" + date.getDate() + "/" + m + "/" + date.getFullYear() + ")";
+            document.getElementById("title").innerHTML = "BREADZONE DC 2.0 (" + date.getDate() + "/" + m + "/" + date.getFullYear() + ")";
 
             document.getElementById("a1").value = "35";
             document.getElementById("b1").value = "96";
@@ -68,6 +68,7 @@
 
             var total = 0;
             var boxes = 0;
+            var remder = 0;// = 0.01;
 
             for (i = 1; i <= 12; i++) {
                 var a = "a" + i;
@@ -75,19 +76,25 @@
                 var c = "c" + i;
                 var w = "w" + i;
                 var weight = 0;
-                var remder = 0;
 
                 if (document.getElementById(a).value  <= 100) {
                     boxes += document.getElementById(c).value * 1;
                     weight = document.getElementById(a).value * document.getElementById(b).value * document.getElementById(c).value / 1000;
                 }
                 else {
-                    var res = calculateRemainderAndQuotient(document.getElementById(c).value, document.getElementById(b).value);
-                    boxes += res.quotient;
-                    remder += res.remainder / document.getElementById(b);
+                    var vc = document.getElementById(c).value;
+                    var vb = document.getElementById(b).value;
+
+                    if (vc > 0 && vb > 0) {
+                        var res = calculateRemainderAndQuotient(vc, vb);
+                        boxes += res.quotient;
+                        remder +=  res.remainder / vb;
+                        //document.getElementById("d" + i).innerHTML = "rd:" + remder;
+                        //document.getElementById("e" + i).innerHTML = "r=" + res.remainder;
+                    }
                     weight = document.getElementById(a).value * document.getElementById(c).value / 1000;
                 }
-
+                
                 document.getElementById(w).innerHTML = weight > 0 ? weight.toFixed(2) : "";
                 total += weight;
 
@@ -102,8 +109,11 @@
             document.getElementById("totalweight").innerHTML = total.toFixed(2);
             var n = total / 49;
             document.getElementById("batches").innerHTML = n.toFixed(1);
-            boxes += remder;
-            boxes = Number.isInteger(boxes) ? boxes : Math.floor(boxes) + 1;
+            if (Number.isInteger(remder))
+                boxes += remder;
+            else
+                boxes += Math.floor(remder) + 1;
+
             document.getElementById("boxes").innerHTML = boxes;
 
             for (i = 1; i <= 15; i++) {
@@ -326,7 +336,7 @@
     </table>
     <div>
         <div>注释:</div>
-        <div style="width:500px"><textarea style="width:550px;height:300px"></textarea></div>
+        <div style="width:500px"><textarea style="width:550px;height:300px;font-size:120%"></textarea></div>
     </div>
 </body>
 </html>
