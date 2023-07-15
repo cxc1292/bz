@@ -233,13 +233,32 @@
             margin-bottom: 5px;
         }
 
-        .completed {
+        .checklist label.completed {
             text-decoration: line-through;
+            font-weight:normal;
             color: grey;
         }
-        .checklist{
-            margin-top:10px;
-            margin-bottom:10px
+        .checklist {
+            margin-top:20px;
+            margin-bottom:20px;
+        }
+        .checklist label{
+            font-weight:bold;
+            color:maroon;
+        }
+        .checklist div{
+            font-size:20pt;
+            font-weight:bold;
+            vertical-align:middle;
+        }
+        .checklist div button {
+            font-size: 15pt;
+            font-weight:bold;
+            margin-left: 200px;
+        }
+        .checklist div.divider{
+            color:gray;
+            font-weight:normal;
         }
     </style>
 </head>
@@ -425,7 +444,7 @@
         <div><textarea class="note"></textarea></div>
     </div>
     <div class="checklist">
-        <div style="font-size:20pt; font-weight:bold; vertical-align:central">Check list <button style="font-size:15pt; margin-left:100px;" id="resetButton">Reset</button></div>
+        <div>Check list <button id="resetButton">Reset</button></div>
         <input type="checkbox" id="checkbox1">
         <label for="checkbox1">面粉 25,000g</label><br>
 
@@ -447,7 +466,7 @@
         <input type="checkbox" id="checkbox7">
         <label for="checkbox7">糖 4,500g</label><br>
 
-        <div>-----------------------------------------</div>
+        <div class="divider">-----------------------------------------</div>
 
         <input type="checkbox" id="checkbox8">
         <label for="checkbox8">蛋 2,500g</label><br>
@@ -455,12 +474,12 @@
         <input type="checkbox" id="checkbox9">
         <label for="checkbox9">水+冰 13,000g</label><br>
 
-        <div>-----------------------------------------</div>
+        <div class="divider">-----------------------------------------</div>
 
         <input type="checkbox" id="checkbox10">
         <label for="checkbox10">黄油 2,500g</label><br>
 
-        <div>-----------------------------------------</div>
+        <div class="divider">-----------------------------------------</div>
 
         <div style="font-size:20pt; font-weight:bold; vertical-align:central">总重：49,300g</div>
 
