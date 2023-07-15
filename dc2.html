@@ -244,10 +244,12 @@
         }
         .checklist label{
             font-weight:bold;
+            font-size:30pt;
             color:maroon;
+            vertical-align:middle;
         }
         .checklist div{
-            font-size:20pt;
+            font-size:30pt;
             font-weight:bold;
             vertical-align:middle;
         }
@@ -440,11 +442,12 @@
     </table>
 
     <div style="font-family:Arial, Helvetica, sans-serif">
-        <div style="font-weight:bold">注释:</div>
+        <table><tr><td style="font-weight:bold; font-size:30pt;">注释:</td></tr></table>
         <div><textarea class="note"></textarea></div>
     </div>
     <div class="checklist">
-        <div>Check list <button id="resetButton">Reset</button></div>
+        <div>Check list <img style="margin-left:200px;vertical-align:middle;" id="resetButton" height="50" src="reset.png" /></div>
+        <!--<button  id="resetButton"><img height="30" src="reset.png"/></button>-->
         <input type="checkbox" id="checkbox1">
         <label for="checkbox1">面粉 25,000g</label><br>
 
