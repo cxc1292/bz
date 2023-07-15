@@ -110,7 +110,7 @@
                 setPlateWeight(i);
             }
             //document.getElementById("totalweight").innerHTML = total.toFixed(2);
-            var n = total / 49;
+            var n = total / 49.3;
             document.getElementById("batches").innerHTML = n.toFixed(1);
             if (Number.isInteger(remder))
                 boxes += remder;
@@ -208,10 +208,11 @@
         }
 
         div.date_box {
-            font-size: 75%;
+            font-size: 16pt;
             color: #1E3B63;
             font-weight: bold;
             margin-bottom: 3px;
+            color: maroon;
         }
 
         textarea.note {
@@ -222,7 +223,7 @@
 
         td.title_box {
             font-weight: bold;
-            font-size: 24pt;
+            font-size: 30pt;
             color: #1E3B63
         }
 
@@ -262,7 +263,7 @@
         </tr>
             -->
         <tr>
-            <td>缸数(49kg/缸): </td>
+            <td>缸数(49.3kg/缸): </td>
             <td id="batches"></td>
         </tr>
         <tr>
@@ -463,6 +464,6 @@
         <div style="font-size:20pt; font-weight:bold; vertical-align:central">总重：49,300g</div>
 
     </div>
-    <div class="footer">&copy;2023 BREADZONE Version: 2.1</div>
+    <div class="footer">&copy;2023 BREADZONE Version: 3.0</div>
 </body>
 </html>
