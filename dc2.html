@@ -11,7 +11,7 @@
             const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
             const formattedDate = date.toLocaleDateString(undefined, options);
 
-            document.getElementById("title").textContent = `打面助理`;
+            //document.getElementById("title").textContent = `打面助理`;
             document.getElementById("date").textContent = `${formattedDate}`
             document.getElementById("a1").value = "35";
             document.getElementById("b1").value = "96";
@@ -221,7 +221,7 @@
 
         td.title_box {
             font-weight: bold;
-            font-size: 30pt;
+            font-size: 40pt;
             color: #1E3B63
         }
 
@@ -268,7 +268,7 @@
     <table style="background-color: #E9E3D3;margin-bottom:5px">
         <tr>
             <td><img width="300" src="bz_logo_small.jpg"/></td>
-            <td id="title" class="title_box"></td>
+            <td id="title" class="title_box"><img style="vertical-align:middle" width="275" src="title.png"/></td>
         </tr>
     </table>
     <table>
