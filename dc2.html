@@ -109,7 +109,7 @@
 
                 setPlateWeight(i);
             }
-            document.getElementById("totalweight").innerHTML = total.toFixed(2);
+            //document.getElementById("totalweight").innerHTML = total.toFixed(2);
             var n = total / 49;
             document.getElementById("batches").innerHTML = n.toFixed(1);
             if (Number.isInteger(remder))
@@ -129,6 +129,28 @@
                 }
             }
         }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const checkboxes = document.querySelectorAll("input[type='checkbox']");
+            const resetButton = document.getElementById("resetButton");
+
+            checkboxes.forEach(function (checkbox) {
+                checkbox.addEventListener("change", function () {
+                    if (checkbox.checked) {
+                        checkbox.nextElementSibling.classList.add("completed");
+                    } else {
+                        checkbox.nextElementSibling.classList.remove("completed");
+                    }
+                });
+            });
+
+            resetButton.addEventListener("click", function () {
+                checkboxes.forEach(function (checkbox) {
+                    checkbox.checked = false;
+                    checkbox.nextElementSibling.classList.remove("completed");
+                });
+            });
+        });
     </script>
     <style>
         body {
@@ -209,6 +231,15 @@
             background-color: #1E3B63;
             color: white;
             margin-bottom: 5px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+            color: grey;
+        }
+        .checklist{
+            margin-top:10px;
+            margin-bottom:10px
         }
     </style>
 </head>
@@ -385,10 +416,47 @@
         </tr>-->
 
     </table>
+
     <div style="font-family:Arial, Helvetica, sans-serif">
         <div style="font-weight:bold">注释:</div>
         <div><textarea class="note"></textarea></div>
-        <div class="footer">&copy;2023 BREADZONE Version: 2.0</div>
     </div>
+    <div class="checklist">
+        <div style="font-size:20pt; font-weight:bold; vertical-align:central">Check list <button style="font-size:15pt" id="resetButton">Reset</button></div>
+        <input type="checkbox" id="checkbox1">
+        <label for="checkbox1">面粉 25kg</label><br>
+
+        <input type="checkbox" id="checkbox2">
+        <label for="checkbox2">酵母 250g</label><br>
+
+        <input type="checkbox" id="checkbox3">
+        <label for="checkbox3">盐 250g</label><br>
+
+        <input type="checkbox" id="checkbox4">
+        <label for="checkbox4">改良记 250g</label><br>
+
+        <input type="checkbox" id="checkbox5">
+        <label for="checkbox5">面筋粉 300g</label><br>
+
+        <input type="checkbox" id="checkbox6">
+        <label for="checkbox6">奶粉 750g</label><br>
+
+        <input type="checkbox" id="checkbox7">
+        <label for="checkbox7">糖 4500g</label><br>
+
+        <div>--------------------------------</div>
+
+        <input type="checkbox" id="checkbox8">
+        <label for="checkbox8">蛋 2500g</label><br>
+
+        <input type="checkbox" id="checkbox9">
+        <label for="checkbox9">水+冰 13kg</label><br>
+
+        <div>--------------------------------</div>
+
+        <input type="checkbox" id="checkbox10">
+        <label for="checkbox10">黄油 2500g</label><br>
+    </div>
+    <div class="footer">&copy;2023 BREADZONE Version: 2.0</div>
 </body>
 </html>
