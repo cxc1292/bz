@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<factoryrecipes>
+	<recipe id="1" recipeid="0" name="Poolish" description="Built-in recipe with Poolish fermatation" hydration="0.67" doughtype="PoolishDough" isfactory="1">
+		<recipe id="4" recipeid="1" name="Poolish pre-ferment" description="Poolish pre-ferment" hydration="1.00" doughtype="Poolish" isfactory="1">
+			<step id="8" recipeid="4" sequence="1" name="Mix poolish ingredients" instruction="Add all following ingredients into a container, mix well." action="Mix" alertoption="1" time="2">
+				<ingt id="1" recipeid="4" name="Flour" description="All purpose flour or Pizza flour." quantity="0" unit="gram" quantitytype="Fixed" asflour="1" ispreset="1" isfactory="1" icon="flour.png" />
+				<ingt id="2" recipeid="4" name="Water" description="Room temperature water, do not use warm water." quantity="0" unit="gram" quantitytype="Fixed" aswater="1"  ispreset="1" isfactory="1" icon="water.png" />
+				<ingt id="3" recipeid="4" name="Yeast" description="Instant dry yeast" quantity="0" unit="gram" quantitytype="Fixed" asflour="0" aswater="0" ispreset="1" isfactory="1" icon="yeast.png" />
+				<ingt id="4" recipeid="4" name="Honey" description="Or sugar if you do not have honey" quantity="0" unit="gram" quantitytype="Fixed" asflour="0" aswater="0" ispreset="1" isfactory="1" icon="honey.png" />
+			</step>
+			<step id="9" recipeid="4" sequence="2" name="Rest the poolish" instruction="Cover and rest at room temperature for 1 hour." action="Rest" time="60" alertoption="1"/>
+			<step id="10" recipeid="4" sequence="3" name="Proof the poolish" instruction="Cover with an air-tight lid and keep in the fridge for 12 hours." action="Proof" time="720"  alertoption="1" />
+		</recipe>
+		<step id="1" recipeid="1" sequence="1" name="Mix wet ingredients and the Poolish" instruction="In a large bowl, add the poolish, water and oil, mix about 2-3 minutes until fully combined and smooth." action="Mix" time="3"  alertoption="0">
+			<ingt id="6" recipeid="1" name="Water" description="Room temperature water" quantity="0.5" unit="gram" quantitytype="Ratio" aswater="1" ispreset="1" isfactory="1" icon="water.png" />
+			<ingt id="8" recipeid="1" name="Olive Oil" description="Preferably extra virgin olive oil." quantity="0.01" unit="gram" quantitytype="Ratio" icon="oliveoil.png" />
+		</step>
+		<step id="2" recipeid="1" sequence="2" name="Add flour and salt" instruction="Add flour and salt, mix and knead for a few minutes until fully combined without any dry lumps. The dough will be very sticky, but don't worry." action="Mix" time="10"  alertoption="1" >
+			<ingt id="5" recipeid="1" name="Flour" description="All purpose flour or Pizza flour." quantity="0.6" unit="gram" quantitytype="Ratio" asflour="1"  ispreset="1" isfactory="1" icon="flour.png" />
+			<ingt id="7" recipeid="1" name="Salt" description="Cooking salt" quantity="0.01" unit="gram" quantitytype="Ratio" icon="salt.png" />
+		</step>
+		<step id="3" recipeid="1" sequence="3" name="Rest the dough" instruction="Cover and let it rest for 15 to 20 minutes." action="Rest" time="20"  alertoption="1" />
+		<step id="4" recipeid="1" sequence="4" name="Fold the dough" instruction="Fold the dough using cross and fold method for about 10 minutes unil the dough becomes smooth and stretchy." action="Fold" time="10"  alertoption="1" />
+		<step id="5" recipeid="1" sequence="5" name="Proof the dough" instruction="Cover and let the dough raise for about 2 hours." action="Proof" time="120" />
+		<step id="6" recipeid="1" sequence="6" name="Divide the dough" instruction="Divide the dough into desired size using a scraper. Shape the dough into smooth and tight dough balls." action="Divide" time="2" />
+		<step id="7" recipeid="1" sequence="7" name="Final proof" instruction="Place the dough balls on a tray, dust it lightly with flour.  cover and let it ferment for 1 – 1.5 hours or until doubled in size. The dough will be ready." action="Proof" time="90" />
+	</recipe>
+	<recipe id="2" recipeid="0" name="Biga" description="Built-in recipe with Biga fermatation" hydration="0.50" doughtype="BigaDough" isfactory="1">
+		<recipe id="5" recipeid="2" name="Biga pre-ferment" description="Biga pre-ferment" hydration="0.70" doughtype="Biga" isfactory="1">
+			<step id="1002" recipeid="5" sequence="1" name="Mix dry yeast with water"
+				  instruction="In a bowl combine the water and the yeast. Stir to disperse. Add the flour and mix to a dough. 
+				  Knead the dough until there is no more dry flour left. You do not want any lumps in this mix." action="Knead" time="2" >
+				<ingt name="Water" description="Room temperature water." quantity="0.29" unit="gram" quantitytype="Ratio" aswater="1" icon="water" isfactory="1"/>
+				<ingt name="Yeast" description="Instant dry yeast" quantity="0.0038" unit="tinypinch" quantitytype="Ratio" icon="yeast" isfactory="1"/>
+				<ingt name="Flour" description="Strong white bread flour or all purpose flour." quantity="0.59" unit="gram" quantitytype="Ratio" asflour="1" icon="flour" isfactory="1"/>
+			</step>
+			<step id="1003" recipeid="5" sequence="2" name="Ferment the Biga." instruction="Cover the dough and ferment it for around 12 hours or until visibly puffed up." action="Rest" time="720" />
+		</recipe>
+		<step sequence="1" name="Prepare the remaining yeast" instruction="Mix the remaining yeast with the remaining water and let it hydrate for a minute" action="Mix" time="1">
+			<ingt name="Yeast" description="Instant dry yeast" quantity="0.0058" unit="gram" quantitytype="Ratio" icon="yeast" isfactory="1"/>
+			<ingt name="Water" description="Room temerature water" quantity="0.077" unit="gram" quantitytype="Ratio" icon="water" isfactory="1"/>
+		</step>
+		<step sequence="2" name="Add yeast water" instruction="Add the yeast water, olive oil and salt to the biga. Wet your hand with water and work the ingredients together until well combined" action="Mix" time="10">
+			<ingt name="Olive oil" description="Extra virgin olive oil." quantity="0.039" unit="gram" quantitytype="Ratio" icon="oliveoil" isfactory="1"/>
+			<ingt name="Salt" description="Cooking salt" quantity="0.012" unit="gram" quantitytype="Ratio" icon="salt" isfactory="1"/>
+		</step>
+		<step sequence="3" name="Knead the dough" instruction="Tip the dough out on your table and knead it using the stretch and fold method for around 8 minutes until nice and smooth. The dough may still be a little sticky, so wet your hands with water when handling it. *Desired dough temperature 24-25C (75-77F). If your dough is warmer, then it will ferment more rapidly. If it is cooler, then it will take longer. Adjust proofing time accordingly." action="Knead" isfactory="1"/>
+		<step sequence="4" name="Proof the dough" instruction="Place the dough in a bowl, cover it and let it ferment for 1 hour." action="Proof" time="60"/>
+		<step sequence="5" name="Fold the dough" instruction="Roll and fold the dough" action="Fold" time="1"/>
+		<step sequence="6" name="Proof the dough" instruction="Cover and ferment the dough for another hour" action="Proof" time="60"/>
+		<step sequence="7" name="Divide the dough" instruction="Divide the dough using your dough scraper and a dusting of flour to prevent it from sticking" action="Divide" time="2"/>
+		<step sequence="8" name="Make dough balls" instruction="Shape the dough into tight balls" action="Shape" time="2"/>
+		<step sequence="9" name="Final proof" instruction="Place it on a tray, dust it lightly with flour, cover it up and let it ferment for 1 – 1.5 hours or until doubled in size. You can also place it in the fridge right after shaping for up to 18 hours." action="Proof" time="90"/>
+	</recipe>
+	<recipe id="3" recipeid="0" name="Express" description="Built-in recipe for quick fermatation without pre-ferment." doughtype="none" hydration="0.60" isfactory="1" />
+</factoryrecipes>
