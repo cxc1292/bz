@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThePizzaMaster>
+	<Page name="MainPage">
+		<control name="Label1" Setter="Text">
+			<lang name="English">Hello, Pizza Lovers!</lang>
+			<lang name="Chinese">你好，披萨发烧友们！</lang>
+		</control>
+		<control name="Label2" Setter="Text">
+			<lang name="English">Let's start with choosing a dough recipe.</lang>
+			<lang name="Chinese">作为开始，请您选择一个菜单。</lang>
+		</control>
+	</Page>
+	<Page name="StagingPage">
+		<control lang="English" name="Label1" Setter="Text">
+			<lang name="English">Selected Recipe</lang>
+		</control>
+		<control name="Label2" Setter="Text">
+			<lang name="English">Calculate by</lang>
+		</control>
+		<control></control>
+	</Page>
+</ThePizzaMaster>
