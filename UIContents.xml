@@ -2,20 +2,54 @@
 <ThePizzaMaster>
 	<Page name="MainPage">
 		<control name="Label1" Setter="Text">
-			<lang name="English">Hello, Pizza Lovers!</lang>
-			<lang name="Chinese">你好，披萨发烧友们！</lang>
+			<lang name="en">Hello, Pizza Lovers!</lang>
+			<lang name="zh-Hans">您好，披萨发烧友！</lang>
+			<lang name="ja">ピザ愛好家の皆さん、こんにちは！</lang>
+			<lang name="fr">Bonjour, amateurs de pizza !</lang>
+			<lang name="ar">مرحبًا، عشاق البيتزا!</lang>
+			<lang name="es">¡Hola, amantes de la pizza!</lang>
+			<lang name="ko">안녕하세요, 피자 애호가 여러분!</lang>
+			<lang name="zh-Hant">您好，披薩發燒友！</lang>
+			<lang name="hi">नमस्ते, पिज़्ज़ा प्रेमिकों!</lang>
+			<lang name="de">Hallo, Pizza-Liebhaber!</lang>
 		</control>
 		<control name="Label2" Setter="Text">
-			<lang name="English">Let's start with choosing a dough recipe.</lang>
-			<lang name="Chinese">作为开始，请您选择一个菜单。</lang>
+			<lang name="en">Let's start with choosing a dough recipe.</lang>
+			<lang name="zh-Hans">请您选择一款菜单。</lang>
+			<lang name="ja">生地のレシピを選びましょう。</lang>
+			<lang name="fr">Commençons par choisir une recette de pâte.</lang>
+			<lang name="ar">لنبدأ باختيار وصفة العجينة.</lang>
+			<lang name="es">Empecemos eligiendo una receta de masa.</lang>
+			<lang name="ko">반죽 레시피를 선택해 보겠습니다.</lang>
+			<lang name="zh-Hant">讓我們從選擇麵團食譜開始。</lang>
+			<lang name="hi">आइए डो रेसिपी का चयन करें।</lang>
+			<lang name="de">Lassen Sie uns mit der Auswahl eines Teigrezepts beginnen.</lang>
 		</control>
 	</Page>
 	<Page name="StagingPage">
-		<control lang="English" name="Label1" Setter="Text">
+		<control name="Label1" Setter="Text">
 			<lang name="English">Selected Recipe</lang>
+			<lang name="zh-Hans"></lang>
+			<lang name="ja"></lang>
+			<lang name="fr"></lang>
+			<lang name="ar"></lang>
+			<lang name="es"></lang>
+			<lang name="ko"></lang>
+			<lang name="zh-Hant"></lang>
+			<lang name="hi"></lang>
+			<lang name="de"></lang>
 		</control>
 		<control name="Label2" Setter="Text">
 			<lang name="English">Calculate by</lang>
+			<lang name="zh-Hans">计算方法</lang>
+			<lang name="ja">計算方法</lang>
+			<lang name="fr">Calculer par</lang>
+			<lang name="ar">حساب بواسطة</lang>
+			<lang name="es">Calcular por</lang>
+			<lang name="ko">계산 방법</lang>
+			<lang name="zh-Hant">計算方法</lang>
+			<lang name="hi">के द्वारा गणना करें</lang>
+			<lang name="de">Berechnen nach</lang>
 		</control>
 		<control></control>
 	</Page>
