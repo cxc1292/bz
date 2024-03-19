@@ -51,6 +51,54 @@
 			<lang name="hi">के द्वारा गणना करें</lang>
 			<lang name="de">Berechnen nach</lang>
 		</control>
-		<control></control>
+		<control name="Label3" Setter="Text">
+			<lang name="English">Pizza size</lang>
+			<lang name="zh-Hans">比萨尺寸</lang>
+			<lang name="ja">ピザのサイズ</lang>
+			<lang name="fr">Taille de la pizza</lang>
+			<lang name="ar">حجم البيتزا</lang>
+			<lang name="es">Tamaño de la pizza</lang>
+			<lang name="ko">피자 크기</lang>
+			<lang name="zh-Hant">比薩尺寸</lang>
+			<lang name="hi">पिज़्ज़ा का आकार</lang>
+			<lang name="de">Pizzagröße</lang>
+		</control>
+		<control name="PizzaSize" Setter="Text">
+			<lang name="English">Pizza size</lang>
+			<lang name="zh-Hans">比萨尺寸</lang>
+			<lang name="ja">ピザのサイズ</lang>
+			<lang name="fr">Taille de la pizza</lang>
+			<lang name="ar">حجم البيتزا</lang>
+			<lang name="es">Tamaño de la pizza</lang>
+			<lang name="ko">피자 크기</lang>
+			<lang name="zh-Hant">比薩尺寸</lang>
+			<lang name="hi">पिज़्ज़ा का आकार</lang>
+			<lang name="de">Pizzagröße</lang>
+		</control>
+		<control name="NumberOfPizzas">
+			<lang name="English">Number of Pizzas</lang>
+			<lang name="zh-Hans">比萨数量</lang>
+			<lang name="ja">ピザの数</lang>
+			<lang name="fr">Nombre de pizzas</lang>
+			<lang name="ar">عدد البيتزا</lang>
+			<lang name="es">Número de pizzas</lang>
+			<lang name="ko">피자 수</lang>
+			<lang name="zh-Hant">比薩數量</lang>
+			<lang name="hi">पिज़्ज़ा की संख्या</lang>
+			<lang name="de">Anzahl der Pizzen</lang>
+
+		</control>
+		<control name="TotalWeight" Setter="Text">
+			<lang name="English">Total Weight</lang>
+			<lang name="zh-Hans">总重量</lang>
+			<lang name="ja">総重量</lang>
+			<lang name="fr">Poids total</lang>
+			<lang name="ar">الوزن الكلي</lang>
+			<lang name="es">Peso total</lang>
+			<lang name="ko">총 무게</lang>
+			<lang name="zh-Hant">總重量</lang>
+			<lang name="hi">कुल वजन</lang>
+			<lang name="de">Gesamtgewicht</lang>
+		</control>
 	</Page>
 </ThePizzaMaster>
