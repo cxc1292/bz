@@ -29,15 +29,15 @@
 	<Page name="StagingPage">
 		<control name="Label1" Setter="Text">
 			<lang name="English">Selected Recipe</lang>
-			<lang name="zh-Hans"></lang>
-			<lang name="ja"></lang>
-			<lang name="fr"></lang>
-			<lang name="ar"></lang>
-			<lang name="es"></lang>
-			<lang name="ko"></lang>
-			<lang name="zh-Hant"></lang>
-			<lang name="hi"></lang>
-			<lang name="de"></lang>
+			<lang name="zh-Hans">选定的食谱</lang>
+			<lang name="ja">選択したレシピ</lang>
+			<lang name="fr">Recette sélectionnée</lang>
+			<lang name="ar">الوصفة المحددة</lang>
+			<lang name="es">Receta seleccionada</lang>
+			<lang name="ko">선택한 레시피</lang>
+			<lang name="zh-Hant">選定的食譜</lang>
+			<lang name="hi">चयनित रेसिपी</lang>
+			<lang name="de">Ausgewähltes Rezept</lang>
 		</control>
 		<control name="Label2" Setter="Text">
 			<lang name="English">Calculate by</lang>
