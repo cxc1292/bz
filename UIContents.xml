@@ -100,5 +100,29 @@
 			<lang name="hi">कुल वजन</lang>
 			<lang name="de">Gesamtgewicht</lang>
 		</control>
+		<control name="ActionSheet1">
+			<lang name="English">Select a Pizza size</lang>
+			<lang name="zh-Hans">选择一个比萨尺寸</lang>
+			<lang name="ja">ピザのサイズを選択</lang>
+			<lang name="fr">Sélectionnez une taille de pizza</lang>
+			<lang name="ar">حدد حجم بيتزا</lang>
+			<lang name="es">Seleccionar un tamaño de pizza</lang>
+			<lang name="ko">피자 크기 선택</lang>
+			<lang name="zh-Hant">選擇比薩尺寸</lang>
+			<lang name="hi">पिज़्ज़ा का आकार चुनें</lang>
+			<lang name="de">Wählen Sie eine Pizza-Größe</lang>
+		</control>
+		<control name="ActionSheetCancel1">
+			<lang name="English">Cancel</lang>
+			<lang name="zh-Hans">取消</lang>
+			<lang name="ja">キャンセル</lang>
+			<lang name="fr">Annuler</lang>
+			<lang name="ar">إلغاء</lang>
+			<lang name="es">Cancelar</lang>
+			<lang name="ko">취소</lang>
+			<lang name="zh-Hant">取消</lang>
+			<lang name="hi">रद्द करें</lang>
+			<lang name="de">Stornieren</lang>
+		</control>
 	</Page>
 </ThePizzaMaster>
