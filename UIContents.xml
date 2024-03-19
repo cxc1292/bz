@@ -28,7 +28,7 @@
 	</Page>
 	<Page name="StagingPage">
 		<control name="Label1" Setter="Text">
-			<lang name="English">Selected Recipe</lang>
+			<lang name="en">Selected Recipe</lang>
 			<lang name="zh-Hans">选定的食谱</lang>
 			<lang name="ja">選択したレシピ</lang>
 			<lang name="fr">Recette sélectionnée</lang>
@@ -40,7 +40,7 @@
 			<lang name="de">Ausgewähltes Rezept</lang>
 		</control>
 		<control name="Label2" Setter="Text">
-			<lang name="English">Calculate by</lang>
+			<lang name="en">Calculate by</lang>
 			<lang name="zh-Hans">计算方法</lang>
 			<lang name="ja">計算方法</lang>
 			<lang name="fr">Calculer par</lang>
@@ -52,7 +52,7 @@
 			<lang name="de">Berechnen nach</lang>
 		</control>
 		<control name="Label3" Setter="Text">
-			<lang name="English">Pizza size</lang>
+			<lang name="en">Pizza size</lang>
 			<lang name="zh-Hans">比萨尺寸</lang>
 			<lang name="ja">ピザのサイズ</lang>
 			<lang name="fr">Taille de la pizza</lang>
@@ -64,7 +64,7 @@
 			<lang name="de">Pizzagröße</lang>
 		</control>
 		<control name="PizzaSize" Setter="Text">
-			<lang name="English">Pizza size</lang>
+			<lang name="en">Pizza size</lang>
 			<lang name="zh-Hans">比萨尺寸</lang>
 			<lang name="ja">ピザのサイズ</lang>
 			<lang name="fr">Taille de la pizza</lang>
@@ -76,7 +76,7 @@
 			<lang name="de">Pizzagröße</lang>
 		</control>
 		<control name="NumberOfPizzas">
-			<lang name="English">Number of Pizzas</lang>
+			<lang name="en">Number of Pizzas</lang>
 			<lang name="zh-Hans">比萨数量</lang>
 			<lang name="ja">ピザの数</lang>
 			<lang name="fr">Nombre de pizzas</lang>
@@ -89,7 +89,7 @@
 
 		</control>
 		<control name="TotalWeight" Setter="Text">
-			<lang name="English">Total Weight</lang>
+			<lang name="en">Total Weight</lang>
 			<lang name="zh-Hans">总重量</lang>
 			<lang name="ja">総重量</lang>
 			<lang name="fr">Poids total</lang>
@@ -101,7 +101,7 @@
 			<lang name="de">Gesamtgewicht</lang>
 		</control>
 		<control name="ActionSheet1">
-			<lang name="English">Select a Pizza size</lang>
+			<lang name="en">Select a Pizza size</lang>
 			<lang name="zh-Hans">选择一个比萨尺寸</lang>
 			<lang name="ja">ピザのサイズを選択</lang>
 			<lang name="fr">Sélectionnez une taille de pizza</lang>
@@ -113,7 +113,7 @@
 			<lang name="de">Wählen Sie eine Pizza-Größe</lang>
 		</control>
 		<control name="ActionSheetCancel1">
-			<lang name="English">Cancel</lang>
+			<lang name="en">Cancel</lang>
 			<lang name="zh-Hans">取消</lang>
 			<lang name="ja">キャンセル</lang>
 			<lang name="fr">Annuler</lang>
