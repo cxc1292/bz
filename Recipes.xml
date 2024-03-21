@@ -101,7 +101,7 @@
 					<name lang="zh-Hans">混合液种成分</name>
 					<name lang="ja">液種の材料を混ぜる</name>
 					<name lang="fr">Mélanger les ingrédients de la poolish</name>
-					<name lang="ar">اخلط مكونات البوليش</name>
+					<name lang="ar">اخلط مكونات البوليش</name>f
 					<name lang="es">Mezclar los ingredientes de la poolish</name>
 					<name lang="ko">풀리쉬 재료 섞기</name>
 					<name lang="zh-Hant">混合液種成分</name>
@@ -242,13 +242,13 @@
 				</step>
 				<step id="10" parentid="4" order="3" name="Proof the poolish" instruction="Cover with an air-tight lid and keep in the fridge for 12 hours." action="Proof" time="720"  alertoption="1">
 					<name lang="en">Proof the poolish</name>
-					<name lang="zh-Hans">证明面糊</name>
+					<name lang="zh-Hans">醒发液种</name>
 					<name lang="ja">プーリッシュの証明</name>
 					<name lang="fr">Preuve du poolish</name>
 					<name lang="ar">دليل البوليش</name>
 					<name lang="es">Prueba del poolish</name>
 					<name lang="ko">풀리쉬 증명</name>
-					<name lang="zh-Hant">證明面糊</name>
+					<name lang="zh-Hant">醒发液种</name>
 					<name lang="hi">पूलिश का प्रमाण</name>
 					<name lang="de">Beweis des Poolish</name>
 					<name lang="it">Prova della biga</name>
@@ -523,6 +523,53 @@
 				<description lang="de">Legen Sie die Teigbälle auf ein Tablett, bestäuben Sie sie leicht mit Mehl. Abdecken und 1-1,5 Stunden oder bis sich das Volumen verdoppelt hat, gären lassen. Der Teig ist fertig.</description>
 				<description lang="it">Disponi le palline di impasto su un vassoio, cospargile leggermente di farina. Copri e lascia fermentare per 1-1,5 ore o fino a raddoppiare di volume. L'impasto sarà pronto.</description>
 			</step>
+		</recipe>
+		<recipe id="3" parentid="0" ownerid="1" targettemp="" name="Express Pizza Dough" created="2024-Mar-21" description="Get pizza dough ready in a few hours" status="active">
+			<name lang="en">Express Pizza Dough</name>
+			<name lang="zh-Hans">快速比萨面团</name>
+			<name lang="ja">簡単ピザ生地</name>
+			<name lang="fr">Pâte à pizza express</name>
+			<name lang="ar">عجينة بيتزا سريعة</name>
+			<name lang="es">Masa de pizza exprés</name>
+			<name lang="ko">간편 피자 도우</name>
+			<name lang="zh-Hant">快速比薩麵團</name>
+			<name lang="hi">जल्दी पिज्जा का आटा</name>
+			<name lang="de">Schnelle Pizzateig</name>
+			<name lang="it">Pasta per pizza express</name>
+			<description lang="en">Get your pizza dough ready in a few hours.</description>
+			<description lang="zh-Hans">几个小时即可准备好比萨面团。</description>
+			<description lang="ja">数時間でピザ生地の準備が完了します。</description>
+			<description lang="fr">Préparez votre pâte à pizza en quelques heures.</description>
+			<description lang="ar">جهز عجينة البيتزا الخاصة بك في غضون ساعات قليلة</description>
+			<description lang="es">Tenga su masa de pizza lista en unas pocas horas.</description>
+			<description lang="ko">몇 시간 만에 피자 도우를 준비하세요.</description>
+			<description lang="zh-Hant">幾個小時即可準備好比薩麵團。</description>
+			<description lang="hi">कुछ ही घंटों में अपना पिज्जा का आटा तैयार कर लें।</description>
+			<description lang="de">Machen Sie Ihren Pizzateig in wenigen Stunden fertig.</description>
+			<description lang="it">Prepara il tuo impasto per pizza in poche ore.</description>
+		</recipe>
+		<recipe id="4" name="Classic Brioch" parentid="0" ownerid="1"  description="Elevate your baking with this versatile brioche dough. It is ideal for countless sweet and savory creations." created="2024-Mar-21" status="active">
+			<name lang="en">Classic Brioche</name>
+			<name lang="zh-Hans">经典布莉欧</name>
+			<name lang="ja">クラシックブリオッシュ</name>
+			<name lang="fr">Brioche classique</name>
+			<name lang="ar">بريوش كلاسيكي</name>
+			<name lang="es">Brioche clásico</name>
+			<name lang="ko">클래식 브리오슈</name>
+			<name lang="zh-Hant">經典布莉欧</name>
+			<name lang="hi">क्लासिक ब्रियोश</name>
+			<name lang="de">Klassische Brioche</name>
+			<name lang="it">Brioche classico</name>
+			<description lang="en">Elevate your baking with this versatile brioche dough. It's ideal for countless sweet and savory creations.</description>
+			<description lang="zh-Hans">用这款百搭的布莉欧面团提升您的烘焙技巧。 它非常适合制作无数甜味和咸味菜肴。</description>
+			<description lang="ja">この多目的に使えるブリオッシュ生地で、あなたの焼き菓子作りをワンランクアップさせましょう。 甘いものからしょっぱいものまで、さまざまな料理に最適です。</description>
+			<description lang="fr">Élevez votre pâtisserie avec cette pâte à brioche polyvalente. Elle est idéale pour d'innombrables créations sucrées et salées.</description>
+			<description lang="ar">ارتقِ بحرفة الخبز لديك مع عجينة البريوش متعددة الاستخدامات هذه. إنها مثالية للعديد من الإبداعات الحلوة والمالحة. </description>
+			<description lang="es">Eleva tu horneado con esta versátil masa de brioche. Es ideal para innumerables creaciones dulces y saladas.</description>
+			<description lang="ko">이 다용도 브리오슈 반죽으로 베이킹을 한 단계 업그레이드하십시오. 달콤하고 맛있는 수많은 요리에 이상적입니다.</description>
+			<description lang="zh-Hant">用這款百搭的布莉欧面團提升您的烘焙技巧。 它非常適合製作無數甜味和鹹味菜肴。</description>
+			<description lang="hi">इस बहुमुखी ब्रियोश आटा के साथ अपनी बेकिंग को ऊपर उठाएं। यह अनगिनत मीठे और नमकीन व्यंजनों के लिए आदर्श है। </description>
+			<description lang="de">Heben Sie Ihr Backen mit diesem vielseitigen Brioche-Teig auf ein neues Level.</description>
 		</recipe>
 	</recipes>
 </ThePizzaMaster>
