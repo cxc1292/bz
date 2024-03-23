@@ -27,6 +27,32 @@
 		</control>
 	</Page>
 	<Page name="BatchPage">
+		<control name="Title">
+			<lang name="en">Start a Batch</lang>
+			<lang name="zh-Hans">开始一批</lang>
+			<lang name="ja">バッチを開始する</lang>
+			<lang name="fr">Démarrer un lot</lang>
+			<lang name="ar">بدء دفعة</lang>
+			<lang name="es">Iniciar un lote</lang>
+			<lang name="ko">배치 시작</lang>
+			<lang name="zh-Hant">開始一批</lang>
+			<lang name="hi">एक बैच शुरू करें</lang>
+			<lang name="de">Eine Charge starten</lang>
+			<lang name="it">Inizia un lotto</lang>
+		</control>
+		<control name="StartButton">
+			<lang name="en">Start</lang>
+			<lang name="zh-Hans">开始</lang>
+			<lang name="ja">スタート</lang>
+			<lang name="fr">Démarrer</lang>
+			<lang name="ar">بدء</lang>
+			<lang name="es">Comenzar</lang>
+			<lang name="ko">시작</lang>
+			<lang name="zh-Hant">開始</lang>
+			<lang name="hi">शुरू</lang>
+			<lang name="de">Starten</lang>
+			<lang name="it">Inizia</lang>
+		</control>
 		<control name="Label1" Setter="Text">
 			<lang name="en">Selected Recipe</lang>
 			<lang name="zh-Hans">选定的食谱</lang>
@@ -63,32 +89,32 @@
 			<lang name="hi">पिज़्ज़ा का आकार</lang>
 			<lang name="de">Pizzagröße</lang>
 		</control>
-		<control name="PizzaSize" Setter="Text">
-			<lang name="en">Pizza size</lang>
-			<lang name="zh-Hans">比萨尺寸</lang>
-			<lang name="ja">ピザのサイズ</lang>
-			<lang name="fr">Taille de la pizza</lang>
-			<lang name="ar">حجم البيتزا</lang>
-			<lang name="es">Tamaño de la pizza</lang>
-			<lang name="ko">피자 크기</lang>
-			<lang name="zh-Hant">比薩尺寸</lang>
-			<lang name="hi">पिज़्ज़ा का आकार</lang>
-			<lang name="de">Pizzagröße</lang>
+		<control name="Size" Setter="Text">
+			<lang name="en">Size</lang>
+			<lang name="zh-Hans">尺寸</lang>
+			<lang name="ja">サイズ</lang>
+			<lang name="fr">Taille</lang>
+			<lang name="ar">حجم</lang>
+			<lang name="es">Tamaño</lang>
+			<lang name="ko">크기</lang>
+			<lang name="zh-Hant">尺寸</lang>
+			<lang name="hi">आकार</lang>
+			<lang name="de">Größe</lang>
+			<lang name="it">Dimensione</lang>
 		</control>
-		<control name="NumberOfPizzas">
-			<lang name="en">Number of Pizzas</lang>
-			<lang name="zh-Hans">比萨数量</lang>
-			<lang name="ja">ピザの数</lang>
-			<lang name="fr">Nombre de pizzas</lang>
-			<lang name="ar">عدد البيتزا</lang>
-			<lang name="es">Número de pizzas</lang>
-			<lang name="ko">피자 수</lang>
-			<lang name="zh-Hant">比薩數量</lang>
-			<lang name="hi">पिज़्ज़ा की संख्या</lang>
-			<lang name="de">Anzahl der Pizzen</lang>
-
+		<control name="Number" Setter="Content">
+			<lang name="en">Number</lang>
+			<lang name="zh-Hans">数量</lang>
+			<lang name="ja">数</lang>
+			<lang name="fr">Nombre</lang>
+			<lang name="ar">عدد</lang>
+			<lang name="es">Número</lang>
+			<lang name="ko">수량</lang>
+			<lang name="zh-Hant">數量</lang>
+			<lang name="hi">संख्या</lang>
+			<lang name="de">Anzahl</lang>
 		</control>
-		<control name="TotalWeight" Setter="Text">
+		<control name="TotalWeight" Setter="Content">
 			<lang name="en">Total Weight</lang>
 			<lang name="zh-Hans">总重量</lang>
 			<lang name="ja">総重量</lang>
