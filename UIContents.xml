@@ -1,5 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThePizzaMaster>
+	<Page name="KeyWords">
+		<control name="Recipe">
+			<lang name="en">Recipe</lang>
+			<lang name="zh-Hans">食谱</lang>
+			<lang name="ja">レシピ</lang>
+			<lang name="fr">Recette</lang>
+			<lang name="ar">وصفة طعام</lang>
+			<lang name="es">Receta</lang>
+			<lang name="ko">레시피</lang>
+			<lang name="zh-Hant">食譜</lang>
+			<lang name="hi">रेसिपी</lang>
+			<lang name="de">Rezept</lang>
+		</control>
+		<control name="Step">
+			<lang name="en">Step</lang>
+			<lang name="zh-Hans">步骤</lang>
+			<lang name="ja">ステップ</lang>
+			<lang name="fr">Étape</lang>
+			<lang name="ar">خطوة</lang>
+			<lang name="es">Paso</lang>
+			<lang name="ko">단계</lang>
+			<lang name="zh-Hant">步驟</lang>
+			<lang name="hi">कदम</lang>
+			<lang name="de">Schritt</lang>
+		</control>
+	</Page>
 	<Page name="MainPage">
 		<control name="Label1" Setter="Text">
 			<lang name="en">Hello, Pizza Lovers!</lang>
@@ -149,6 +175,56 @@
 			<lang name="zh-Hant">取消</lang>
 			<lang name="hi">रद्द करें</lang>
 			<lang name="de">Stornieren</lang>
+		</control>
+	</Page>
+	<Page name="BatchStepPage">
+		<control name="StrIngredients">
+			<lang name="en">Ingredients</lang>
+			<lang name="zh-Hans">配料</lang>
+			<lang name="ja">材料</lang>
+			<lang name="fr">Ingrédients</lang>
+			<lang name="ar">مكونات</lang>
+			<lang name="es">Ingredientes</lang>
+			<lang name="ko">성분</lang>
+			<lang name="zh-Hant">成分</lang>
+			<lang name="hi">सामग्री</lang>
+			<lang name="de">Zutaten</lang>
+		</control>
+		<control name="StrInstruction">
+			<lang name="en">Instruction</lang>
+			<lang name="zh-Hans">说明</lang>
+			<lang name="ja">手順</lang>
+			<lang name="fr">Instruction</lang>
+			<lang name="ar">تعليمات</lang>
+			<lang name="es">Instrucciones</lang>
+			<lang name="ko">지시</lang>
+			<lang name="zh-Hant">說明</lang>
+			<lang name="hi">निर्देश</lang>
+			<lang name="de">Anleitung</lang>
+		</control>
+		<control name="BackButton">
+			<lang name="en">Back</lang>
+			<lang name="zh-Hans">前页</lang>
+			<lang name="ja">前へ</lang>
+			<lang name="fr">Retour</lang>
+			<lang name="ar">السابق</lang>
+			<lang name="es">Atrás</lang>
+			<lang name="ko">이전</lang>
+			<lang name="zh-Hant">前頁</lang>
+			<lang name="hi">पिछला</lang>
+			<lang name="de">Zurück</lang>
+		</control>
+		<control name="NextButton">
+			<lang name="en">Next</lang>
+			<lang name="zh-Hans">下页</lang>
+			<lang name="ja">次へ</lang>
+			<lang name="fr">Suivant</lang>
+			<lang name="ar">التالي</lang>
+			<lang name="es">Siguiente</lang>
+			<lang name="ko">다음</lang>
+			<lang name="zh-Hant">下一頁</lang>
+			<lang name="hi">अगला</lang>
+			<lang name="de">Weiter</lang>
 		</control>
 	</Page>
 </ThePizzaMaster>

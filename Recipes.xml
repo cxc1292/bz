@@ -119,7 +119,7 @@
 					<description lang="hi">सभी निम्नलिखित उपचारों को एक कंटेनर में डालें, अच्छे से मिलाएं।</description>
 					<description lang="de">Alle folgenden Zutaten in einen Behälter geben und gut mischen.</description>
 					<description lang="it">Aggiungi tutti gli ingredienti seguenti in un contenitore, mescola bene.</description>
-					<ingredient id="1" parentid="4" name="Flour" description="All purpose flour or Pizza flour." quantity="0" unit="gram"  icon="flour.png" order="0" >
+					<ingredient id="1" parentid="4" name="Flour" description="All purpose flour or Pizza flour." quantity="100" unit="gram"  icon="flour.png" order="0" >
 						<name lang="en">Flour</name>
 						<name lang="zh-Hans">面粉</name>
 						<name lang="ja">小麦粉</name>
@@ -143,7 +143,7 @@
 						<description lang="de">Gutes Mehl, idealerweise Pizza-Mehl oder Allzweckmehl.</description>
 						<description lang="it">Farina di buona qualità, idealmente farina per pizza o farina per tutti gli usi.</description>
 					</ingredient>
-					<ingredient id="2" parentid="4" name="Water" description="Room temperature water, do not use warm water." quantity="0" unit="gram" icon="water.png" order="0">
+					<ingredient id="2" parentid="4" name="Water" description="Room temperature water, do not use warm water." quantity="100" unit="gram" icon="water.png" order="0">
 						<name lang="en">Water</name>
 						<name lang="zh-Hans">水</name>
 						<name lang="ja">水</name>
@@ -167,7 +167,7 @@
 						<description lang="de">Raumtemperatur Wasser, verwenden Sie kein warmes Wasser.</description>
 						<description lang="it">Acqua a temperatura ambiente, non utilizzare acqua calda.</description>
 					</ingredient>
-					<ingredient id="3" parentid="4" name="Yeast" description="Instant dry yeast" quantity="0" unit="gram"  icon="yeast.png" order="0" >
+					<ingredient id="3" parentid="4" name="Yeast" description="Instant dry yeast" quantity="2" unit="gram"  icon="yeast.png" order="0" >
 						<name lang="en">Yeast</name>
 						<name lang="zh-Hans">酵母</name>
 						<name lang="ja">イースト</name>
@@ -191,7 +191,7 @@
 						<description lang="de">Hochwertige Instant-Trockenhefe.</description>
 						<description lang="it">Lievito secco istantaneo di alta qualità.</description>
 					</ingredient>
-					<ingredient id="4" parentid="4" name="Honey" description="Or sugar if you do not have honey" quantity="0" unit="gram" icon="honey.png" order="0" >
+					<ingredient id="4" parentid="4" name="Honey" description="Or sugar if you do not have honey" quantity="2" unit="gram" icon="honey.png" order="0" >
 						<name lang="en">Honey</name>
 						<name lang="zh-Hans">蜂蜜</name>
 						<name lang="ja">ハチミツ</name>
@@ -288,7 +288,7 @@
 				<description lang="hi">एक बड़े कटोरे में, पुलिश, पानी और तेल डालें, पूरी तरह से मिल जाने और चिकना हो जाने तक लगभग 2-3 मिनट मिलाएं।</description>
 				<description lang="de">In eine große Schüssel geben Sie Poolish, Wasser und Öl, mischen Sie etwa 2-3 Minuten lang, bis alles gut kombiniert und glatt ist.</description>
 				<description lang="it">In una grande ciotola, aggiungere il Poolish, l'acqua e l'olio, mescolare per circa 2-3 minuti fino a quando sia completamente combinato e liscio.</description>
-				<ingredient id="6" parentid="1" name="Water" description="Room temperature water" quantity="0.5" unit="gram" icon="water.png" order="0" >
+				<ingredient id="6" parentid="1" name="Water" description="Room temperature water" quantity="300" unit="gram" icon="water.png" order="0" >
 					<name  lang="zh-Hans">水</name>
 					<name lang="ja">水</name>
 					<name lang="fr">Eau</name>
@@ -310,7 +310,7 @@
 					<description lang="de">Raumtemperatur Wasser</description>
 					<description lang="it">Acqua a temperatura ambiente</description>
 				</ingredient>
-				<ingredient id="8" parentid="1" name="Olive Oil" description="Preferably extra virgin olive oil." quantity="0.01" unit="gram" icon="oliveoil.png" order="0" >
+				<ingredient id="8" parentid="1" name="Olive Oil" description="Preferably extra virgin olive oil." quantity="10" unit="gram" icon="oliveoil.png" order="0" >
 					<name  lang="zh-Hans">橄榄油</name>
 					<name lang="ja">オリーブオイル</name>
 					<name lang="fr">Huile d'olive</name>
@@ -356,7 +356,7 @@
 				<description lang="hi">आटा और नमक डालें, मिलाएं और कुछ मिनटों तक गुंथें जब तक पूरी तरह से मिश्रित न हों और कोई सूखा गोली न हो। आटा बहुत ज्यादा चिपचिपा होगा, लेकिन चिंता न करें।</description>
 				<description lang="de">Mehl und Salz hinzufügen, mischen und einige Minuten kneten, bis alles vollständig ohne trockene Klumpen vermischt ist. Der Teig wird sehr klebrig sein, aber keine Sorge.</description>
 				<description lang="it">Aggiungi farina e sale, mescola e impasta per qualche minuto finché non sono completamente combinati senza grumi secchi. L'impasto sarà molto appiccicoso, ma non preoccuparti.</description>
-				<ingredient id="5" parentid="1" name="Flour" description="All purpose flour or Pizza flour." quantity="0.6" unit="gram" icon="flour.png" order="0" >
+				<ingredient id="5" parentid="1" name="Flour" description="All purpose flour or Pizza flour." quantity="500" unit="gram" icon="flour.png" order="0" >
 					<name lang="en">Flour</name>
 					<name lang="zh-Hans">面粉</name>
 					<name lang="ja">小麦粉</name>
@@ -380,7 +380,7 @@
 					<description lang="de">Gutes Mehl, idealerweise Pizza-Mehl oder Allzweckmehl.</description>
 					<description lang="it">Farina di buona qualità, idealmente farina per pizza o farina per tutti gli usi.</description>
 				</ingredient>
-				<ingredient id="7" parentid="1" name="Salt" description="Cooking salt" quantity="0.01" unit="gram"  icon="salt.png" order="0">
+				<ingredient id="7" parentid="1" name="Salt" description="Cooking salt" quantity="12" unit="gram"  icon="salt.png" order="0">
 					<name lang="en">Salt</name>
 					<name lang="zh-Hans">盐</name>
 					<name lang="ja">塩</name>
