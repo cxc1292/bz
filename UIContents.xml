@@ -4,12 +4,12 @@
 		<control name="Recipe">
 			<lang name="en">Recipe</lang>
 			<lang name="zh-Hans">食谱</lang>
+			<lang name="zh-Hant">食譜</lang>
+			<lang name="es">Receta</lang>
 			<lang name="ja">レシピ</lang>
 			<lang name="fr">Recette</lang>
-			<lang name="ar">وصفة طعام</lang>
-			<lang name="es">Receta</lang>
 			<lang name="ko">레시피</lang>
-			<lang name="zh-Hant">食譜</lang>
+			<lang name="ar">وصفة طعام</lang>
 			<lang name="hi">रेसिपी</lang>
 			<lang name="de">Rezept</lang>
 		</control>
