@@ -28,28 +28,29 @@
 	</Page>
 	<Page name="MainPage">
 		<control name="Label1" Setter="Text">
-			<lang name="en">Hello, Pizza Lovers!</lang>
-			<lang name="zh-Hans">您好，披萨发烧友！</lang>
-			<lang name="ja">ピザ愛好家の皆さん、こんにちは！</lang>
-			<lang name="fr">Bonjour, amateurs de pizza !</lang>
-			<lang name="ar">مرحبًا، عشاق البيتزا!</lang>
-			<lang name="es">¡Hola, amantes de la pizza!</lang>
-			<lang name="ko">안녕하세요, 피자 애호가 여러분!</lang>
-			<lang name="zh-Hant">您好，披薩發燒友！</lang>
-			<lang name="hi">नमस्ते, पिज़्ज़ा प्रेमिकों!</lang>
-			<lang name="de">Hallo, Pizza-Liebhaber!</lang>
+			<lang name="en">Welcome to Dough Master!</lang>
+			<lang name="zh-Hans">欢迎来到面团大师！</lang>
+			<lang name="ja">ドウ・マスターへようこそ！</lang>
+			<lang name="fr">Bienvenue chez Dough Master !</lang>
+			<lang name="ar">مرحبًا بك في دو ماستر!</lang>
+			<lang name="es">¡Bienvenido a Dough Master!</lang>
+			<lang name="ko">도우 마스터에 오신 것을 환영합니다!</lang>
+			<lang name="zh-Hant">歡迎來到麵團大師！</lang>
+			<lang name="hi">डो मास्टर में आपका स्वागत है!</lang>
+			<lang name="de">Willkommen bei Dough Master!</lang>
+
 		</control>
 		<control name="Label2" Setter="Text">
-			<lang name="en">Let's start with choosing a dough recipe.</lang>
-			<lang name="zh-Hans">请您选择一款菜单。</lang>
-			<lang name="ja">生地のレシピを選びましょう。</lang>
-			<lang name="fr">Commençons par choisir une recette de pâte.</lang>
-			<lang name="ar">لنبدأ باختيار وصفة العجينة.</lang>
-			<lang name="es">Empecemos eligiendo una receta de masa.</lang>
-			<lang name="ko">반죽 레시피를 선택해 보겠습니다.</lang>
-			<lang name="zh-Hant">讓我們從選擇麵團食譜開始。</lang>
-			<lang name="hi">आइए डो रेसिपी का चयन करें।</lang>
-			<lang name="de">Lassen Sie uns mit der Auswahl eines Teigrezepts beginnen.</lang>
+			<lang name="en">Get ready to make delicious homemade dough with our step-by-step recipes. Let's get started!</lang>
+			<lang name="zh-Hans">准备好用我们的逐步食谱制作美味的自制面团吧。让我们开始吧！</lang>
+			<lang name="ja">私たちのステップバイステップのレシピで美味しい手作り生地を作る準備をしましょう。さあ、始めましょう！</lang>
+			<lang name="fr">Préparez-vous à faire de délicieuses pâtes maison avec nos recettes étape par étape. Commençons !</lang>
+			<lang name="ar">استعد لصنع عجينة منزلية لذيذة مع وصفاتنا خطوة بخطوة. لنبدأ!</lang>
+			<lang name="es">Prepárate para hacer masa casera deliciosa con nuestras recetas paso a paso. ¡Empecemos!</lang>
+			<lang name="ko">우리의 단계별 레시피로 맛있는 수제 반죽을 만들 준비를 하세요. 시작합시다!</lang>
+			<lang name="zh-Hant">準備好用我們的逐步食譜製作美味的自製麵團吧。讓我們開始吧！</lang>
+			<lang name="hi">हमारी कदम दर कदम रेसिपीज़ के साथ स्वादिष्ट होममेड डो बनाने के लिए तैयार हो जाइए। चलिए शुरू करते हैं!</lang>
+			<lang name="de">Machen Sie sich bereit, mit unseren Schritt-für-Schritt-Rezepten köstlichen hausgemachten Teig zu machen. Lass uns anfangen!</lang>
 		</control>
 	</Page>
 	<Page name="BatchPage">
@@ -226,5 +227,104 @@
 			<lang name="hi">अगला</lang>
 			<lang name="de">Weiter</lang>
 		</control>
+	</Page>
+	<Page name="Settings">
+		<control name="Title">
+			<lang name="en">Settings</lang>
+			<lang name="zh-Hans">设置</lang>
+			<lang name="ja">設定</lang>
+			<lang name="fr">Paramètres</lang>
+			<lang name="ar">الإعدادات</lang>
+			<lang name="es">Configuración</lang>
+			<lang name="ko">설정</lang>
+			<lang name="zh-Hant">設定</lang>
+			<lang name="hi">सेटिंग्स</lang>
+			<lang name="de">Einstellungen</lang>
+		</control>
+		<control name="labUnit">
+			<lang name="en">Measurement</lang>
+			<lang name="zh-Hans">度量</lang>
+			<lang name="ja">計測</lang>
+			<lang name="fr">Mesure</lang>
+			<lang name="ar">قياس</lang>
+			<lang name="es">Medición</lang>
+			<lang name="ko">측정</lang>
+			<lang name="zh-Hant">度量</lang>
+			<lang name="hi">मापन</lang>
+			<lang name="de">Messung</lang>
+		</control>
+		<control name="labLanguage">
+			<lang name="en">Preferred Language</lang>
+			<lang name="zh-Hans">首选语言</lang>
+			<lang name="ja">希望言語</lang>
+			<lang name="fr">Langue préférée</lang>
+			<lang name="ar">اللغة المفضلة</lang>
+			<lang name="es">Idioma preferido</lang>
+			<lang name="ko">선호하는 언어</lang>
+			<lang name="zh-Hant">首選語言</lang>
+			<lang name="hi">पसंदीदा भाषा</lang>
+			<lang name="de">Bevorzugte Sprache</lang>
+		</control>
+		<control name="Metric">
+			<lang name="en">Kg and Meter</lang>
+			<lang name="zh-Hans">千克和米</lang>
+			<lang name="ja">キログラムとメートル</lang>
+			<lang name="fr">Kg et Mètre</lang>
+			<lang name="ar">كيلوغرام ومتر</lang>
+			<lang name="es">Kg y Metro</lang>
+			<lang name="ko">킬로그램과 미터</lang>
+			<lang name="zh-Hant">公斤和米</lang>
+			<lang name="hi">किलोग्राम और मीटर</lang>
+			<lang name="de">Kg und Meter</lang>
+		</control>
+		<control name="Imperial">
+			<lang name="en">Pound and Foot</lang>
+			<lang name="zh-Hans">磅和英尺</lang>
+			<lang name="ja">ポンドとフィート</lang>
+			<lang name="fr">Livre et Pied</lang>
+			<lang name="ar">جنيه وقدم</lang>
+			<lang name="es">Libra y Pie</lang>
+			<lang name="ko">파운드와 피트</lang>
+			<lang name="zh-Hant">磅和英尺</lang>
+			<lang name="hi">पाउंड और फ़ीट</lang>
+			<lang name="de">Pfund und Fuß</lang>
+		</control>
+		<control name="labUpdateRecipes">
+			<lang name="en">Auto Update Recipes</lang>
+			<lang name="zh-Hans">自动更新食谱</lang>
+			<lang name="ja">レシピの自動更新</lang>
+			<lang name="fr">Mise à jour automatique des recettes</lang>
+			<lang name="ar">تحديث الوصفات تلقائيًا</lang>
+			<lang name="es">Actualización automática de recetas</lang>
+			<lang name="ko">레시피 자동 업데이트</lang>
+			<lang name="zh-Hant">自動更新食譜</lang>
+			<lang name="hi">स्वचालित रूप से रेसिपी अपडेट करें</lang>
+			<lang name="de">Automatische Aktualisierung von Rezepten</lang>
+		</control>
+		<control name="labContact">
+			<lang name="en">Contact</lang>
+			<lang name="zh-Hans">联系方式</lang>
+			<lang name="ja">お問い合わせ</lang>
+			<lang name="fr">Contact</lang>
+			<lang name="ar">اتصل</lang>
+			<lang name="es">Contacto</lang>
+			<lang name="ko">연락처</lang>
+			<lang name="zh-Hant">聯絡方式</lang>
+			<lang name="hi">संपर्क</lang>
+			<lang name="de">Kontakt</lang>
+		</control>
+		<control name="labAbout">
+			<lang name="en">About</lang>
+			<lang name="zh-Hans">关于</lang>
+			<lang name="ja">アバウト</lang>
+			<lang name="fr">À propos</lang>
+			<lang name="ar">حول</lang>
+			<lang name="es">Acerca de</lang>
+			<lang name="ko">소개</lang>
+			<lang name="zh-Hant">關於</lang>
+			<lang name="hi">बारे में</lang>
+			<lang name="de">Über</lang>
+		</control>
+
 	</Page>
 </ThePizzaMaster>
