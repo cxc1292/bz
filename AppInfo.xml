@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThePizzaMaster>
+	<appinfo>
+		<html>
+			<body style="font-size:70%;font-weight:bold;color:blue;">
+				<div>Software version: 1.0.0 Released Mar 27 2024</div>
+				<div>Recipe Pack: 1.0.0 Released Mar 27 2024</div>
+				<div>Multilingual Pack: 1.0.0 Released Mar 27 2024</div>
+				<div> &#169; copyright All Rights Reserved </div>
+			</body>
+		</html>
+	</appinfo>
+	<disclaimer>
+		<html>
+			<head>
+				<title>Dough Master App Disclaimer</title>
+			</head>
+			<body style="font-size:70%">
+				<h2>Disclaimer:</h2>
+				<p>The Dough Master app ("App") provides step-by-step instructions for various recipes, intended for informational and educational purposes only. While we strive to ensure the accuracy and reliability of the information provided, we cannot guarantee that all users will achieve identical results due to variations in ingredients, equipment, techniques, and environmental factors.</p>
+				<h2>Please note the following:</h2>
+				<ol>
+					<li>
+						<strong>Ingredient Substitutions:</strong> Users should be aware that substituting ingredients may alter the taste, texture, and overall outcome of the dough. We recommend following the specified ingredients as closely as possible for optimal results.
+					</li>
+					<li>
+						<strong>Equipment and Techniques:</strong> Different equipment and techniques may yield different results. Users should exercise caution and refer to the instructions provided with their equipment when using the App.
+					</li>
+					<li>
+						<strong>Allergies and Dietary Restrictions:</strong> Users with allergies or dietary restrictions should carefully review the ingredients list for each recipe and make necessary adjustments to suit their needs. The App does not guarantee allergen-free or suitable options for all dietary preferences.
+					</li>
+					<li>
+						<strong>Environmental Factors:</strong> Factors such as altitude, humidity, and ambient temperature can affect dough-making processes and outcomes. Users may need to make adjustments based on their specific environmental conditions.
+					</li>
+					<li>
+						<strong>User Responsibility:</strong> Users assume full responsibility for their actions and decisions while using the App. The creators and developers of the App shall not be held liable for any damages, losses, or injuries resulting from the use of the information provided.
+					</li>
+				</ol>
+				<p>By using the App, you acknowledge that you have read, understood, and agree to abide by the terms of this disclaimer. If you do not agree with any part of this disclaimer, you should refrain from using the App.</p>
+			</body>
+		</html>
+	</disclaimer>
+</ThePizzaMaster>
