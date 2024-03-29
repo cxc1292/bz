@@ -54,15 +54,40 @@
 		</control>
 	</Page>
 	<Page name="BatchPage">
+		<control name="TotalSteps">
+			<lang name="en">Total Steps</lang>
+			<lang name="zh-Hans">总步数</lang>
+			<lang name="ja">総ステップ数</lang>
+			<lang name="fr">Nombre total de pas</lang>
+			<lang name="ar">إجمالي الخطوات</lang>
+			<lang name="es">Pasos totales</lang>
+			<lang name="ko">총 단계 수</lang>
+			<lang name="zh-Hant">總步數</lang>
+			<lang name="hi">कुल चरण</lang>
+			<lang name="de">Gesamtschritte</lang>
+			<lang name="it">Passi totali</lang>
+		</control>
+		<control name="TotalTime">
+			<lang name="en">Total Time</lang>
+			<lang name="zh-Hans">总时间</lang>
+			<lang name="ja">合計時間</lang>
+			<lang name="fr">Temps total</lang>
+			<lang name="ar">الوقت الكلي</lang>
+			<lang name="es">Tiempo total</lang>
+			<lang name="ko">총 시간</lang>
+			<lang name="zh-Hant">總時間</lang>
+			<lang name="hi">कुल समय</lang>
+			<lang name="de">Gesamtzeit</lang>
+		</control>
 		<control name="Title">
 			<lang name="en">Start a Batch</lang>
-			<lang name="zh-Hans">开始一批</lang>
-			<lang name="ja">バッチを開始する</lang>
+			<lang name="zh-Hans">开始制作面团</lang>
+			<lang name="ja">生地を作り始める</lang>
 			<lang name="fr">Démarrer un lot</lang>
 			<lang name="ar">بدء دفعة</lang>
 			<lang name="es">Iniciar un lote</lang>
-			<lang name="ko">배치 시작</lang>
-			<lang name="zh-Hant">開始一批</lang>
+			<lang name="ko">반죽 만들기 시작</lang>
+			<lang name="zh-Hant">開始做麵團</lang>
 			<lang name="hi">एक बैच शुरू करें</lang>
 			<lang name="de">Eine Charge starten</lang>
 			<lang name="it">Inizia un lotto</lang>
@@ -181,7 +206,7 @@
 	<Page name="BatchStepPage">
 		<control name="StrIngredients">
 			<lang name="en">Ingredients</lang>
-			<lang name="zh-Hans">配料</lang>
+			<lang name="zh-Hans">食材</lang>
 			<lang name="ja">材料</lang>
 			<lang name="fr">Ingrédients</lang>
 			<lang name="ar">مكونات</lang>
@@ -223,7 +248,7 @@
 			<lang name="ar">التالي</lang>
 			<lang name="es">Siguiente</lang>
 			<lang name="ko">다음</lang>
-			<lang name="zh-Hant">下一頁</lang>
+			<lang name="zh-Hant">下頁</lang>
 			<lang name="hi">अगला</lang>
 			<lang name="de">Weiter</lang>
 		</control>
