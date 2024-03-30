@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipe id="1" ownerid="1" name="Poolish Pizza Dough" created="2024-Mar-10" description="Making dough with Poolish fermentation" status="active">
+	<ml>
+		<name lang="zh-Hans">液种法</name>
+		<name lang="ja">プーリッシュ</name>
+		<name lang="fr">Pâte Poolish</name>
+		<name lang="ar">بوليش</name>
+		<name lang="es">Poolish</name>
+		<name lang="ko">풀리쉬</name>
+		<name lang="zh-Hant">液種法</name>
+		<name lang="hi">पुलिश</name>
+		<name lang="de">Poolish</name>
+		<name lang="it">Poolish</name>
+		<description lang="zh-Hans">用液种法制作发面团</description>
+		<description lang="ja">プーリッシュ発酵種で生地を作る</description>
+		<description lang="fr">Préparation de la pâte à pain avec une fermentation Poolish</description>
+		<description lang="ar">تحضير عجينة الخبز باستخدام التخمير بالبوليش</description>
+		<description lang="es">Haciendo masa con fermentación Poolish</description>
+		<description lang="ko">풀리쉬 발효 도우 만들기</description>
+		<description lang="zh-Hant">用液種法製作麵團</description>
+		<description lang="hi">पुलिश फर्मेंटेशन के साथ आटा बनाना</description>
+		<description lang="de">Herstellung von Teig mit Poolish-Fermentation</description>
+		<description lang="it">Preparazione dell'impasto con fermentazione Poolish</description>
+	</ml>
+	<doughsizes quantityunit="Pizza">
+		<doughsize name="Small 8&quot;" weight="160">
+			<ml>
+				<name lang="zh-Hans">小（8英寸）</name>
+				<name lang="ja">小（8インチ）</name>
+				<name lang="fr">Petite (8 pouces)</name>
+				<name lang="ar">صغيرة (8 بوصة)</name>
+				<name lang="es">Pequeño (8 pulgadas)</name>
+				<name lang="ko">작은 (8 인치)</name>
+				<name lang="zh-Hant">小（8英寸）</name>
+				<name lang="hi">छोटा (8 इंच)</name>
+				<name lang="de">Klein (8 Zoll)</name>
+				<name lang="it">Piccolo (8 pollici)</name>
+			</ml>
+		</doughsize>
+		<doughsize name="Regular 10&quot;" weight="250">
+			<ml>
+				<name lang="zh-Hans">普通（10英寸）</name>
+				<name lang="ja">レギュラー（10インチ）</name>
+				<name lang="fr">Normal 10&quot;</name>
+				<name lang="ar">عادي (10 بوصة)</name>
+				<name lang="es">Normal 10&quot;</name>
+				<name lang="ko">보통 10&quot;</name>
+				<name lang="zh-Hant">普通（10英寸）</name>
+				<name lang="hi">सामान्य 10 इंच</name>
+				<name lang="de">Normal 10 Zoll</name>
+				<name lang="it">Normale 10 pollici</name>
+			</ml>
+		</doughsize>
+		<doughsize name="Large 12&quot;" weight="360">
+			<ml>
+				<name lang="zh-Hans">大（12英寸）</name>
+				<name lang="ja">大型（12インチ）</name>
+				<name lang="fr">Grand 12&quot;</name>
+				<name lang="ar">كبير (12 بوصة)</name>
+				<name lang="es">Grande 12&quot;</name>
+				<name lang="ko">큰 12&quot;</name>
+				<name lang="zh-Hant">大（12英寸）</name>
+				<name lang="hi">बड़ा 12 इंच</name>
+				<name lang="de">Groß 12 Zoll</name>
+				<name lang="it">Grande 12 pollici</name>
+			</ml>
+		</doughsize>
+		<doughsize name="Family 14&quot;" weight="490">
+			<ml>
+				<name  lang="zh-Hans">家庭（14英寸）</name>
+				<name lang="ja">ファミリー（14インチ）</name>
+				<name lang="fr">Famille 14&quot;</name>
+				<name lang="ar">عائلي (14 بوصة)</name>
+				<name lang="es">Familia 14&quot;</name>
+				<name lang="ko">가족 14&quot;</name>
+				<name lang="zh-Hant">家庭（14英寸）</name>
+				<name lang="hi">परिवार 14 इंच</name>
+				<name lang="de">Familie 14 Zoll</name>
+				<name lang="it">Famiglia 14 pollici</name>
+			</ml>
+		</doughsize>
+	</doughsizes>
+	<step name="Mix poolish ingredients" description="Add all following ingredients into a container, mix well." action="Mix" alertoption="1" time="2">
+		<ml>
+			<name lang="en">Mix poolish ingredients</name>
+			<name lang="zh-Hans">混合液种成分</name>
+			<name lang="ja">液種の材料を混ぜる</name>
+			<name lang="fr">Mélanger les ingrédients de la poolish</name>
+			<name lang="ar">اخلط مكونات البوليش</name>
+			<name lang="es">Mezclar los ingredientes de la poolish</name>
+			<name lang="ko">풀리쉬 재료 섞기</name>
+			<name lang="zh-Hant">混合液種成分</name>
+			<name lang="hi">पूलिश के उपचारों को मिलाएं</name>
+			<name lang="de">Mischen Sie die Poolish-Zutaten</name>
+			<name lang="it">Mescolare gli ingredienti della poolish</name>
+			<description lang="en">Add all following ingredients into a container, mix well. it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing.  it's very very long description for testing. </description>
+			<description lang="zh-Hans">将以下所有成分放入容器中，混合均匀。</description>
+			<description lang="ja">すべての次の材料を容器に入れ、よく混ぜます。</description>
+			<description lang="fr">Ajoutez tous les ingrédients suivants dans un récipient, mélangez bien.</description>
+			<description lang="ar">أضف جميع المكونات التالية إلى الحاوية، واخلطها جيدًا.</description>
+			<description lang="es">Agregue todos los siguientes ingredientes en un recipiente, mezcle bien.</description>
+			<description lang="ko">다음 재료를 모두 용기에 넣고 잘 섞습니다.</description>
+			<description lang="zh-Hant">將以下所有成分放入容器中，混合均勻。</description>
+			<description lang="hi">सभी निम्नलिखित उपचारों को एक कंटेनर में डालें, अच्छे से मिलाएं।</description>
+			<description lang="de">Alle folgenden Zutaten in einen Behälter geben und gut mischen.</description>
+			<description lang="it">Aggiungi tutti gli ingredienti seguenti in un contenitore, mescola bene.</description>
+		</ml>
+		<ingredient id="1" parentid="4" name="Flour" description="All purpose flour or Pizza flour." quantity="100" unit="gram"  icon="flour.png" order="0" >
+			<ml>
+				<name lang="en">Flour</name>
+				<name lang="zh-Hans">面粉</name>
+				<name lang="ja">小麦粉</name>
+				<name lang="fr">Farine</name>
+				<name lang="ar">دقيق</name>
+				<name lang="es">Harina</name>
+				<name lang="ko">밀가루</name>
+				<name lang="zh-Hant">麵粉</name>
+				<name lang="hi">आटा</name>
+				<name lang="de">Mehl</name>
+				<name lang="it">Farina</name>
+				<description lang="en">Good quality flour, ideally Pizza flour, or all-purpose flour.</description>
+				<description lang="zh-Hans">优质面粉，理想情况下为比萨饼面粉，或多用途面粉。</description>
+				<description lang="ja">高品質の小麦粉、理想的にはピザ用小麦粉、または多目的小麦粉。</description>
+				<description lang="fr">De la farine de bonne qualité, idéalement de la farine à pizza ou de la farine tout usage.</description>
+				<description lang="ar">دقيق عالي الجودة ، في الأفضلية دقيق البيتزا ، أو دقيق الجميع.</description>
+				<description lang="es">Harina de buena calidad, idealmente harina para pizza o harina multiusos.</description>
+				<description lang="ko">고급 밀가루, 이상적으로는 피자 가루 또는 다용도 밀가루.</description>
+				<description lang="zh-Hant">優質麵粉，理想情況下為比薩餅麵粉，或多用途麵粉。</description>
+				<description lang="hi">अच्छी गुणवत्ता वाला आटा, आदर्श रूप में पिज़्ज़ा आटा, या सभी प्रयोग आटा।</description>
+				<description lang="de">Gutes Mehl, idealerweise Pizza-Mehl oder Allzweckmehl.</description>
+				<description lang="it">Farina di buona qualità, idealmente farina per pizza o farina per tutti gli usi.</description>
+			</ml>
+		</ingredient>
+		<ingredient id="2" parentid="4" name="Water" description="Room temperature water, do not use warm water." quantity="100" unit="gram" icon="water.png" order="0">
+			<ml>
+				<name lang="en">Water</name>
+				<name lang="zh-Hans">水</name>
+				<name lang="ja">水</name>
+				<name lang="fr">Eau</name>
+				<name lang="ar">ماء</name>
+				<name lang="es">Agua</name>
+				<name lang="ko">물</name>
+				<name lang="zh-Hant">水</name>
+				<name lang="hi">पानी</name>
+				<name lang="de">Wasser</name>
+				<name lang="it">Acqua</name>
+				<description lang="en">Room temperature water, do not use warm water.</description>
+				<description lang="zh-Hans">室温水，不要使用温水。</description>
+				<description lang="ja">室温の水を使用してください。温水は使用しないでください。</description>
+				<description lang="fr">Eau à température ambiante, ne pas utiliser d'eau chaude.</description>
+				<description lang="ar">ماء بدرجة حرارة الغرفة، لا تستخدم الماء الدافئ.</description>
+				<description lang="es">Agua a temperatura ambiente, no utilice agua caliente.</description>
+				<description lang="ko">실온의 물을 사용하십시오. 뜨거운 물을 사용하지 마십시오.</description>
+				<description lang="zh-Hant">室溫水，不要使用溫水。</description>
+				<description lang="hi">कमरे का तापमान जल, गरम पानी का प्रयोग न करें।</description>
+				<description lang="de">Raumtemperatur Wasser, verwenden Sie kein warmes Wasser.</description>
+				<description lang="it">Acqua a temperatura ambiente, non utilizzare acqua calda.</description>
+			</ml>
+		</ingredient>
+		<ingredient id="3" parentid="4" name="Yeast" description="Instant dry yeast" quantity="2" unit="gram"  icon="yeast.png" order="0" >
+			<ml>
+				<name lang="en">Yeast</name>
+				<name lang="zh-Hans">酵母</name>
+				<name lang="ja">イースト</name>
+				<name lang="fr">Levure</name>
+				<name lang="ar">خميرة</name>
+				<name lang="es">Levadura</name>
+				<name lang="ko">이스트</name>
+				<name lang="zh-Hant">酵母</name>
+				<name lang="hi">खमीर</name>
+				<name lang="de">Hefe</name>
+				<name lang="it">Lievito</name>
+				<description lang="en">Good quality instant dry yeast.</description>
+				<description lang="zh-Hans">优质的即食干酵母。</description>
+				<description lang="ja">高品質のインスタント乾燥酵母。</description>
+				<description lang="fr">Levure sèche instantanée de bonne qualité.</description>
+				<description lang="ar">خميرة جافة سريعة التحضير عالية الجودة.</description>
+				<description lang="es">Levadura seca instantánea de buena calidad.</description>
+				<description lang="ko">고품질의 즉석 건조 이스트.</description>
+				<description lang="zh-Hant">優質的即食乾酵母。</description>
+				<description lang="hi">अच्छी गुणवत्ता वाला इंस्टेंट ड्राई खमीर।</description>
+				<description lang="de">Hochwertige Instant-Trockenhefe.</description>
+				<description lang="it">Lievito secco istantaneo di alta qualità.</description>
+			</ml>
+		</ingredient>
+		<ingredient id="4" parentid="4" name="Honey" description="Or sugar if you do not have honey" quantity="2" unit="gram" icon="honey.png" order="0" >
+			<ml>
+				<name lang="en">Honey</name>
+				<name lang="zh-Hans">蜂蜜</name>
+				<name lang="ja">ハチミツ</name>
+				<name lang="fr">Miel</name>
+				<name lang="ar">عسل</name>
+				<name lang="es">Miel</name>
+				<name lang="ko">꿀</name>
+				<name lang="zh-Hant">蜂蜜</name>
+				<name lang="hi">शहद</name>
+				<name lang="de">Honig</name>
+				<name lang="it">Miele</name>
+				<description lang="en">Or sugar if you do not have honey.</description>
+				<description lang="zh-Hans">如果没有蜂蜜，可以使用糖。</description>
+				<description lang="ja">ハチミツがない場合は砂糖を使用してください。</description>
+				<description lang="fr">Ou du sucre si vous n'avez pas de miel.</description>
+				<description lang="ar">أو السكر إذا لم يكن لديك عسل.</description>
+				<description lang="es">O azúcar si no tienes miel.</description>
+				<description lang="ko">꿀이 없으면 설탕을 사용하세요.</description>
+				<description lang="zh-Hant">如果沒有蜂蜜，可以使用糖。</description>
+				<description lang="hi">यदि आपके पास शहद नहीं है तो चीनी उपयोग करें।</description>
+				<description lang="de">Oder Zucker, wenn Sie keinen Honig haben.</description>
+				<description lang="it">O zucchero se non hai miele.</description>
+			</ml>
+		</ingredient>
+	</step>
+	<step name="Rest the poolish" description="Cover and rest at room temperature for 1 hour." action="Rest" time="60" alertoption="1">
+		<ml>
+			<name lang="en">Rest the poolish</name>
+			<name lang="zh-Hans">休息面种</name>
+			<name lang="ja">プーリッシュを休ませる</name>
+			<name lang="fr">Reposer le poolish</name>
+			<name lang="ar">استرح البوليش</name>
+			<name lang="es">Reposar el poolish</name>
+			<name lang="ko">풀리쉬 휴식</name>
+			<name lang="zh-Hant">休息面種</name>
+			<name lang="hi">पूलिश को आराम दें</name>
+			<name lang="de">Den Poolish ruhen lassen</name>
+			<name lang="it">Fate riposare il poolish</name>
+			<description lang="en">Cover and rest at room temperature for 1 hour.</description>
+			<description lang="zh-Hans">盖上盖子，在室温下静置1小时。</description>
+			<description lang="ja">カバーして室温で1時間休ませます。</description>
+			<description lang="fr">Couvrir et laisser reposer à température ambiante pendant 1 heure.</description>
+			<description lang="ar">غطي واسرح عند درجة حرارة الغرفة لمدة ساعة واحدة.</description>
+			<description lang="es">Cubre y deja reposar a temperatura ambiente durante 1 hora.</description>
+			<description lang="ko">밀봉하고 실온에서 1시간 동안 쉬게 해주세요.</description>
+			<description lang="zh-Hant">蓋上蓋子，在室溫下靜置1小時。</description>
+			<description lang="hi">ढ़क दें और कमरे के तापमान में 1 घंटे के लिए आराम करें।</description>
+			<description lang="de">Abdecken und 1 Stunde bei Raumtemperatur ruhen lassen.</description>
+			<description lang="it">Coprite e lasciate riposare a temperatura ambiente per 1 ora.</description>
+		</ml>
+	</step>
+	<step name="Proof the poolish" description="Cover with an air-tight lid and keep in the fridge for 12 hours." action="Proof" time="720"  alertoption="1">
+		<ml>
+			<name lang="en">Proof the poolish</name>
+			<name lang="zh-Hans">醒发液种</name>
+			<name lang="ja">プーリッシュの証明</name>
+			<name lang="fr">Preuve du poolish</name>
+			<name lang="ar">دليل البوليش</name>
+			<name lang="es">Prueba del poolish</name>
+			<name lang="ko">풀리쉬 증명</name>
+			<name lang="zh-Hant">醒发液种</name>
+			<name lang="hi">पूलिश का प्रमाण</name>
+			<name lang="de">Beweis des Poolish</name>
+			<name lang="it">Prova della biga</name>
+			<description lang="en">Cover with an air-tight lid and keep in the fridge for 12 hours.</description>
+			<description lang="zh-Hans">用密封盖盖住，并放在冰箱中冷藏12小时。</description>
+			<description lang="ja">密閉された蓋で覆い、冷蔵庫で12時間冷やします。</description>
+			<description lang="fr">Couvrez d'un couvercle hermétique et conservez au réfrigérateur pendant 12 heures.</description>
+			<description lang="ar">اغط الوجه بغطاء محكم واحفظه في الثلاجة لمدة 12 ساعة.</description>
+			<description lang="es">Cubrir con una tapa hermética y mantener en el refrigerador durante 12 horas.</description>
+			<description lang="ko">밀폐 된 뚜껑으로 덮고 냉장고에 12 시간 동안 보관합니다.</description>
+			<description lang="zh-Hant">用密封蓋蓋住，放在冰箱中冷藏12小時。</description>
+			<description lang="hi">एक एयर-टाइट ढक्कन के साथ ढककर और 12 घंटे के लिए फ्रिज में रखें।</description>
+			<description lang="de">Mit einem luftdichten Deckel abdecken und 12 Stunden im Kühlschrank aufbewahren.</description>
+			<description lang="it">Coprire con un coperchio ermetico e conservare in frigorifero per 12 ore.</description>
+		</ml>
+	</step>
+	<step name="Mix wet ingredients and the Poolish" description="In a large bowl, add the poolish, water and oil, mix about 2-3 minutes until fully combined and smooth." action="Mix" time="3"  alertoption="0">
+		<ml>
+			<name lang="en">Mix wet ingredients and the Poolish</name>
+			<name lang="zh-Hans">混合湿配料和液种</name>
+			<name lang="ja">湿った材料とプーリッシュを混ぜる</name>
+			<name lang="fr">Mélanger les ingrédients humides et la Poolish</name>
+			<name lang="ar">خلط المكونات الرطبة والبوليش</name>
+			<name lang="es">Mezclar ingredientes húmedos y Poolish</name>
+			<name lang="ko">습기있는 재료와 풀리쉬 섞기</name>
+			<name lang="zh-Hant">混合濕配料和液種</name>
+			<name lang="hi">मिश्रित गीले उपदान और पुलिश</name>
+			<name lang="de">Mische feuchte Zutaten und Poolish</name>
+			<name lang="it">Mescola ingredienti umidi e Poolish</name>
+			<description lang="en">In a large bowl, add the poolish, water and oil, mix about 2-3 minutes until fully combined and smooth.</description>
+			<description  lang="zh-Hans">在一个大碗里，加入液种、水和油，搅拌约2-3分钟，直到完全结合和顺滑。</description>
+			<description lang="ja">大きなボウルに、プーリッシュ、水、オイルを入れて、よく混ぜ合わせ、完全に組み合わされて滑らかになるまで約2〜3分混ぜます。</description>
+			<description lang="fr">Dans un grand bol, ajoutez la Poolish, l'eau et l'huile, mélangez environ 2 à 3 minutes jusqu'à ce que le mélange soit complètement homogène et lisse.</description>
+			<description lang="ar">في وعاء كبير، أضف البوليش، الماء، والزيت، اخلط لمدة 2-3 دقائق حتى يتم الدمج تمامًا ويصبح ناعمًا.</description>
+			<description lang="es">En un tazón grande, agregue Poolish, agua y aceite, mezcle durante aproximadamente 2-3 minutos hasta que esté completamente combinado y suave.</description>
+			<description lang="ko">큰 그릇에 풀리쉬, 물, 오일을 넣고, 완전히 섞여 부드럽고유화될 때까지 약 2~3 분간 섞습니다.</description>
+			<description lang="zh-Hant">在一個大碗中，加入液種、水和油，攪拌約2-3分鐘，直到完全結合且光滑。</description>
+			<description lang="hi">एक बड़े कटोरे में, पुलिश, पानी और तेल डालें, पूरी तरह से मिल जाने और चिकना हो जाने तक लगभग 2-3 मिनट मिलाएं।</description>
+			<description lang="de">In eine große Schüssel geben Sie Poolish, Wasser und Öl, mischen Sie etwa 2-3 Minuten lang, bis alles gut kombiniert und glatt ist.</description>
+			<description lang="it">In una grande ciotola, aggiungere il Poolish, l'acqua e l'olio, mescolare per circa 2-3 minuti fino a quando sia completamente combinato e liscio.</description>
+		</ml>
+		<ingredient id="6" parentid="1" name="Water" description="Room temperature water" quantity="300" unit="gram" icon="water.png" order="0" >
+			<ml>
+				<name  lang="zh-Hans">水</name>
+				<name lang="ja">水</name>
+				<name lang="fr">Eau</name>
+				<name lang="ar">ماء</name>
+				<name lang="es">Agua</name>
+				<name lang="ko">물</name>
+				<name lang="zh-Hant">水</name>
+				<name lang="hi">पानी</name>
+				<name lang="de">Wasser</name>
+				<name lang="it">Acqua</name>
+				<description  lang="zh-Hans">室温水</description>
+				<description lang="ja">室温の水</description>
+				<description lang="fr">Eau à température ambiante</description>
+				<description lang="ar">ماء بدرجة حرارة الغرفة</description>
+				<description lang="es">Agua a temperatura ambiente</description>
+				<description lang="ko">실온 물</description>
+				<description lang="zh-Hant">室溫水</description>
+				<description lang="hi">कमरे का तापमान पानी</description>
+				<description lang="de">Raumtemperatur Wasser</description>
+				<description lang="it">Acqua a temperatura ambiente</description>
+			</ml>
+		</ingredient>
+		<ingredient id="8" parentid="1" name="Olive Oil" description="Preferably extra virgin olive oil." quantity="10" unit="gram" icon="oliveoil.png" order="0" >
+			<ml>
+				<name  lang="zh-Hans">橄榄油</name>
+				<name lang="ja">オリーブオイル</name>
+				<name lang="fr">Huile d'olive</name>
+				<name lang="ar">زيت الزيتون</name>
+				<name lang="es">Aceite de oliva</name>
+				<name lang="ko">올리브 오일</name>
+				<name lang="zh-Hant">橄欖油</name>
+				<name lang="hi">जैतून का तेल</name>
+				<name lang="de">Olivenöl</name>
+				<name lang="it">Olio d'oliva</name>
+				<description  lang="zh-Hans">最好使用特级初榨橄榄油。</description>
+				<description lang="ja">できればエクストラバージンオリーブオイル。</description>
+				<description lang="fr">De préférence de l'huile d'olive extra vierge.</description>
+				<description lang="ar">يفضل زيت الزيتون البكر الممتاز.</description>
+				<description lang="es">Preferiblemente aceite de oliva virgen extra.</description>
+				<description lang="ko">가능한 한 순수한 엑스트라 버진 올리브 오일.</description>
+				<description lang="zh-Hant">最好使用特級初榨橄欖油。</description>
+				<description lang="hi">बेस्ट एक्सट्रा वर्जिन ऑलिव ऑयल का उपयोग करें।</description>
+				<description lang="de">Am besten extra natives Olivenöl verwenden.</description>
+				<description lang="it">Preferibilmente olio d'oliva extravergine.</description>
+			</ml>
+		</ingredient>
+	</step>
+	<step name="Add flour and salt" description="Add flour and salt, mix and knead for a few minutes until fully combined without any dry lumps. The dough will be very sticky, but don't worry." action="Mix" time="10"  alertoption="1" >
+		<ml>
+			<name lang="en">Add flour and salt</name>
+			<name lang="zh-Hans">加入面粉和盐</name>
+			<name lang="ja">小麦粉と塩を加える</name>
+			<name lang="fr">Ajouter la farine et le sel</name>
+			<name lang="ar">إضافة الدقيق والملح</name>
+			<name lang="es">Agregar harina y sal</name>
+			<name lang="ko">밀가루와 소금 추가</name>
+			<name lang="zh-Hant">加入麵粉和鹽</name>
+			<name lang="hi">आटा और नमक डालें</name>
+			<name lang="de">Mehl und Salz hinzufügen</name>
+			<name lang="it">Aggiungi farina e sale</name>
+			<description lang="en">Add flour and salt, mix and knead for a few minutes until fully combined without any dry lumps. The dough will be very sticky, but don't worry.</description>
+			<description lang="zh-Hans">加入面粉和盐，搅拌和揉搓几分钟，直到完全混合没有任何干结块。面团会非常粘，但不要担心。</description>
+			<description lang="ja">小麦粉と塩を加え、完全に組み合わせられていてドライな塊がないことを確認するまで、数分間混ぜてこねます。生地は非常に粘りますが、心配しないでください。</description>
+			<description lang="fr">Ajoutez la farine et le sel, mélangez et pétrissez pendant quelques minutes jusqu'à ce que le mélange soit bien homogène sans aucun grumeau sec. La pâte sera très collante, mais ne vous inquiétez pas.</description>
+			<description lang="ar">أضف الدقيق والملح ، واخلط وعجن لبضع دقائق حتى تتماشى تمامًا دون وجود أي كتل جافة. ستكون العجينة لزجة جدًا ، لكن لا داعي للقلق.</description>
+			<description lang="es">Agrega harina y sal, mezcla y amasa durante unos minutos hasta que estén completamente combinados sin ningún grumo seco. La masa estará muy pegajosa, pero no te preocupes.</description>
+			<description lang="ko">밀가루와 소금을 추가하고 건조한 덩어리가 없이 완전히 섞여있는지 확인할 때까지 몇 분 동안 섞고 반죽합니다. 반죽이 매우 끈적거리지만 걱정하지 마십시오.</description>
+			<description lang="zh-Hant">加入麵粉和鹽，攪拌和揉搓幾分鐘，直到完全混合沒有任何乾結塊。麵糰會非常黏，但不用擔心。</description>
+			<description lang="hi">आटा और नमक डालें, मिलाएं और कुछ मिनटों तक गुंथें जब तक पूरी तरह से मिश्रित न हों और कोई सूखा गोली न हो। आटा बहुत ज्यादा चिपचिपा होगा, लेकिन चिंता न करें।</description>
+			<description lang="de">Mehl und Salz hinzufügen, mischen und einige Minuten kneten, bis alles vollständig ohne trockene Klumpen vermischt ist. Der Teig wird sehr klebrig sein, aber keine Sorge.</description>
+			<description lang="it">Aggiungi farina e sale, mescola e impasta per qualche minuto finché non sono completamente combinati senza grumi secchi. L'impasto sarà molto appiccicoso, ma non preoccuparti.</description>
+		</ml>
+		<ingredient id="5" parentid="1" name="Flour" description="All purpose flour or Pizza flour." quantity="500" unit="gram" icon="flour.png" order="0" >
+			<ml>
+				<name lang="en">Flour</name>
+				<name lang="zh-Hans">面粉</name>
+				<name lang="ja">小麦粉</name>
+				<name lang="fr">Farine</name>
+				<name lang="ar">دقيق</name>
+				<name lang="es">Harina</name>
+				<name lang="ko">밀가루</name>
+				<name lang="zh-Hant">麵粉</name>
+				<name lang="hi">आटा</name>
+				<name lang="de">Mehl</name>
+				<name lang="it">Farina</name>
+				<description lang="en">Good quality flour, ideally Pizza flour, or all-purpose flour.</description>
+				<description lang="zh-Hans">优质面粉，理想情况下为比萨饼面粉，或多用途面粉。</description>
+				<description lang="ja">高品質の小麦粉、理想的にはピザ用小麦粉、または多目的小麦粉。</description>
+				<description lang="fr">De la farine de bonne qualité, idéalement de la farine à pizza ou de la farine tout usage.</description>
+				<description lang="ar">دقيق عالي الجودة ، في الأفضلية دقيق البيتزا ، أو دقيق الجميع.</description>
+				<description lang="es">Harina de buena calidad, idealmente harina para pizza o harina multiusos.</description>
+				<description lang="ko">고급 밀가루, 이상적으로는 피자 가루 또는 다용도 밀가루.</description>
+				<description lang="zh-Hant">優質麵粉，理想情況下為比薩餅麵粉，或多用途麵粉。</description>
+				<description lang="hi">अच्छी गुणवत्ता वाला आटा, आदर्श रूप में पिज़्ज़ा आटा, या सभी प्रयोग आटा।</description>
+				<description lang="de">Gutes Mehl, idealerweise Pizza-Mehl oder Allzweckmehl.</description>
+				<description lang="it">Farina di buona qualità, idealmente farina per pizza o farina per tutti gli usi.</description>
+			</ml>
+		</ingredient>
+		<ingredient id="7" parentid="1" name="Salt" description="Cooking salt" quantity="12" unit="gram"  icon="salt.png" order="0">
+			<ml>
+				<name lang="en">Salt</name>
+				<name lang="zh-Hans">盐</name>
+				<name lang="ja">塩</name>
+				<name lang="fr">Sel</name>
+				<name lang="ar">ملح</name>
+				<name lang="es">Sal</name>
+				<name lang="ko">소금</name>
+				<name lang="zh-Hant">鹽</name>
+				<name lang="hi">नमक</name>
+				<name lang="de">Salz</name>
+				<name lang="it">Sale</name>
+				<description lang="en">Cooking salt.</description>
+				<description lang="zh-Hans">食用盐。</description>
+				<description lang="ja">料理用塩。</description>
+				<description lang="fr">Sel de cuisine.</description>
+				<description lang="ar">ملح الطبخ.</description>
+				<description lang="es">Sal de cocina.</description>
+				<description lang="ko">조리 소금.</description>
+				<description lang="zh-Hant">烹飪用鹽。</description>
+				<description lang="hi">पकाने का नमक।</description>
+				<description lang="de">Kochsalz.</description>
+				<description lang="it">Sale da cucina.</description>
+			</ml>
+		</ingredient>
+	</step>
+	<step name="Rest the dough" description="Cover and let it rest for 15 to 20 minutes." action="Rest" time="20"  alertoption="1" >
+		<ml>
+			<name lang="en">Rest the dough</name>
+			<name lang="zh-Hans">让面团休息</name>
+			<name lang="ja">生地を休ませる</name>
+			<name lang="fr">Repos de la pâte</name>
+			<name lang="ar">ترك العجينة ترتاح</name>
+			<name lang="es">Reposar la masa</name>
+			<name lang="ko">반죽 쉬기</name>
+			<name lang="zh-Hant">讓麵團休息</name>
+			<name lang="hi">आटा आराम</name>
+			<name lang="de">Teig ruhen lassen</name>
+			<name lang="it">Far riposare l'impasto</name>
+			<description lang="en">Cover and let it rest for 15 to 20 minutes.</description>
+			<description lang="zh-Hans">盖上并让其休息15到20分钟。</description>
+			<description lang="ja">カバーして15〜20分休ませます。</description>
+			<description lang="fr">Couvrir et laisser reposer pendant 15 à 20 minutes.</description>
+			<description lang="ar">استرخ واتركها لترتاح لمدة 15 إلى 20 دقيقة.</description>
+			<description lang="es">Cubrir y dejar reposar durante 15 a 20 minutos.</description>
+			<description lang="ko">덮고 15~20분 동안 쉬게 해주세요.</description>
+			<description lang="zh-Hant">蓋上並讓其休息15到20分鐘。</description>
+			<description lang="hi">ढक कर 15 से 20 मिनट के लिए आराम दें।</description>
+			<description lang="de">Abdecken und 15 bis 20 Minuten ruhen lassen.</description>
+			<description lang="it">Coprire e lasciar riposare per 15-20 minuti.</description>
+		</ml>
+	</step>
+	<step name="Fold the dough" description="Fold the dough using cross and fold method for about 10 minutes unil the dough becomes smooth and stretchy." action="Fold" time="10"  alertoption="1">
+		<ml>
+			<name lang="en">Fold the dough</name>
+			<name lang="zh-Hans">折叠面团</name>
+			<name lang="ja">生地を折りたたむ</name>
+			<name lang="fr">Plier la pâte</name>
+			<name lang="ar">طي العجينة</name>
+			<name lang="es">Doblar la masa</name>
+			<name lang="ko">반죽 접기</name>
+			<name lang="zh-Hant">折疊麵團</name>
+			<name lang="hi">आटा मोड़ें</name>
+			<name lang="de">Teig falten</name>
+			<name lang="it">Piegare l'impasto</name>
+			<description lang="en">Fold the dough using cross and fold method for about 10 minutes until the dough becomes smooth and stretchy.</description>
+			<description lang="zh-Hans">使用十字形和折叠方法将面团折叠约10分钟，直到面团变得光滑和有韧性。</description>
+			<description lang="ja">十字型と折りたたみ方法を使用して、生地がなめらかで伸縮性があるまで約10分間折りたたみます。</description>
+			<description lang="fr">Plier la pâte en utilisant la méthode de croix et de pliage pendant environ 10 minutes jusqu'à ce que la pâte soit lisse et élastique.</description>
+			<description lang="ar">املأ العجينة باستخدام الطريقة المتقاطعة والطريقة المتقاطعة لمدة 10 دقائق تقريبًا حتى تصبح العجينة ناعمة ومرنة.</description>
+			<description lang="es">Doblar la masa utilizando el método de cruz y doblez durante unos 10 minutos hasta que la masa esté suave y elástica.</description>
+			<description lang="ko">십자로 반죽하고 접는 방법을 사용하여 약 10분 동안 반죽이 부드럽고 신축성 있게 될 때까지 접어 주세요.</description>
+			<description lang="zh-Hant">使用十字形和折疊方法將麵團折疊約10分鐘，直到麵團變得光滑和有彈性。</description>
+			<description lang="hi">आटा को 10 मिनट तक बेलने और फोल्ड करने के लिए डबल क्रॉस और फोल्ड विधि का उपयोग करें, जब तक आटा चिकना और खींचने के लायक नहीं हो जाता।</description>
+			<description lang="de">Falte den Teig mit der Kreuz- und Faltmethode etwa 10 Minuten lang, bis der Teig glatt und dehnbar wird.</description>
+			<description lang="it">Piegare l'impasto utilizzando il metodo di incrocio e piegatura per circa 10 minuti fino a quando l'impasto diventa liscio ed elastico.</description>
+		</ml>
+	</step>
+	<step name="Proof the dough" description="Cover and let the dough raise for about 2 hours." action="Proof" time="120">
+		<ml>
+			<name lang="en">Proof the dough</name>
+			<name lang="zh-Hans">发酵面团</name>
+			<name lang="ja">生地を発酵させる</name>
+			<name lang="fr">Levée de la pâte</name>
+			<name lang="ar">تخمير العجينة</name>
+			<name lang="es">Leudar la masa</name>
+			<name lang="ko">반죽 발효</name>
+			<name lang="zh-Hant">發酵麵團</name>
+			<name lang="hi">आटा फर्मेंट</name>
+			<name lang="de">Teig gehen lassen</name>
+			<name lang="it">Far lievitare l'impasto</name>
+			<description lang="en">Cover and let the dough raise for about 2 hours.</description>
+			<description lang="zh-Hans">盖上并让面团发酵约2小时。</description>
+			<description lang="ja">カバーして約2時間発酵させます。</description>
+			<description lang="fr">Couvrir et laisser la pâte lever pendant environ 2 heures.</description>
+			<description lang="ar">غطي واترك العجينة تتخمر لمدة حوالي 2 ساعة.</description>
+			<description lang="es">Cubrir y dejar leudar la masa durante aproximadamente 2 horas.</description>
+			<description lang="ko">덮고 약 2시간 동안 반죽을 발효시켜주세요.</description>
+			<description lang="zh-Hant">蓋上並讓麵團發酵約2小時。</description>
+			<description lang="hi">ढक कर 2 घंटे के लिए आटा फर्मेंट करने दें।</description>
+			<description lang="de">Abdecken und den Teig etwa 2 Stunden lang gehen lassen.</description>
+			<description lang="it">Coprire e far lievitare l'impasto per circa 2 ore.</description>
+		</ml>
+	</step>
+	<step name="Divide the dough" description="Divide the dough into desired size using a scraper. Shape the dough into smooth and tight dough balls." action="Divide" time="2" >
+		<ml>
+			<name lang="en">Divide the dough</name>
+			<name lang="zh-Hans">分割面团</name>
+			<name lang="ja">生地を分割する</name>
+			<name lang="fr">Diviser la pâte</name>
+			<name lang="ar">تقسيم العجينة</name>
+			<name lang="es">Dividir la masa</name>
+			<name lang="ko">반죽 나누기</name>
+			<name lang="zh-Hant">分割麵團</name>
+			<name lang="hi">आटा विभाजित करें</name>
+			<name lang="de">Teig teilen</name>
+			<name lang="it">Dividere l'impasto</name>
+			<description lang="en">Divide the dough into desired size using a scraper. Shape the dough into smooth and tight dough balls.</description>
+			<description lang="zh-Hans">使用刮刀将面团分割成所需大小。将面团塑造成光滑且紧实的面团球。</description>
+			<description lang="ja">スクレーパーを使用して、所望のサイズに生地を分割します。生地を滑らかで引き締まった生地玉に形成します。</description>
+			<description lang="fr">Divisez la pâte en la taille souhaitée à l'aide d'une raclette. Façonnez la pâte en boules de pâte lisses et serrées.</description>
+			<description lang="ar">قسم العجينة إلى الحجم المطلوب باستخدام مكبس. شكل العجينة إلى كرات عجين ناعمة ومحكمة.</description>
+			<description lang="es">Divida la masa en el tamaño deseado usando una rasqueta. Forme la masa en bolas de masa suaves y apretadas.</description>
+			<description lang="ko">스크레이퍼를 사용하여 원하는 크기로 반죽을 나눕니다. 반죽을 매끄럽고 탄탄한 반죽 공으로 만듭니다.</description>
+			<description lang="zh-Hant">使用刮刀將麵團分割成所需大小。將麵團塑造成光滑且緊實的麵團球。</description>
+			<description lang="hi">एक स्क्रैपर का उपयोग करके इच्छित आकार में आटा विभाजित करें। आटा को चिकने और मजबूत आटे के गोले में आकार दें।</description>
+			<description lang="de">Teilen Sie den Teig mit einem Spachtel in die gewünschte Größe. Formen Sie den Teig zu glatten und festen Teigbällchen.</description>
+			<description lang="it">Dividere l'impasto nella dimensione desiderata usando una raschietto. Formare l'impasto in palline lisce e strette.</description>
+		</ml>
+	</step>
+	<step name="Final proof" description="Place the dough balls on a tray, dust it lightly with flour.  cover and let it ferment for 1 – 1.5 hours or until doubled in size. The dough will be ready." action="Proof" time="90">
+		<ml>
+			<name lang="en">Final proof the dough</name>
+			<name lang="zh-Hans">最后发酵面团</name>
+			<name lang="ja">最後の生地の発酵</name>
+			<name lang="fr">Dernière levée de la pâte</name>
+			<name lang="ar">تخمير العجينة النهائي</name>
+			<name lang="es">Última fermentación de la masa</name>
+			<name lang="ko">최종 반죽 발효</name>
+			<name lang="zh-Hant">最後發酵麵團</name>
+			<name lang="hi">अंतिम आटा फर्मेंट</name>
+			<name lang="de">Letzte Teigruhe</name>
+			<name lang="it">Ultima lievitazione dell'impasto</name>
+			<description lang="en">Place the dough balls on a tray, dust it lightly with flour.  cover and let it ferment for 1 – 1.5 hours or until doubled in size. The dough will be ready.</description>
+			<description lang="zh-Hans">将面团球放在托盘上，轻轻撒上面粉。盖上并发酵1 - 1.5小时或直到大小加倍。面团将准备好。</description>
+			<description lang="ja">生地をトレイに置き、軽く小麦粉を振りかけます。カバーして1〜1.5時間、または2倍になるまで発酵させます。生地は準備完了です。</description>
+			<description lang="fr">Placez les boules de pâte sur un plateau, saupoudrez-les légèrement de farine. Couvrez et laissez fermenter pendant 1 à 1,5 heure ou jusqu'à ce qu'elles aient doublé de taille. La pâte sera prête.</description>
+			<description lang="ar">ضع كرات العجينة على صينية ورشها بخفة بالطحين. غطيها واتركها تتخمر لمدة 1 - 1.5 ساعة أو حتى يتضاعف حجمها. العجينة ستكون جاهزة.</description>
+			<description lang="es">Coloca las bolas de masa en una bandeja, espolvoréalas ligeramente con harina. Cubre y deja fermentar durante 1 a 1.5 horas o hasta que dupliquen su tamaño. La masa estará lista.</description>
+			<description lang="ko">반죽 공을 트레이에 올려 가볍게 밀가루를 뿌립니다. 덮고 1-1.5시간 정도 발효하거나 크기가 두 배로 커질 때까지 발효시킵니다. 반죽은 준비된 상태가 됩니다.</description>
+			<description lang="zh-Hant">將麵團球放在托盤上，輕輕撒上麵粉。蓋上並發酵1 - 1.5小時，直到大小加倍。麵團將準備好。</description>
+			<description lang="hi">आटे के गोले को ट्रे पर रखें, हल्के से आटे से धकेलें। ढककर 1 - 1.5 घंटे या यहां तक कि आकार दोगुना हो जाए। आटा तैयार हो जाएगा।</description>
+			<description lang="de">Legen Sie die Teigbälle auf ein Tablett, bestäuben Sie sie leicht mit Mehl. Abdecken und 1-1,5 Stunden oder bis sich das Volumen verdoppelt hat, gären lassen. Der Teig ist fertig.</description>
+			<description lang="it">Disponi le palline di impasto su un vassoio, cospargile leggermente di farina. Copri e lascia fermentare per 1-1,5 ore o fino a raddoppiare di volume. L'impasto sarà pronto.</description>
+		</ml>
+	</step>
+
+
+</recipe>

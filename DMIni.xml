@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dm>
+	<uicontent>
+		
+	</uicontent>
+	<recipes>
+		<recipe name="Poolish Pizza Dough" 
+				id="1"
+				url="https://cxc1292.github.io/bz/Recipes/Poolish.xml"
+				file="XML.Recipes.Poolish.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Express Pizza Dough" 
+				id="2"
+				url="https://cxc1292.github.io/bz/Recipes/ExpressPizzaDough.xml"
+				file="XML.Recipes.ExpressPizzaDough.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Classic Brioche" 
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/ClassicBrioche.xml"
+				file="XML.Recipes.ClassicBrioche.xml"
+				status="active" ownerid="1"/>
+	</recipes>
+</dm>

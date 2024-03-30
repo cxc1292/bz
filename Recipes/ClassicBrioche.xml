@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipe id="3" name="Classic Brioch" ownerid="1"  description="Elevate your baking with this versatile brioche dough. It is ideal for countless sweet and savory creations." created="2024-Mar-21" status="active">
+	<ml>
+		<name lang="en">Classic Brioche</name>
+		<name lang="zh-Hans">经典布莉欧</name>
+		<name lang="ja">クラシックブリオッシュ</name>
+		<name lang="fr">Brioche classique</name>
+		<name lang="ar">بريوش كلاسيكي</name>
+		<name lang="es">Brioche clásico</name>
+		<name lang="ko">클래식 브리오슈</name>
+		<name lang="zh-Hant">經典布莉歐</name>
+		<name lang="hi">क्लासिक ब्रियोश</name>
+		<name lang="de">Klassische Brioche</name>
+		<name lang="it">Brioche classico</name>
+		<description lang="en">Elevate your baking with this versatile brioche dough. It's ideal for countless sweet and savory creations.</description>
+		<description lang="zh-Hans">用这款百搭的布莉欧面团提升您的烘焙技巧。 它非常适合制作无数甜味和咸味菜肴。</description>
+		<description lang="ja">この多目的に使えるブリオッシュ生地で、あなたの焼き菓子作りをワンランクアップさせましょう。 甘いものからしょっぱいものまで、さまざまな料理に最適です。</description>
+		<description lang="fr">Élevez votre pâtisserie avec cette pâte à brioche polyvalente. Elle est idéale pour d'innombrables créations sucrées et salées.</description>
+		<description lang="ar">ارتقِ بحرفة الخبز لديك مع عجينة البريوش متعددة الاستخدامات هذه. إنها مثالية للعديد من الإبداعات الحلوة والمالحة. </description>
+		<description lang="es">Eleva tu horneado con esta versátil masa de brioche. Es ideal para innumerables creaciones dulces y saladas.</description>
+		<description lang="ko">이 다용도 브리오슈 반죽으로 베이킹을 한 단계 업그레이드하십시오. 달콤하고 맛있는 수많은 요리에 이상적입니다.</description>
+		<description lang="zh-Hant">用這款百搭的布莉歐面團提升您的烘焙技巧。 它非常適合製作無數甜味和鹹味菜肴。</description>
+		<description lang="hi">इस बहुमुखी ब्रियोश आटा के साथ अपनी बेकिंग को ऊपर उठाएं। यह अनगिनत मीठे और नमकीन व्यंजनों के लिए आदर्श है। </description>
+		<description lang="de">Heben Sie Ihr Backen mit diesem vielseitigen Brioche-Teig auf ein neues Level.</description>
+	</ml>
+</recipe>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipe id="2" ownerid="1" targettemp="" name="Express Pizza Dough" created="2024-Mar-21" description="Get pizza dough ready in a few hours" status="active">
+	<ml>
+		<name lang="en">Express Pizza Dough</name>
+		<name lang="zh-Hans">快速比萨面团</name>
+		<name lang="ja">簡単ピザ生地</name>
+		<name lang="fr">Pâte à pizza express</name>
+		<name lang="ar">عجينة بيتزا سريعة</name>
+		<name lang="es">Masa de pizza exprés</name>
+		<name lang="ko">간편 피자 도우</name>
+		<name lang="zh-Hant">快速比薩麵團</name>
+		<name lang="hi">जल्दी पिज्जा का आटा</name>
+		<name lang="de">Schnelle Pizzateig</name>
+		<name lang="it">Pasta per pizza express</name>
+		<description lang="en">Get your pizza dough ready in a few hours.</description>
+		<description lang="zh-Hans">几个小时即可准备好比萨面团。</description>
+		<description lang="ja">数時間でピザ生地の準備が完了します。</description>
+		<description lang="fr">Préparez votre pâte à pizza en quelques heures.</description>
+		<description lang="ar">جهز عجينة البيتزا الخاصة بك في غضون ساعات قليلة</description>
+		<description lang="es">Tenga su masa de pizza lista en unas pocas horas.</description>
+		<description lang="ko">몇 시간 만에 피자 도우를 준비하세요.</description>
+		<description lang="zh-Hant">幾個小時即可準備好比薩麵團。</description>
+		<description lang="hi">कुछ ही घंटों में अपना पिज्जा का आटा तैयार कर लें।</description>
+		<description lang="de">Machen Sie Ihren Pizzateig in wenigen Stunden fertig.</description>
+		<description lang="it">Prepara il tuo impasto per pizza in poche ore.</description>
+	</ml>
+</recipe>
