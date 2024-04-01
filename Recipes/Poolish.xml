@@ -80,7 +80,7 @@
 			</ml>
 		</doughsize>
 	</doughsizes>
-	<step name="Mix poolish ingredients" description="Add all following ingredients into a container, mix well." action="Mix" alertoption="1" time="2">
+	<step name="Mix poolish ingredients" description="Add all following ingredients into a container, mix well." action="Mix" alertoption="yes" time="2">
 		<ml>
 			<name lang="en">Mix poolish ingredients</name>
 			<name lang="zh-Hans">混合液种成分</name>
@@ -131,7 +131,7 @@
 				<description lang="it">Farina di buona qualità, idealmente farina per pizza o farina per tutti gli usi.</description>
 			</ml>
 		</ingredient>
-		<ingredient id="2" parentid="4" name="Water" description="Room temperature water, do not use warm water." quantity="100" unit="gram" icon="water.png" order="0">
+		<ingredient id="2" parentid="4" name="Water" description="Room temperature water, do not use warm water." istempcontrol="true" quantity="100" unit="gram" icon="water.png" order="0">
 			<ml>
 				<name lang="en">Water</name>
 				<name lang="zh-Hans">水</name>
@@ -210,7 +210,7 @@
 			</ml>
 		</ingredient>
 	</step>
-	<step name="Rest the poolish" description="Cover and rest at room temperature for 1 hour." action="Rest" time="60" alertoption="1">
+	<step name="Rest the poolish" description="Cover and rest at room temperature for 1 hour." action="Rest" time="60" alertoption="yes">
 		<ml>
 			<name lang="en">Rest the poolish</name>
 			<name lang="zh-Hans">休息面种</name>
@@ -236,7 +236,7 @@
 			<description lang="it">Coprite e lasciate riposare a temperatura ambiente per 1 ora.</description>
 		</ml>
 	</step>
-	<step name="Proof the poolish" description="Cover with an air-tight lid and keep in the fridge for 12 hours." action="Proof" time="720"  alertoption="1">
+	<step name="Proof the poolish" description="Cover with an air-tight lid and keep in the fridge for 12 hours." action="Proof" time="720"  alertoption="yes">
 		<ml>
 			<name lang="en">Proof the poolish</name>
 			<name lang="zh-Hans">醒发液种</name>
@@ -262,7 +262,7 @@
 			<description lang="it">Coprire con un coperchio ermetico e conservare in frigorifero per 12 ore.</description>
 		</ml>
 	</step>
-	<step name="Mix wet ingredients and the Poolish" description="In a large bowl, add the poolish, water and oil, mix about 2-3 minutes until fully combined and smooth." action="Mix" time="3"  alertoption="0">
+	<step name="Mix wet ingredients and the Poolish" description="In a large bowl, add the poolish, water and oil, mix about 2-3 minutes until fully combined and smooth." action="Mix" time="3"  alertoption="no">
 		<ml>
 			<name lang="en">Mix wet ingredients and the Poolish</name>
 			<name lang="zh-Hans">混合湿配料和液种</name>
@@ -287,7 +287,7 @@
 			<description lang="de">In eine große Schüssel geben Sie Poolish, Wasser und Öl, mischen Sie etwa 2-3 Minuten lang, bis alles gut kombiniert und glatt ist.</description>
 			<description lang="it">In una grande ciotola, aggiungere il Poolish, l'acqua e l'olio, mescolare per circa 2-3 minuti fino a quando sia completamente combinato e liscio.</description>
 		</ml>
-		<ingredient id="6" parentid="1" name="Water" description="Room temperature water" quantity="300" unit="gram" icon="water.png" order="0" >
+		<ingredient id="6" parentid="1" name="Water" description="Room temperature water" quantity="300" unit="gram" istempcontrol="true" icon="water.png" order="0" >
 			<ml>
 				<name  lang="zh-Hans">水</name>
 				<name lang="ja">水</name>
@@ -336,7 +336,7 @@
 			</ml>
 		</ingredient>
 	</step>
-	<step name="Add flour and salt" description="Add flour and salt, mix and knead for a few minutes until fully combined without any dry lumps. The dough will be very sticky, but don't worry." action="Mix" time="10"  alertoption="1" >
+	<step name="Add flour and salt" description="Add flour and salt, mix and knead for a few minutes until fully combined without any dry lumps. The dough will be very sticky, but don't worry." action="Mix" time="10"  alertoption="yes" >
 		<ml>
 			<name lang="en">Add flour and salt</name>
 			<name lang="zh-Hans">加入面粉和盐</name>
@@ -414,7 +414,7 @@
 			</ml>
 		</ingredient>
 	</step>
-	<step name="Rest the dough" description="Cover and let it rest for 15 to 20 minutes." action="Rest" time="20"  alertoption="1" >
+	<step name="Rest the dough" description="Cover and let it rest for 15 to 20 minutes." action="Rest" time="20"  alertoption="yes" >
 		<ml>
 			<name lang="en">Rest the dough</name>
 			<name lang="zh-Hans">让面团休息</name>
@@ -440,7 +440,7 @@
 			<description lang="it">Coprire e lasciar riposare per 15-20 minuti.</description>
 		</ml>
 	</step>
-	<step name="Fold the dough" description="Fold the dough using cross and fold method for about 10 minutes unil the dough becomes smooth and stretchy." action="Fold" time="10"  alertoption="1">
+	<step name="Fold the dough" description="Fold the dough using cross and fold method for about 10 minutes unil the dough becomes smooth and stretchy." action="Fold" time="10"  alertoption="yes">
 		<ml>
 			<name lang="en">Fold the dough</name>
 			<name lang="zh-Hans">折叠面团</name>
