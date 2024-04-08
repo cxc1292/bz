@@ -1,0 +1,27 @@
+<recipe name="Crepe Batter" ownerid="1" created="2024-Apr-08" status="active" description="Elevate your breakfast or dessert game with our foolproof crepe batter recipe, perfect for both sweet and savory fillings." quantityunit="Piece" thumbnail="crepe.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Crepe Batter</name>
+    <name lang="zh-Hans">薄煎饼面糊</name>
+    <name lang="ja">クレープ生地</name>
+    <name lang="fr">Pâte à Crêpes</name>
+    <name lang="ar">عجينة الكريب</name>
+    <name lang="es">Masa para Crepas</name>
+    <name lang="ko">크레페 반죽</name>
+    <name lang="zh-Hant">薄餅麵糊</name>
+    <name lang="hi">क्रेप बैटर</name>
+    <name lang="de">Crêpe-Teig</name>
+    <name lang="it">Impasto per Crepes</name>
+    <description lang="en">Elevate your breakfast or dessert game with our foolproof crepe batter recipe, perfect for both sweet and savory fillings.</description>
+    <description lang="zh-Hans">使用我们的无敌薄煎饼面糊食谱，为您的早餐或甜点提升一个档次，适用于甜食和咸食馅料。</description>
+    <description lang="ja">私たちの確実なクレープ生地レシピで、朝食やデザートを引き上げましょう。甘いものからしょっぱいものまで、両方のフィリングに最適です。</description>
+    <description lang="fr">Rehaussez votre petit-déjeuner ou vos desserts avec notre recette infaillible de pâte à crêpes, parfaite pour les garnitures sucrées et salées.</description>
+    <description lang="ar">أضف طابعًا خاصًا إلى وجبة الإفطار أو الحلوى باستخدام وصفتنا المضمونة لعجينة الكريب ، مثالية للحشوات الحلوة والمالحة على حد سواء.</description>
+    <description lang="es">Eleva tu desayuno o postre con nuestra infalible receta de masa para crepas, perfecta para rellenos dulces y salados.</description>
+    <description lang="ko">우리의 확실한 크레페 반죽 레시피로 아침 식사나 디저트를 업그레이드하세요. 달콤하고 짠 맛 모두에 적합합니다.</description>
+    <description lang="zh-Hant">使用我們的無敵薄餅麵糊食譜，為您的早餐或甜點提升一個檔次，適用於甜食和鹹食餡料。</description>
+    <description lang="hi">हमारे विश्वसनीय क्रेप बैटर रेसिपी के साथ अपने नाश्ते या मिठाई को बेहतर बनाएं, जो मिठे और खारे भराव के लिए सही है।</description>
+    <description lang="de">Verleihen Sie Ihrem Frühstück oder Dessert mit unserem unfehlbaren Crêpe-Teig-Rezept das gewisse Etwas, perfekt für süße und herzhafte Füllungen gleichermaßen.</description>
+    <description lang="it">Eleva la tua colazione o il tuo dessert con la nostra ricetta infallibile per l'impasto delle crepes, perfetto per ripieni dolci e salati.</description>
+  </ml>
+</recipe>

@@ -1,0 +1,27 @@
+<recipe name="Roti Dough" ownerid="1" created="2024-Apr-08" status="active" description="Experience the authentic flavors of Indian cuisine with our simple yet delicious roti dough recipe, perfect for creating soft and fluffy flatbreads." quantityunit="Piece" thumbnail="roti.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Roti Dough</name>
+    <name lang="zh-Hans">面团</name>
+    <name lang="ja">ロティ生地</name>
+    <name lang="fr">Pâte à Roti</name>
+    <name lang="ar">عجينة الروتي</name>
+    <name lang="es">Masa de Roti</name>
+    <name lang="ko">로티 반죽</name>
+    <name lang="zh-Hant">餅皮麵團</name>
+    <name lang="hi">रोटी आटा</name>
+    <name lang="de">Roti-Teig</name>
+    <name lang="it">Impasto per Roti</name>
+    <description lang="en">Experience the authentic flavors of Indian cuisine with our simple yet delicious roti dough recipe, perfect for creating soft and fluffy flatbreads.</description>
+    <description lang="zh-Hans">用我们简单而美味的面团食谱体验印度美食的正宗味道，非常适合制作柔软蓬松的烤饼。</description>
+    <description lang="ja">当社のシンプルで美味しいロティ生地のレシピで本格的なインド料理の味を体験し、柔らかくふわふわのフラットブレッドを作りましょう。</description>
+    <description lang="fr">Découvrez les saveurs authentiques de la cuisine indienne avec notre recette simple mais délicieuse de pâte à roti, parfaite pour créer des pains plats moelleux et aérés.</description>
+    <description lang="ar">استمتع بنكهات المأكولات الهندية الأصيلة مع وصفتنا البسيطة ولكن اللذيذة لعجينة الروتي ، مثالية لإعداد الخبز الطري والهوائي.</description>
+    <description lang="es">Experimenta los sabores auténticos de la cocina india con nuestra sencilla pero deliciosa receta de masa de roti, perfecta para crear panes planos suaves y esponjosos.</description>
+    <description lang="ko">우리의 간단하지만 맛있는 로티 반죽 레시피로 인도 요리의 정통 맛을 경험하십시오. 부드럽고 푹신한 빵을 만드는 데 완벽합니다.</description>
+    <description lang="zh-Hant">用我們簡單而美味的餅皮麵團食譜品嘗印度美食的正宗味道，非常適合製作柔軟蓬鬆的烤餅。</description>
+    <description lang="hi">हमारे सरल लेकिन स्वादिष्ट रोटी आटे की रेसिपी के साथ भारतीय व्यंजनों के प्राचीन स्वाद का अनुभव करें, जो की नरम और फूली हुई फ्लैटब्रेड्स बनाने के लिए उत्तम है।</description>
+    <description lang="de">Erleben Sie die authentischen Aromen der indischen Küche mit unserem einfachen, aber köstlichen Roti-Teig-Rezept, das perfekt ist, um weiche und flauschige Fladenbrote zu kreieren.</description>
+    <description lang="it">Vivi i sapori autentici della cucina indiana con la nostra semplice ma deliziosa ricetta per l'impasto di roti, perfetta per creare pane piatto morbido e soffice.</description>
+  </ml>
+</recipe>

@@ -1,0 +1,27 @@
+<recipe name="Sourdough" ownerid="1" created="2024-Apr-08" status="active" description="Join the sourdough revolution and bake your way to perfection with our simple yet rewarding recipe, offering a satisfying baking experience for all." quantityunit="Loaf" thumbnail="sourdough.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Sourdough</name>
+    <name lang="zh-Hans">酸面团</name>
+    <name lang="ja">サワードウ</name>
+    <name lang="fr">Levain</name>
+    <name lang="ar">عجينة حامضة</name>
+    <name lang="es">Masa Madre</name>
+    <name lang="ko">사워도우</name>
+    <name lang="zh-Hant">酸麵團</name>
+    <name lang="hi">सौअरडो</name>
+    <name lang="de">Sauerteig</name>
+    <name lang="it">Lievito Madre</name>
+    <description lang="en">Join the sourdough revolution and bake your way to perfection with our simple yet rewarding recipe, offering a satisfying baking experience for all.</description>
+    <description lang="zh-Hans">加入自制酸面团的行列，用我们简单而有回报的食谱走向完美，为所有人提供令人满意的烘焙体验。</description>
+    <description lang="ja">酸味のある生地革命に参加し、シンプルでありながらも報酬のあるレシピで完璧なパンを焼き上げ、すべての人に満足のいく焼き菓子の体験を提供します。</description>
+    <description lang="fr">Rejoignez la révolution du levain et faites votre chemin vers la perfection avec notre recette simple mais enrichissante, offrant une expérience de cuisson satisfaisante pour tous.</description>
+    <description lang="ar">انضم إلى ثورة العجينة الحامضة واطبخ طريقك إلى الكمال مع وصفتنا البسيطة والمجزية، والتي تقدم تجربة خبز مرضية للجميع.</description>
+    <description lang="es">Únete a la revolución de la masa madre y hornea tu camino hacia la perfección con nuestra receta simple pero gratificante, ofreciendo una experiencia de horneado satisfactoria para todos.</description>
+    <description lang="ko">사워도우 혁명에 합류하고 간단하지만 보상이 풍부한 레시피로 완벽한 빵을 굽고 모두에게 만족스러운 베이킹 경험을 제공하세요.</description>
+    <description lang="zh-Hant">加入自製酸麵團的行列，用我們簡單而有回報的食譜走向完美，為所有人提供令人滿意的烘焙體驗。</description>
+    <description lang="hi">सौअरडो क्रांति में शामिल हों और हमारे सरल लेकिन प्रोत्साहक रेसिपी के साथ परिपूर्णता की ओर अपना पथ बनाएं, जो सभी के लिए एक संतोषजनक बेकिंग अनुभव प्रदान करता है।</description>
+    <description lang="de">Schließen Sie sich der Sauerteig-Revolution an und backen Sie sich mit unserem einfachen, aber lohnenden Rezept den Weg zur Perfektion, das für alle ein befriedigendes Backerlebnis bietet.</description>
+    <description lang="it">Unisciti alla rivoluzione del lievito madre e cuoci la tua strada verso la perfezione con la nostra semplice ma gratificante ricetta, offrendo un'esperienza di cottura soddisfacente per tutti.</description>
+  </ml>
+</recipe>

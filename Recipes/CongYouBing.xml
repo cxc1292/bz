@@ -1,0 +1,27 @@
+<recipe name="Cong You Bing" ownerid="1" created="2024-Apr-08" status="active" description="The dough from this recipe is perfect for making delicious, soft and moist Cong You Bing (Springonion Panckae)." quantityunit="Piece" thumbnail="congyoubing.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Cong You Bing</name>
+    <name lang="zh-Hans">葱油饼</name>
+    <name lang="ja">ツァイヨウビン</name>
+    <name lang="fr">Cong You Bing</name>
+    <name lang="ar">كونغ يو بينغ</name>
+    <name lang="es">Cong You Bing</name>
+    <name lang="ko">콩 요 빙</name>
+    <name lang="zh-Hant">蔥油餅</name>
+    <name lang="hi">कोंग यो बिंग</name>
+    <name lang="de">Cong You Bing</name>
+    <name lang="it">Cong You Bing</name>
+    <description lang="en">The dough from this recipe is perfect for making delicious, soft and moist Cong You Bing (Spring onion Pancake).</description>
+    <description lang="zh-Hans">此食谱中的面团非常适合制作美味、柔软、湿润的葱油饼。</description>
+    <description lang="ja">このレシピの生地は、美味しくて柔らかくてしっとりとした葱油饼（ねぎのパンケーキ）を作るのに最適です。</description>
+    <description lang="fr">La pâte de cette recette est parfaite pour préparer de délicieuses et moelleuses Cong You Bing (Pancake à la ciboulette).</description>
+    <description lang="ar">العجين من هذه الوصفة مثالي لصنع كونغ يو بينغ اللذيذة والناعمة والرطبة (الفطيرة البصلية).</description>
+    <description lang="es">La masa de esta receta es perfecta para hacer deliciosas, suaves y húmedas Cong You Bing (panqueques de cebolla de primavera).</description>
+    <description lang="ko">이 레시피의 반죽은 맛있고 부드럽고 촉촉한 콩 요 빙 (파전)을 만드는 데 완벽합니다.</description>
+    <description lang="zh-Hant">此食譜中的麵團非常適合製作美味、柔軟、濕潤的蔥油餅。</description>
+    <description lang="hi">इस रेसिपी का आटा स्वादिष्ट, नरम और गीले कोंग यो बिंग (प्याज पैनकेक) बनाने के लिए उत्तम है।</description>
+    <description lang="de">Der Teig aus diesem Rezept ist perfekt für die Zubereitung von leckeren, weichen und feuchten Cong You Bing (Frühlingszwiebel-Pfannkuchen) geeignet.</description>
+    <description lang="it">L'impasto di questa ricetta è perfetto per preparare deliziosi, morbidi e umidi Cong You Bing (pancake di cipolla primaverile).</description>
+  </ml>
+</recipe>

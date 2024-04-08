@@ -1,0 +1,27 @@
+<recipe name="Pasta Dough" ownerid="1" created="2024-Apr-08" status="active" description="Master the art of homemade pasta with our simple yet delicious dough recipe, perfect for crafting authentic Italian dishes." quantityunit="Serve" thumbnail="pasta.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Pasta Dough</name>
+    <name lang="zh-Hans" />
+    <name lang="ja" />
+    <name lang="fr" />
+    <name lang="ar" />
+    <name lang="es" />
+    <name lang="ko" />
+    <name lang="zh-Hant" />
+    <name lang="hi" />
+    <name lang="de" />
+    <name lang="it" />
+    <description lang="en">Master the art of homemade pasta with our simple yet delicious dough recipe, perfect for crafting authentic Italian dishes.</description>
+    <description lang="zh-Hans" />
+    <description lang="ja" />
+    <description lang="fr" />
+    <description lang="ar" />
+    <description lang="es" />
+    <description lang="ko" />
+    <description lang="zh-Hant" />
+    <description lang="hi" />
+    <description lang="de" />
+    <description lang="it" />
+  </ml>
+</recipe>

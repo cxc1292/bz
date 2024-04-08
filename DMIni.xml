@@ -8,16 +8,59 @@
 				id="1"
 				url="https://cxc1292.github.io/bz/Recipes/Poolish.xml"
 				file="XML.Recipes.Poolish.xml"
+				thumbnail="poolish.png"
 				status="active" ownerid="1"/>
 		<recipe name="Express Pizza Dough" 
 				id="2"
 				url="https://cxc1292.github.io/bz/Recipes/ExpressPizzaDough.xml"
 				file="XML.Recipes.ExpressPizzaDough.xml"
 				status="active" ownerid="1"/>
-		<recipe name="Classic Brioche" 
+		<recipe name="Classic Brioche"
 				id="3"
 				url="https://cxc1292.github.io/bz/Recipes/ClassicBrioche.xml"
 				file="XML.Recipes.ClassicBrioche.xml"
+				thumbnail="classicbrioche.png"
+				status="active" ownerid="1"/>
+		<recipe name="Rich Brioche"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/RichBrioche.xml"
+				file="XML.Recipes.RichBrioche.xml"
+				thumbnail="rich_brioche.png"
+				status="active" ownerid="1"/>
+		<recipe name="Soughdough Starter"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/SourdoughStarter.xml"
+				file="XML.Recipes.SourdoughStarter.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Soughdough"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/Sourdough.xml"
+				file="XML.Recipes.Sourdough.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Roti Dough"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/RotiDough.xml"
+				file="XML.Recipes.RotiDough.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Ramen Dough"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/RamenDough.xml"
+				file="XML.Recipes.RamenDough.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Chinese Dumpling Dough"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/ChineseDumplingDough.xml"
+				file="XML.Recipes.ChineseDumplingDough.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Cong You Bing (Spring Onion Pancake)"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/CongYouBing.xml"
+				file="XML.Recipes.CongYouBing.xml"
+				status="active" ownerid="1"/>
+		<recipe name="Crepe Batter"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/CrepeBatter.xml"
+				file="XML.Recipes.CrepeBatter.xml"
 				status="active" ownerid="1"/>
 	</recipes>
 </dm>

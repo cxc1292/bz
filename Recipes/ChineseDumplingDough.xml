@@ -1,0 +1,27 @@
+<recipe name="Chinese Dumpling Dough" ownerid="1" created="2024-Apr-08" status="active" description="Do you want to make delious homemade Chinese dumplings? You can make perfect dumpling wraps following this recipe. " quantityunit="Piece" thumbnail="chinese_dumpling.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Chinese Dumpling Dough</name>
+    <name lang="zh-Hans">饺子面团</name>
+    <name lang="ja">中国の餃子の生地</name>
+    <name lang="fr">Pâte à Dumplings Chinois</name>
+    <name lang="ar">عجينة الفطائر الصينية</name>
+    <name lang="es">Masa de Empanadillas Chinas</name>
+    <name lang="ko">중국 만두 반죽</name>
+    <name lang="zh-Hant">餃子麵團</name>
+    <name lang="hi">चाइनीज़ दम्पुक्लिंग आटा</name>
+    <name lang="de">Chinesischer Teig für Teigtaschen</name>
+    <name lang="it">Impasto per Ravioli Cinesi</name>
+    <description lang="en">Do you want to make delicious homemade Chinese dumplings? You can make perfect dumpling wraps following this recipe.</description>
+    <description lang="zh-Hans">您想制作美味的自制饺子吗？ 按照这个食谱，您可以制作出完美的饺子皮。</description>
+    <description lang="ja">美味しい自家製の中国の餃子を作りたいですか？ このレシピに従って、完璧な餃子の包みを作ることができます。</description>
+    <description lang="fr">Voulez-vous faire de délicieuses raviolis chinois faits maison ? Vous pouvez réaliser des enveloppements de raviolis parfaits en suivant cette recette.</description>
+    <description lang="ar">هل تريد تحضير الفطائر الصينية المنزلية اللذيذة؟ يمكنك صنع قشور فطائر مثالية باتباع هذه الوصفة.</description>
+    <description lang="es">¿Quieres hacer deliciosas empanadillas chinas caseras? Puedes hacer envolturas de empanadillas perfectas siguiendo esta receta.</description>
+    <description lang="ko">맛있는 집에서 만든 중국 만두를 만들고 싶나요? 이 레시피를 따르면 완벽한 만두 껍질을 만들 수 있습니다.</description>
+    <description lang="zh-Hant">您想製作美味的自製餃子嗎？ 按照這個食譜，您可以製作出完美的餃子皮。</description>
+    <description lang="hi">क्या आप स्वादिष्ट घर के बने चाइनीज दम्पुक्लिंग बनाना चाहते हैं? इस रेसिपी का पालन करके आप परफेक्ट दम्पुक्लिंग व्रैप बना सकते हैं।</description>
+    <description lang="de">Möchten Sie köstliche hausgemachte chinesische Teigtaschen machen? Sie können perfekte Teigtaschenhüllen herstellen, wenn Sie diesem Rezept folgen.</description>
+    <description lang="it">Vuoi preparare deliziosi ravioli cinesi fatti in casa? Puoi realizzare involucri di ravioli perfetti seguendo questa ricetta.</description>
+  </ml>
+</recipe>

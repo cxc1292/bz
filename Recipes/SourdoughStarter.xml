@@ -1,0 +1,27 @@
+<recipe name="Sourdough Starter" ownerid="1" created="2024-Apr-08" status="active" description="Start your sourdough journey with our easy-to-follow starter recipe, crafted to cultivate the perfect blend of tangy flavor and bubbly texture." quantityunit="Serve" thumbnail="sourdough_starter.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Sourdough Starter</name>
+    <name lang="zh-Hans">酵头种</name>
+    <name lang="ja">サワードウスターター</name>
+    <name lang="fr">Levain</name>
+    <name lang="ar">خميرة حمضية</name>
+    <name lang="es">Masa Madre</name>
+    <name lang="ko">사워도우 스타터</name>
+    <name lang="zh-Hant">酵頭種</name>
+    <name lang="hi">सौअरडो स्टार्टर</name>
+    <name lang="de">Sauerteigansatz</name>
+    <name lang="it">Lievito Madre</name>
+    <description lang="en">Start your sourdough journey with our easy-to-follow starter recipe, crafted to cultivate the perfect blend of tangy flavor and bubbly texture.</description>
+    <description lang="zh-Hans">使用我们易于跟随的酵头种食谱开始您的酸面团之旅，培育出完美的酸味风味和多气泡质感。</description>
+    <description lang="ja">私たちのわかりやすいスターターレシピでサワードウの旅を始め、酸っぱい風味と泡立つ質感の完璧なブレンドを育てます。</description>
+    <description lang="fr">Commencez votre voyage dans le monde du levain avec notre recette de départ simple à suivre, conçue pour cultiver le parfait équilibre entre le goût acidulé et la texture mousseuse.</description>
+    <description lang="ar">ابدأ رحلتك في عالم الخميرة الحمضية مع وصفتنا البسيطة لبدء التتبيل، مصممة لزراعة مزيج مثالي من النكهة الحامضة والقوام الفوّار.</description>
+    <description lang="es">Inicia tu viaje con la masa madre con nuestra sencilla receta de inicio, diseñada para cultivar la mezcla perfecta de sabor agrio y textura burbujeante.</description>
+    <description lang="ko">우리의 쉬운 따라하기 레시피로 사워도우 스타터를 시작하고, 신랄한 풍미와 거품 형태의 완벽한 조화를 육성하세요.</description>
+    <description lang="zh-Hant">使用我們易於跟隨的酵頭種食譜開始您的酸麵團之旅，培育出完美的酸味風味和多氣泡質感。</description>
+    <description lang="hi">हमारी सरल स्टार्टर रेसिपी के साथ अपने सौअरडो यात्रा की शुरुआत करें, जो अमल में आसान है, और जो संकरी रस और फुलफुले रवा का पूरा मिश्रण उत्पन्न करता है।</description>
+    <description lang="de">Starten Sie Ihre Sauerteigreise mit unserem leicht zu befolgenden Startrezept, das entwickelt wurde, um die perfekte Mischung aus säuerlichem Geschmack und luftiger Textur zu kultivieren.</description>
+    <description lang="it">Inizia il tuo viaggio nel mondo del lievito madre con la nostra semplice ricetta di avvio, progettata per coltivare la perfetta miscela di sapore agrodolce e consistenza schiumosa.</description>
+  </ml>
+</recipe>

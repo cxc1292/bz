@@ -1,0 +1,27 @@
+<recipe name="Ramen Dough" ownerid="1" created="2024-Apr-08" status="active" description="Unlock the secrets of traditional ramen-making with our easy-to-follow dough recipe, designed to elevate your homemade ramen to gourmet status." quantityunit="Serve" thumbnail="ramen.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Ramen Dough</name>
+    <name lang="zh-Hans">拉面面团</name>
+    <name lang="ja">ラーメン生地</name>
+    <name lang="fr">Pâte à Ramen</name>
+    <name lang="ar">عجينة الرامن</name>
+    <name lang="es">Masa de Ramen</name>
+    <name lang="ko">라면 반죽</name>
+    <name lang="zh-Hant">拉麵麵團</name>
+    <name lang="hi">रामन आटा</name>
+    <name lang="de">Ramen-Teig</name>
+    <name lang="it">Impasto per Ramen</name>
+    <description lang="en">Unlock the secrets of traditional ramen-making with our easy-to-follow dough recipe, designed to elevate your homemade ramen to gourmet status.</description>
+    <description lang="zh-Hans">使用我们易于跟随的面团食谱，揭示传统拉面制作的秘密，旨在将您的自制拉面提升至美食级别。</description>
+    <description lang="ja">私たちの分かりやすい生地のレシピで、伝統的なラーメン作りの秘密を解き明かし、自家製ラーメンをグルメなものに昇華させます。</description>
+    <description lang="fr">Déverrouillez les secrets de la fabrication traditionnelle de ramen avec notre recette de pâte facile à suivre, conçue pour élever votre ramen maison au statut de gourmet.</description>
+    <description lang="ar">افتح أسرار صنع الرامن التقليدية مع وصفتنا لعجينة سهلة المتابعة ، مصممة لرفع رامن البيتزا الخاص بك إلى مستوى الذواقة.</description>
+    <description lang="es">Descubre los secretos de la elaboración tradicional de ramen con nuestra fácil receta de masa, diseñada para elevar tu ramen casero al estatus de gourmet.</description>
+    <description lang="ko">우리의 쉽게 따라 할 수있는 반죽 레시피로 전통적인 라면 만들기의 비밀을 해제하고, 당신의 집에서 만든 라면을 고급스러운 것으로 만들어 보세요.</description>
+    <description lang="zh-Hant">使用我們易於跟隨的麵團食譜，揭示傳統拉麵製作的秘密，旨在將您的自製拉麵提升至美食級別。</description>
+    <description lang="hi">हमारे आसान डो की रेसिपी के साथ पारंपरिक रामेन बनाने के रहस्यों को खोलें, जो आपके घर के बने रामन को गुरमेट स्तर तक उत्तेजित करने के लिए डिज़ाइन किया गया है।</description>
+    <description lang="de">Entdecken Sie die Geheimnisse der traditionellen Ramen-Herstellung mit unserem leicht zu befolgenden Teigrezept, das Ihren hausgemachten Ramen zum Gourmet-Erlebnis macht.</description>
+    <description lang="it">Svela i segreti della preparazione tradizionale dei ramen con la nostra semplice ricetta per l'impasto, progettata per elevare il tuo ramen fatto in casa allo status di gourmet.</description>
+  </ml>
+</recipe>

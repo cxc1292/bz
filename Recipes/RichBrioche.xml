@@ -1,0 +1,27 @@
+<recipe name="Rich Brioche" ownerid="1" created="2024-Apr-08" status="active" description="Rich and delious brioche dough with 100% butter. To increase the chance of success for this dough is temperature control and longer kneading time." quantityunit="Loaf" thumbnail="rich_brioche.png">
+  <doughsizes />
+  <ml>
+    <name lang="en">Rich Brioche</name>
+    <name lang="zh-Hans">浓郁布里奥奇</name>
+    <name lang="ja">ブリオッシュ</name>
+    <name lang="fr">Brioche riche</name>
+    <name lang="ar">بريوش غني</name>
+    <name lang="es">Brioche rico</name>
+    <name lang="ko">부유한 브리오슈</name>
+    <name lang="zh-Hant">濃郁布里奥奇</name>
+    <name lang="hi">रिच ब्रिओश</name>
+    <name lang="de">Reichhaltige Brioche</name>
+    <name lang="it">Brioche Ricca</name>
+    <description lang="en">Rich and delicious brioche dough with 100% butter. To increase the chance of success for this dough is temperature control and longer kneading time.</description>
+    <description lang="zh-Hans">富含100%黄油的浓郁美味的面团。控制温度和延长揉面时间可以增加面团成功的机会。</description>
+    <description lang="ja">100％バターを使用したリッチでおいしいブリオッシュ生地。この生地の成功率を高めるには、温度管理と長いこね時間が必要です。</description>
+    <description lang="fr">Pâte à brioche riche et délicieuse avec 100% de beurre. Pour augmenter les chances de réussite de cette pâte, il est nécessaire de contrôler la température et de prolonger le temps de pétrissage.</description>
+    <description lang="ar">عجينة بريوش غنية ولذيذة بنسبة 100٪ زبدة. لزيادة فرص نجاح هذه العجينة يجب التحكم في درجة الحرارة وزيادة وقت العجن.</description>
+    <description lang="es">Masa de brioche rica y deliciosa con 100% mantequilla. Para aumentar la posibilidad de éxito de esta masa es necesario controlar la temperatura y alargar el tiempo de amasado.</description>
+    <description lang="ko">100% 버터를 사용한 풍부하고 맛있는 브리오슈 반죽. 이 반죽의 성공 확률을 높이려면 온도를 조절하고 반죽 시간을 더 길게 하는 것이 좋습니다.</description>
+    <description lang="zh-Hant">富含100%奶油的濃郁美味麵團。要增加這種麵團成功的機會，需要控制溫度和延長揉麵時間。</description>
+    <description lang="hi">100% मक्खन के साथ रिच और स्वादिष्ट ब्रिओश आटा। इस आटे की सफलता की संभावना बढ़ाने के लिए तापमान नियंत्रण और लंबे समय तक गूंधने का समय आवश्यक है।</description>
+    <description lang="de">Reichhaltiger und köstlicher Brioche-Teig mit 100% Butter. Um die Erfolgschancen dieses Teigs zu erhöhen, ist eine Temperaturkontrolle und längere Knetzeit erforderlich.</description>
+    <description lang="it">Impasto di brioche ricco e delizioso con il 100% di burro. Per aumentare le possibilità di successo di questo impasto è necessario controllare la temperatura e allungare i tempi di impasto.</description>
+  </ml>
+</recipe>
