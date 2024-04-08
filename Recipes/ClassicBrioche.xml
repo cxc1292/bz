@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<recipe id="3" name="Classic Brioch" ownerid="1"  description="Elevate your baking with this versatile brioche dough. It is ideal for countless sweet and savory creations." created="2024-Mar-21" status="active">
+<recipe id="3" name="Classic Brioch" ownerid="1" thumbnail="classicbrioche.png" description="Elevate your baking with this versatile brioche dough. It is ideal for countless sweet and savory creations." created="2024-Mar-21" status="active">
 	<ml>
 		<name lang="en">Classic Brioche</name>
 		<name lang="zh-Hans">经典布莉欧</name>

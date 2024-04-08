@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<recipe id="2" ownerid="1" targettemp="" name="Express Pizza Dough" created="2024-Mar-21" description="Get pizza dough ready in a few hours" status="active">
+<recipe id="2" ownerid="1" name="Express Pizza Dough" thumbnail="express_pizza_dough.png" created="2024-Mar-21" description="Get pizza dough ready in a few hours" status="active">
 	<ml>
 		<name lang="en">Express Pizza Dough</name>
 		<name lang="zh-Hans">快速比萨面团</name>
