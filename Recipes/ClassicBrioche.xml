@@ -1,26 +1,565 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<recipe id="3" name="Classic Brioch" ownerid="1" thumbnail="classicbrioche.png" description="Elevate your baking with this versatile brioche dough. It is ideal for countless sweet and savory creations." created="2024-Mar-21" status="active">
-	<ml>
-		<name lang="en">Classic Brioche</name>
-		<name lang="zh-Hans">经典布莉欧</name>
-		<name lang="ja">クラシックブリオッシュ</name>
-		<name lang="fr">Brioche classique</name>
-		<name lang="ar">بريوش كلاسيكي</name>
-		<name lang="es">Brioche clásico</name>
-		<name lang="ko">클래식 브리오슈</name>
-		<name lang="zh-Hant">經典布莉歐</name>
-		<name lang="hi">क्लासिक ब्रियोश</name>
-		<name lang="de">Klassische Brioche</name>
-		<name lang="it">Brioche classico</name>
-		<description lang="en">Elevate your baking with this versatile brioche dough. It's ideal for countless sweet and savory creations.</description>
-		<description lang="zh-Hans">用这款百搭的布莉欧面团提升您的烘焙技巧。 它非常适合制作无数甜味和咸味菜肴。</description>
-		<description lang="ja">この多目的に使えるブリオッシュ生地で、あなたの焼き菓子作りをワンランクアップさせましょう。 甘いものからしょっぱいものまで、さまざまな料理に最適です。</description>
-		<description lang="fr">Élevez votre pâtisserie avec cette pâte à brioche polyvalente. Elle est idéale pour d'innombrables créations sucrées et salées.</description>
-		<description lang="ar">ارتقِ بحرفة الخبز لديك مع عجينة البريوش متعددة الاستخدامات هذه. إنها مثالية للعديد من الإبداعات الحلوة والمالحة. </description>
-		<description lang="es">Eleva tu horneado con esta versátil masa de brioche. Es ideal para innumerables creaciones dulces y saladas.</description>
-		<description lang="ko">이 다용도 브리오슈 반죽으로 베이킹을 한 단계 업그레이드하십시오. 달콤하고 맛있는 수많은 요리에 이상적입니다.</description>
-		<description lang="zh-Hant">用這款百搭的布莉歐面團提升您的烘焙技巧。 它非常適合製作無數甜味和鹹味菜肴。</description>
-		<description lang="hi">इस बहुमुखी ब्रियोश आटा के साथ अपनी बेकिंग को ऊपर उठाएं। यह अनगिनत मीठे और नमकीन व्यंजनों के लिए आदर्श है। </description>
-		<description lang="de">Heben Sie Ihr Backen mit diesem vielseitigen Brioche-Teig auf ein neues Level.</description>
-	</ml>
+<?xml version="1.0" encoding="utf-8"?>
+<recipe id="3" name="Classic Brioche" ownerid="1" thumbnail="classicbrioche.png"  description="" created="2024-Mar-21" status="active" quantityunit="Loaf">
+  <ml>
+    <name lang="en">Classic Brioche</name>
+    <name lang="zh-Hans">经典布莉欧</name>
+    <name lang="ja">クラシックブリオッシュ</name>
+    <name lang="fr">Brioche classique</name>
+    <name lang="ar">بريوش كلاسيكي</name>
+    <name lang="es">Brioche clásico</name>
+    <name lang="ko">클래식 브리오슈</name>
+    <name lang="zh-Hant">經典布莉歐</name>
+    <name lang="hi">क्लासिक ब्रियोश</name>
+    <name lang="de">Klassische Brioche</name>
+    <name lang="it">Brioche classico</name>
+    <description lang="en">Elevate your baking with this versatile brioche dough. It's ideal for countless sweet and savory creations.</description>
+    <description lang="zh-Hans">用这款百搭的布莉欧面团提升您的烘焙技巧。 它非常适合制作无数甜味和咸味菜肴。</description>
+    <description lang="ja">この多目的に使えるブリオッシュ生地で、あなたの焼き菓子作りをワンランクアップさせましょう。 甘いものからしょっぱいものまで、さまざまな料理に最適です。</description>
+    <description lang="fr">Élevez votre pâtisserie avec cette pâte à brioche polyvalente. Elle est idéale pour d'innombrables créations sucrées et salées.</description>
+    <description lang="ar">ارتقِ بحرفة الخبز لديك مع عجينة البريوش متعددة الاستخدامات هذه. إنها مثالية للعديد من الإبداعات الحلوة والمالحة. </description>
+    <description lang="es">Eleva tu horneado con esta versátil masa de brioche. Es ideal para innumerables creaciones dulces y saladas.</description>
+    <description lang="ko">이 다용도 브리오슈 반죽으로 베이킹을 한 단계 업그레이드하십시오. 달콤하고 맛있는 수많은 요리에 이상적입니다.</description>
+    <description lang="zh-Hant">用這款百搭的布莉歐面團提升您的烘焙技巧。 它非常適合製作無數甜味和鹹味菜肴。</description>
+    <description lang="hi">इस बहुमुखी ब्रियोश आटा के साथ अपनी बेकिंग को ऊपर उठाएं। यह अनगिनत मीठे और नमकीन व्यंजनों के लिए आदर्श है। </description>
+    <description lang="de">Heben Sie Ihr Backen mit diesem vielseitigen Brioche-Teig auf ein neues Level.</description>
+  </ml>
+  <doughsizes>
+   <doughsize name="Regular" description="6x4 loaf tin" weight="420">
+  <ml>
+    <name lang="en">Regular</name>
+    <name lang="zh-Hans">常规</name>
+    <name lang="ja">レギュラー</name>
+    <name lang="fr">Ordinaire</name>
+    <name lang="ar">منتظم</name>
+    <name lang="es">Regular</name>
+    <name lang="ko">레귤러</name>
+    <name lang="zh-Hant">常規</name>
+    <name lang="hi">नियमित</name>
+    <name lang="de">Regulär</name>
+    <name lang="it">Regolare</name>
+    <description lang="en">6x4 loaf tin</description>
+    <description lang="zh-Hans">6x4 面包模</description>
+    <description lang="ja">6x4 パン型</description>
+    <description lang="fr">Moule à pain 6x4</description>
+    <description lang="ar">قالب خبز 6x4</description>
+    <description lang="es">Molde para pan de 6x4</description>
+    <description lang="ko">6x4 빵 모양</description>
+    <description lang="zh-Hant">6x4 麵包模</description>
+    <description lang="hi">6x4 लोफ़ टिन</description>
+    <description lang="de">6x4 Brotform</description>
+    <description lang="it">Pagnotta da 6x4</description>
+  </ml>
+</doughsize>
+<doughsize name="Large Burger Bun" description="Large burger buns, 12cm (4.7inch) in diameter." weight="100">
+  <ml>
+    <name lang="en">Large Burger Bun</name>
+    <name lang="zh-Hans">大汉堡包</name>
+    <name lang="ja">大きなバーガーバンズ</name>
+    <name lang="fr">Gros pain à burger</name>
+    <name lang="ar">رغيف البرجر الكبير</name>
+    <name lang="es">Pan de hamburguesa grande</name>
+    <name lang="ko">큰 버거 번</name>
+    <name lang="zh-Hant">大漢堡包</name>
+    <name lang="hi">बड़ा बर्गर बन</name>
+    <name lang="de">Große Burgerbrötchen</name>
+    <name lang="it">Panino grande per hamburger</name>
+    <description lang="en">Large burger buns, 12cm (4.7inch) in diameter.</description>
+    <description lang="zh-Hans">直径 12 厘米（4.7 英寸）的大汉堡包。</description>
+    <description lang="ja">直径12cm（4.7インチ）の大きなバーガーバンズ。</description>
+    <description lang="fr">Gros pains à burger de 12 cm (4,7 pouces) de diamètre.</description>
+    <description lang="ar">رغيف البرجر الكبير بقطر 12 سم (4.7 بوصة).</description>
+    <description lang="es">Pan de hamburguesa grande, 12 cm (4,7 pulgadas) de diámetro.</description>
+    <description lang="ko">지름 12cm (4.7인치)의 큰 버거 번.</description>
+    <description lang="zh-Hant">直徑 12 厘米（4.7 英寸）的大漢堡包。</description>
+    <description lang="hi">बड़े बर्गर बन, व्यास 12 सेंटीमीटर (4.7 इंच)।</description>
+    <description lang="de">Große Burgerbrötchen, Durchmesser 12 cm (4,7 Zoll).</description>
+    <description lang="it">Panini grandi per hamburger, diametro 12 cm (4,7 pollici).</description>
+  </ml>
+</doughsize>
+<doughsize name="Regular Burger Bun" description="Burger buns, 10cm(4 inch) in diameter." weight="75">
+  <ml>
+    <name lang="en">Regular Burger Bun</name>
+    <name lang="zh-Hans">普通汉堡包</name>
+    <name lang="ja">レギュラーバーガーバン</name>
+    <name lang="fr">Pain à burger ordinaire</name>
+    <name lang="ar">رغيف البرجر العادي</name>
+    <name lang="es">Pan de hamburguesa normal</name>
+    <name lang="ko">보통 버거 번</name>
+    <name lang="zh-Hant">普通漢堡包</name>
+    <name lang="hi">सामान्य बर्गर बन</name>
+    <name lang="de">Reguläres Burgerbrötchen</name>
+    <name lang="it">Panino regolare per hamburger</name>
+    <description lang="en">Burger buns, 10cm(4 inch) in diameter.</description>
+    <description lang="zh-Hans">直径10cm（4英寸）的汉堡包。</description>
+    <description lang="ja">直径10cm（4インチ）のバーガーバン。</description>
+    <description lang="fr">Pains à burger de 10 cm (4 pouces) de diamètre.</description>
+    <description lang="ar">رغيف البرجر بقطر 10 سم (4 بوصات).</description>
+    <description lang="es">Pan de hamburguesa, 10 cm (4 pulgadas) de diámetro.</description>
+    <description lang="ko">지름 10cm (4인치)의 버거 번.</description>
+    <description lang="zh-Hant">直徑10厘米（4英寸）的漢堡包。</description>
+    <description lang="hi">बर्गर बन, व्यास 10 सेंटीमीटर (4 इंच)।</description>
+    <description lang="de">Burgerbrötchen, Durchmesser 10 cm (4 Zoll).</description>
+    <description lang="it">Panini per hamburger, diametro 10 cm (4 pollici).</description>
+  </ml>
+</doughsize>
+<doughsize name="small buns" description="Slider burger buns or other brioche buns" weight="40">
+  <ml>
+    <name lang="en">small buns</name>
+    <name lang="zh-Hans">小圆面包</name>
+    <name lang="ja">小さなバンズ</name>
+    <name lang="fr">Petits pains</name>
+    <name lang="ar">رغيف صغير</name>
+    <name lang="es">Panecillos pequeños</name>
+    <name lang="ko">작은 번</name>
+    <name lang="zh-Hant">小圓面包</name>
+    <name lang="hi">छोटे बन</name>
+    <name lang="de">Kleine Brötchen</name>
+    <name lang="it">Panini piccoli</name>
+    <description lang="en">Slider burger buns or other brioche buns</description>
+    <description lang="zh-Hans">滑块汉堡包或其他奶油面包</description>
+    <description lang="ja">スライダーバンズまたは他のブリオッシュバン</description>
+    <description lang="fr">Pains à burger coulissants ou autres pains briochés</description>
+    <description lang="ar">رغيف برجر أو رغيف بريوش آخر</description>
+    <description lang="es">Panecillos deslizantes de hamburguesa u otros panes brioché</description>
+    <description lang="ko">슬라이더 버거 번 또는 다른 브리오슈 번</description>
+    <description lang="zh-Hant">滑塊漢堡包或其他奶油面包</description>
+    <description lang="hi">स्लाइडर बर्गर बन या अन्य ब्रियोश बन</description>
+    <description lang="de">Slider-Burgerbrötchen oder andere Brioche-Brötchen</description>
+    <description lang="it">Panini per hamburger scorrevoli o altri panini brioche</description>
+  </ml>
+</doughsize>
+
+  </doughsizes>
+  <step name="Add all dry ingredients" description="Mix all dry ingredients listed below into a mixing bowl." time="1" alertoption="false">
+<ml>
+  <name lang="en">Add all dry ingredients</name>
+  <name lang="zh-Hans">加入所有干配料</name>
+  <name lang="ja">すべての乾燥した材料を追加する</name>
+  <name lang="fr">Ajouter tous les ingrédients secs</name>
+  <name lang="ar">أضف جميع المكونات الجافة</name>
+  <name lang="es">Añadir todos los ingredientes secos</name>
+  <name lang="ko">모든 건조 재료 추가</name>
+  <name lang="zh-Hant">加入所有乾配料</name>
+  <name lang="hi">सभी सूखे उत्पादों को जोड़ें</name>
+  <name lang="de">Alle trockenen Zutaten hinzufügen</name>
+  <name lang="it">Aggiungi tutti gli ingredienti secchi</name>
+  <description lang="en">Mix all dry ingredients listed below into a mixing bowl.</description>
+  <description lang="zh-Hans">将下面列出的所有干配料混合到一个搅拌碗中。</description>
+  <description lang="ja">以下にリストされているすべての乾燥した材料をミキシングボウルに混ぜます。</description>
+  <description lang="fr">Mélanger tous les ingrédients secs énumérés ci-dessous dans un bol à mélanger.</description>
+  <description lang="ar">امزج جميع المكونات الجافة المدرجة أدناه في وعاء الخلط.</description>
+  <description lang="es">Mezcla todos los ingredientes secos enumerados a continuación en un bol de mezcla.</description>
+  <description lang="ko">아래 나열된 모든 건조 재료를 믹싱볼에 섞어주세요.</description>
+  <description lang="zh-Hant">將下面列出的所有乾配料混合到一個攪拌碗中。</description>
+  <description lang="hi">नीचे सूचीबद्ध सभी सूखे उत्पादों को एक मिश्रण बाउल में मिलाएं।</description>
+  <description lang="de">Mischen Sie alle unten aufgeführten trockenen Zutaten in eine Rührschüssel.</description>
+  <description lang="it">Mescola tutti gli ingredienti secchi elencati di seguito in una ciotola da miscelazione.</description>
+</ml>
+
+    <ingredient name="Flour" description="All-purpose flour typically has a protein content of around 10g per 100g. Be sure to read the package label. You may need to adjust the amount of water depending on the type of flour used. In general, flours with higher protein content absorb more water than those with lower protein content." icon="flour.png" quantity="918" istempcontrol="false">
+      <ml>
+      <name lang="en">Flour</name>
+      <name lang="zh-Hans">面粉</name>
+      <name lang="ja">小麦粉</name>
+      <name lang="fr">Farine</name>
+      <name lang="ar">دقيق</name>
+      <name lang="es">Harina</name>
+      <name lang="ko">밀가루</name>
+      <name lang="zh-Hant">麵粉</name>
+      <name lang="hi">आटा</name>
+      <name lang="de">Mehl</name>
+      <name lang="it">Farina</name>
+      <description lang="en">All-purpose flour typically has a protein content of around 10g per 100g. Be sure to read the package label. You may need to adjust the amount of water depending on the type of flour used. In general, flours with higher protein content absorb more water than those with lower protein content.</description>
+      <description lang="zh-Hans">通常每100克多用途面粉含有约10克蛋白质。务必阅读包装标签。您可能需要根据所使用的面粉类型调整水量。一般来说，蛋白质含量较高的面粉吸水量较多。</description>
+      <description lang="ja">普通小麦粉は通常、100g当たり約10gのタンパク質を含んでいます。パッケージのラベルをよく読んでください。使用される小麦粉の種類に応じて水分量を調整する必要があります。一般的に、タンパク質含有量が高い小麦粉ほど水分を多く吸収します。</description>
+      <description lang="fr">La farine tout usage a généralement une teneur en protéines d'environ 10 g pour 100 g. Assurez-vous de lire l'étiquette de l'emballage. Vous devrez peut-être ajuster la quantité d'eau en fonction du type de farine utilisé. En général, les farines à plus forte teneur en protéines absorbent plus d'eau que celles à plus faible teneur en protéines.</description>
+      <description lang="ar">يحتوي الدقيق المتعدد الاستخدامات بشكل عام على نسبة بروتين تبلغ حوالي 10 جرام لكل 100 جرام. تأكد من قراءة تسمية العبوة. قد تحتاج إلى ضبط كمية الماء اعتمادًا على نوع الدقيق المستخدم. بشكل عام، الدقائق ذات البروتينات الأعلى تمتص كمية أكبر من الماء مقارنة بتلك ذات البروتينات الأقل.</description>
+      <description lang="es">La harina todo uso generalmente tiene un contenido de proteínas de alrededor de 10 g por cada 100 g. Asegúrese de leer la etiqueta del paquete. Es posible que necesite ajustar la cantidad de agua según el tipo de harina utilizada. En general, las harinas con un contenido de proteínas más alto absorben más agua que aquellas con un contenido de proteínas más bajo.</description>
+      <description lang="ko">일반 밀가루는 일반적으로 100g 당 약 10g의 단백질을 함유합니다. 포장 라벨을 반드시 읽으십시오. 사용된 밀가루 종류에 따라 물의 양을 조절해야 할 수 있습니다. 일반적으로 단백질 함량이 높은 밀가루는 단백질 함량이 낮은 것보다 더 많은 물을 흡수합니다.</description>
+      <description lang="zh-Hant">通常每100克多用途麵粉含有約10克蛋白質。務必閱讀包裝標籤。您可能需要根據所使用的麵粉類型調整水量。一般來說，蛋白質含量較高的麵粉吸水量較多。</description>
+      <description lang="hi">सामान्यतः सभी उद्दिष्ट आटा प्रति 100 ग्राम में लगभग 10 ग्राम प्रोटीन होता है। पैकेज लेबल को ज़रूर पढ़ें। आपको आटे के प्रकार के आधार पर पानी की मात्रा को समायोजित करने की आवश्यकता हो सकती है। सामान्यतः, प्रोटीन सामग्री ज्यादा वाले आटे प्रोटीन सामग्री कम वाले आटे से ज्यादा पानी अवशोषित करते हैं।</description>
+      <description lang="de">Mehl hat in der Regel einen Proteingehalt von etwa 10 g pro 100 g. Stellen Sie sicher, dass Sie das Etikett auf der Verpackung lesen. Je nach Art des verwendeten Mehls müssen Sie möglicherweise die Wassermenge anpassen. Im Allgemeinen nehmen Mehle mit höherem Proteingehalt mehr Wasser auf als solche mit niedrigerem Proteingehalt.</description>
+      <description lang="it">La farina per tutti gli usi di solito ha un contenuto proteico di circa 10 g ogni 100 g. Assicurati di leggere l'etichetta della confezione. Potrebbe essere necessario regolare la quantità di acqua in base al tipo di farina utilizzata. In generale, le farine con un contenuto proteico più alto assorbono più acqua di quelle con un contenuto proteico più basso.</description>
+    </ml>
+    </ingredient>
+    <ingredient name="Dry Yeast" description="Use high quality dry yeast. Be sure it's not expired." icon="yeast.png" quantity="10" istempcontrol="false">
+<ml>
+  <name lang="en">Dry Yeast</name>
+  <name lang="zh-Hans">干酵母</name>
+  <name lang="ja">ドライイースト</name>
+  <name lang="fr">Levure sèche</name>
+  <name lang="ar">خميرة جافة</name>
+  <name lang="es">Levadura seca</name>
+  <name lang="ko">건조 효모</name>
+  <name lang="zh-Hant">乾酵母</name>
+  <name lang="hi">सूखी खमीर</name>
+  <name lang="de">Trockenhefe</name>
+  <name lang="it">Lievito secco</name>
+  <description lang="en">Use high-quality dry yeast. Be sure it's not expired.</description>
+  <description lang="zh-Hans">使用高品质干酵母。务必确保未过期。</description>
+  <description lang="ja">高品質のドライイーストを使用してください。期限切れでないことを確認してください。</description>
+  <description lang="fr">Utilisez de la levure sèche de haute qualité. Assurez-vous qu'elle n'est pas périmée.</description>
+  <description lang="ar">استخدم خميرة جافة عالية الجودة. تأكد من أنها لم تنتهي صلاحيتها.</description>
+  <description lang="es">Utilice levadura seca de alta calidad. Asegúrese de que no esté caducada.</description>
+  <description lang="ko">고품질의 건조 효모를 사용하십시오. 유통 기한이 지나지 않았는지 확인하십시오.</description>
+  <description lang="zh-Hant">使用高品質乾酵母。請確保未過期。</description>
+  <description lang="hi">उच्च गुणवत्ता वाली सूखी खमीर का उपयोग करें। सुनिश्चित करें कि यह समाप्त नहीं हुआ है।</description>
+  <description lang="de">Verwenden Sie hochwertige Trockenhefe. Stellen Sie sicher, dass sie nicht abgelaufen ist.</description>
+  <description lang="it">Usa lievito secco di alta qualità. Assicurati che non sia scaduto.</description>
+</ml>
+
+    </ingredient>
+    <ingredient name="Salt" description="Cooking salt." icon="salt.png" quantity="10" istempcontrol="false">
+<ml>
+  <name lang="en">Salt</name>
+  <name lang="zh-Hans">盐</name>
+  <name lang="ja">塩</name>
+  <name lang="fr">Sel</name>
+  <name lang="ar">ملح</name>
+  <name lang="es">Sal</name>
+  <name lang="ko">소금</name>
+  <name lang="zh-Hant">鹽</name>
+  <name lang="hi">नमक</name>
+  <name lang="de">Salz</name>
+  <name lang="it">Sale</name>
+  <description lang="en">Cooking salt.</description>
+  <description lang="zh-Hans">食用盐。</description>
+  <description lang="ja">料理塩。</description>
+  <description lang="fr">Sel de cuisine.</description>
+  <description lang="ar">ملح الطهي.</description>
+  <description lang="es">Sal de cocina.</description>
+  <description lang="ko">조리용 소금.</description>
+  <description lang="zh-Hant">食用鹽。</description>
+  <description lang="hi">खाना बनाने का नमक।</description>
+  <description lang="de">Kochsalz.</description>
+  <description lang="it">Sale da cucina.</description>
+</ml>
+
+    </ingredient>
+    <ingredient name="Sugar" description="Use caster sugar or white sugar." icon="sugar.png" quantity="180" istempcontrol="false">
+<ml>
+  <name lang="en">Sugar</name>
+  <name lang="zh-Hans">糖</name>
+  <name lang="ja">砂糖</name>
+  <name lang="fr">Sucre</name>
+  <name lang="ar">سكر</name>
+  <name lang="es">Azúcar</name>
+  <name lang="ko">설탕</name>
+  <name lang="zh-Hant">糖</name>
+  <name lang="hi">चीनी</name>
+  <name lang="de">Zucker</name>
+  <name lang="it">Zucchero</name>
+  <description lang="en">Use caster sugar or white sugar.</description>
+  <description lang="zh-Hans">使用砂糖或白砂糖。</description>
+  <description lang="ja">グラニュー糖または白砂糖を使用します。</description>
+  <description lang="fr">Utilisez du sucre en poudre ou du sucre blanc.</description>
+  <description lang="ar">استخدم سكر الكاستر أو السكر الأبيض.</description>
+  <description lang="es">Utiliza azúcar glass o azúcar blanco.</description>
+  <description lang="ko">설탕이나 백설탕을 사용하십시오.</description>
+  <description lang="zh-Hant">使用砂糖或白砂糖。</description>
+  <description lang="hi">कास्टर चीनी या सफेद चीनी का उपयोग करें।</description>
+  <description lang="de">Verwenden Sie Puderzucker oder weißen Zucker.</description>
+  <description lang="it">Usa dello zucchero a velo o dello zucchero bianco.</description>
+</ml>
+
+    </ingredient>
+    <ingredient name="Milk Powder" description="Use full cream milk powder." icon="milkpowder.png" quantity="30" istempcontrol="false">
+<ml>
+  <name lang="en">Milk Powder</name>
+  <name lang="zh-Hans">奶粉</name>
+  <name lang="ja">ミルクパウダー</name>
+  <name lang="fr">Poudre de lait</name>
+  <name lang="ar">حليب بودرة</name>
+  <name lang="es">Leche en polvo</name>
+  <name lang="ko">분유</name>
+  <name lang="zh-Hant">奶粉</name>
+  <name lang="hi">दूध पाउडर</name>
+  <name lang="de">Milchpulver</name>
+  <name lang="it">Latte in polvere</name>
+  <description lang="en">Use full cream milk powder.</description>
+  <description lang="zh-Hans">使用全脂奶粉。</description>
+  <description lang="ja">全脂ミルクパウダーを使用します。</description>
+  <description lang="fr">Utilisez de la poudre de lait entier.</description>
+  <description lang="ar">استخدم حليب بودرة كامل الدسم.</description>
+  <description lang="es">Utiliza leche en polvo entera.</description>
+  <description lang="ko">풀크림 분유를 사용하십시오.</description>
+  <description lang="zh-Hant">使用全脂奶粉。</description>
+  <description lang="hi">पूरी क्रीम दूध पाउडर का उपयोग करें।</description>
+  <description lang="de">Verwenden Sie Vollmilchpulver.</description>
+  <description lang="it">Usa latte in polvere intero.</description>
+</ml>
+
+    </ingredient>
+  </step>
+  <step name="Mix with wet ingredients" description="Add eggs and water. Mix on lower speed for about 5-7 minutes." time="5" alertoption="true">
+<ml>
+  <name lang="en">Mix with wet ingredients</name>
+  <name lang="zh-Hans">与湿性成分混合</name>
+  <name lang="ja">湿った材料と混ぜる</name>
+  <name lang="fr">Mélanger avec les ingrédients liquides</name>
+  <name lang="ar">امزج مع المكونات الرطبة</name>
+  <name lang="es">Mezclar con ingredientes húmedos</name>
+  <name lang="ko">습기 있는 재료와 섞기</name>
+  <name lang="zh-Hant">與濕性成分混合</name>
+  <name lang="hi">नम की खाने वाली चीजों के साथ मिलाएं</name>
+  <name lang="de">Mit den feuchten Zutaten mischen</name>
+  <name lang="it">Mescolare con gli ingredienti umidi</name>
+  <description lang="en">Add eggs and water. Mix on lower speed for about 5-7 minutes.</description>
+  <description lang="zh-Hans">加入鸡蛋和水。低速搅拌约5-7分钟。</description>
+  <description lang="ja">卵と水を加えます。低速で約5〜7分間混ぜます。</description>
+  <description lang="fr">Ajouter les œufs et l'eau. Mélanger à basse vitesse pendant environ 5 à 7 minutes.</description>
+  <description lang="ar">أضف البيض والماء. اخلط على سرعة منخفضة لمدة تتراوح بين 5-7 دقائق.</description>
+  <description lang="es">Añadir los huevos y el agua. Mezclar a baja velocidad durante unos 5-7 minutos.</description>
+  <description lang="ko">계란과 물을 추가합니다. 약 5-7분 동안 낮은 속도로 섞어주세요.</description>
+  <description lang="zh-Hant">加入鸡蛋和水。低速搅拌约5-7分钟。</description>
+  <description lang="hi">अंडे और पानी डालें। लगभग 5-7 मिनट के लिए निचले गति पर मिलाएं।</description>
+  <description lang="de">Fügen Sie Eier und Wasser hinzu. Mischen Sie etwa 5-7 Minuten lang bei niedriger Geschwindigkeit.</description>
+  <description lang="it">Aggiungere uova e acqua. Mescolare a bassa velocità per circa 5-7 minuti.</description>
+</ml>
+
+    <ingredient name="Water" description="Use either room temperature water or cold water, depending on the ambient temperature. The crucial factor is to maintain the final dough temperature between 20-24 degrees Celsius or 68-75 degrees Fahrenheit. If the it is too hot, you may need to substitute some water with ice." icon="water" quantity="226" istempcontrol="true">
+<ml>
+  <name lang="en">Water</name>
+  <name lang="zh-Hans">水</name>
+  <name lang="ja">水</name>
+  <name lang="fr">Eau</name>
+  <name lang="ar">ماء</name>
+  <name lang="es">Agua</name>
+  <name lang="ko">물</name>
+  <name lang="zh-Hant">水</name>
+  <name lang="hi">पानी</name>
+  <name lang="de">Wasser</name>
+  <name lang="it">Acqua</name>
+  <description lang="en">Use either room temperature water or cold water, depending on the ambient temperature. The crucial factor is to maintain the final dough temperature between 20-24 degrees Celsius or 68-75 degrees Fahrenheit. If the it is too hot, you may need to substitute some water with ice.</description>
+  <description lang="zh-Hans">根据环境温度使用室温水或冷水。关键因素是将最终面团温度保持在20-24摄氏度或68-75华氏度之间。如果温度太高，您可能需要用冰替换一些水。</description>
+  <description lang="ja">周囲温度に応じて室温の水または冷水を使用します。重要なのは、最終的な生地の温度を摂氏20〜24度または華氏68〜75度の間に保つことです。温度が高すぎる場合は、一部の水を氷で代用する必要があります。</description>
+  <description lang="fr">Utilisez de l'eau à température ambiante ou de l'eau froide, en fonction de la température ambiante. Le facteur crucial est de maintenir la température de la pâte finale entre 20 et 24 degrés Celsius ou entre 68 et 75 degrés Fahrenheit. Si elle est trop chaude, vous devrez peut-être remplacer une partie de l'eau par de la glace.</description>
+  <description lang="ar">استخدم إما ماء بدرجة حرارة الغرفة أو ماء باردًا ، اعتمادًا على درجة الحرارة المحيطة. العامل الحاسم هو الحفاظ على درجة حرارة العجين النهائية بين 20-24 درجة مئوية أو 68-75 درجة فهرنهايت. إذا كانت الحرارة مرتفعة جدًا ، قد تحتاج إلى استبدال بعض الماء بالثلج.</description>
+  <description lang="es">Use agua a temperatura ambiente o agua fría, según la temperatura ambiente. El factor crucial es mantener la temperatura final de la masa entre 20 y 24 grados Celsius o entre 68 y 75 grados Fahrenheit. Si está demasiado caliente, es posible que necesite sustituir parte del agua por hielo.</description>
+  <description lang="ko">주변 온도에 따라 실온 물 또는 찬물을 사용하십시오. 결정적인 요소는 최종 반죽 온도를 섭씨 20-24도 또는 화씨 68-75도로 유지하는 것입니다. 너무 더울 경우 얼음으로 일부 물을 대체해야 할 수 있습니다.</description>
+  <description lang="zh-Hant">根據環境溫度使用室溫水或冷水。關鍵因素是將最終麵團溫度保持在攝氏20-24度或華氏68-75度之間。如果溫度太高，您可能需要用冰替換一些水。</description>
+  <description lang="hi">परिवेशीय तापमान पर निर्भर करते हुए या ठंडे पानी का उपयोग करें, ठंडे पानी का उपयोग करें। महत्वपूर्ण कारक अंतिम आटे का तापमान 20-24 डिग्री सेल्सियस या 68-75 डिग्री फ़ारेनहाइट के बीच बनाए रखना है। अगर यह बहुत गरम है, तो आपको कुछ पानी को बर्फ के साथ प्रतिस्थापित करने की आवश्यकता हो सकती है।</description>
+  <description lang="de">Verwenden Sie entweder Wasser bei Raumtemperatur oder kaltes Wasser, abhängig von der Umgebungstemperatur. Der entscheidende Faktor ist, die Endteigtemperatur zwischen 20 und 24 Grad Celsius oder zwischen 68 und 75 Grad Fahrenheit zu halten. Wenn es zu heiß ist, müssen Sie möglicherweise etwas Wasser durch Eis ersetzen.</description>
+  <description lang="it">Usa acqua a temperatura ambiente o acqua fredda, a seconda della temperatura ambiente. Il fattore cruciale è mantenere la temperatura finale dell'impasto tra i 20 e i 24 gradi Celsius o tra i 68 e i 75 gradi Fahrenheit. Se è troppo caldo, potresti dover sostituire parte dell'acqua con del ghiaccio.</description>
+</ml>
+
+    </ingredient>
+    <ingredient name="Egg" description="Use whole eggs. Usully, eggs are 50-55g per egg." icon="egg.png" quantity="100" istempcontrol="false">
+<ml>
+  <name lang="en">Egg</name> 
+  <name lang="zh-Hans">鸡蛋</name>
+  <name lang="ja">卵</name>
+  <name lang="fr">Oeuf</name>
+  <name lang="ar">بيضة</name>
+  <name lang="es">Huevo</name>
+  <name lang="ko">달걀</name>
+  <name lang="zh-Hant">雞蛋</name>
+  <name lang="hi">अंडा</name>
+  <name lang="de">Ei</name>
+  <name lang="it">Uovo</name>
+  <description lang="en">Use whole eggs. Usually, eggs are 50-55g per egg.</description>
+  <description lang="zh-Hans">使用整个鸡蛋。通常，每个鸡蛋重50-55克。</description>
+  <description lang="ja">全卵を使用します。通常、1個あたりの卵の重さは50〜55gです。</description>
+  <description lang="fr">Utilisez des œufs entiers. Habituellement, les œufs pèsent entre 50 et 55 g par œuf.</description>
+  <description lang="ar">استخدم البيض الكاملة. عادةً ما تكون البيضة 50-55 جرام لكل بيضة.</description>
+  <description lang="es">Utiliza huevos enteros. Por lo general, los huevos pesan entre 50 y 55 g por huevo.</description>
+  <description lang="ko">달걀을 통째로 사용하십시오. 보통 달걀은 달걀 당 50-55g입니다.</description>
+  <description lang="zh-Hant">使用整個雞蛋。通常，每個雞蛋重50-55克。</description>
+  <description lang="hi">पूरे अंडे का उपयोग करें। सामान्यत: हर अंडे का वजन 50-55 ग्राम होता है।</description>
+  <description lang="de">Verwenden Sie ganze Eier. Normalerweise wiegen Eier 50-55 g pro Ei.</description>
+  <description lang="it">Usa uova intere. Di solito, le uova pesano 50-55 g per uovo.</description>
+</ml>
+
+    </ingredient>
+  </step>
+  <step name="Mix on midium-high speed for about 3-5 minutes" description="Increase the speed to medium to high for about 3-5 minutes or until the dough is well-formed and exhibits some elasticity, but has not yet passed the window test." targettemperature="20" time="5" alertoption="true">
+<ml>
+  <name lang="en">Mix on midium-high speed for about 3-5 minutes</name>
+  <name lang="zh-Hans">以中高速混合约3-5分钟</name>
+  <name lang="ja">中速から高速で約3〜5分間混ぜます</name>
+  <name lang="fr">Mélangez à vitesse moyenne-élevée pendant environ 3 à 5 minutes</name>
+  <name lang="ar">امزج على سرعة متوسطة إلى عالية لمدة حوالي 3-5 دقائق</name>
+  <name lang="es">Mezcle a velocidad media-alta durante aproximadamente 3-5 minutos</name>
+  <name lang="ko">중간에서 높은 속도로 약 3-5 분 동안 섞습니다.</name>
+  <name lang="zh-Hant">以中高速攪拌約3-5分鐘</name>
+  <name lang="hi">औसत-उच्च गति पर लगभग 3-5 मिनट के लिए मिश्रण करें</name>
+  <name lang="de">Mischen Sie auf mittlerer bis hoher Geschwindigkeit für etwa 3-5 Minuten</name>
+  <name lang="it">Mescolare a velocità media-alta per circa 3-5 minuti</name>
+  <description lang="en">Increase the speed to medium to high for about 3-5 minutes or until the dough is well-formed and exhibits some elasticity, but has not yet passed the window test.</description>
+  <description lang="zh-Hans">将速度提高到中高速，大约3-5分钟，或直到面团形成良好且具有一定的弹性，但尚未通过窗户测试为止。</description>
+  <description lang="ja">生地がしっかりと形成され、やや弾力性を示すまで、中速から高速にして約3〜5分間混ぜますが、窓テストを合格する前の段階です。</description>
+  <description lang="fr">Augmentez la vitesse à moyenne-élevée pendant environ 3 à 5 minutes ou jusqu'à ce que la pâte soit bien formée et présente une certaine élasticité, mais n'ait pas encore passé le test de la fenêtre.</description>
+  <description lang="ar">زيادة السرعة إلى متوسطة إلى عالية لمدة حوالي 3-5 دقائق أو حتى يتم تشكيل العجين بشكل جيد ويظهر بعض المرونة ، ولكنه لم يمر بعد اختبار النافذة.</description>
+  <description lang="es">Aumente la velocidad a media-alta durante aproximadamente 3-5 minutos o hasta que la masa esté bien formada y presente cierta elasticidad, pero aún no haya pasado la prueba de la ventana.</description>
+  <description lang="ko">약 3-5 분 동안 중간에서 높은 속도로 섞거나, 반죽이 잘 형성되고 약간의 탄력이 있는데도 아직 창 테스트를 통과하지 않은 경우까지 섞으십시오.</description>
+  <description lang="zh-Hant">將速度提高到中高速，大約3-5分鐘，或直到麵團形成良好且具有一定的彈性，但尚未通過窗戶測試為止。</description>
+  <description lang="hi">लगभग 3-5 मिनट के लिए औसत से उच्च गति पर बढ़ाएं या जब तक आटा अच्छे से बना हो जाता है और कुछ लचीलापन दिखाता है, लेकिन अब तक खिड़की की परीक्षा को नहीं दिया गया है।</description>
+  <description lang="de">Erhöhen Sie die Geschwindigkeit auf mittlere bis hohe Geschwindigkeit für etwa 3-5 Minuten oder bis der Teig gut geformt ist und eine gewisse Elastizität aufweist, aber den Fenstertest noch nicht bestanden hat.</description>
+  <description lang="it">Aumentare la velocità a media-alta per circa 3-5 minuti o fino a quando l'impasto è ben formato e mostra un po' di elasticità, ma non ha ancora superato il test della finestra.</description>
+</ml>
+
+  </step>
+  <step name="Mix in butter on low speed" description="Reduce the speed to low and gradually add in soft, room temperature butter. Continue kneading on low for about 5 minutes until the butter is fully incorporated. Check the dough using the window test" time="5" alertoption="true">
+<ml>
+  <name lang="en">Mix in butter on low speed</name>
+  <name lang="zh-Hans">在低速下混合黄油</name>
+  <name lang="ja">低速でバターを混ぜます</name>
+  <name lang="fr">Incorporer le beurre à basse vitesse</name>
+  <name lang="ar">امزج الزبدة بسرعة منخفضة</name>
+  <name lang="es">Mezclar la mantequilla a baja velocidad</name>
+  <name lang="ko">저속에서 버터를 섞습니다</name>
+  <name lang="zh-Hant">在低速下混合黃油</name>
+  <name lang="hi">कम गति पर मक्खन मिलाएं</name>
+  <name lang="de">Butter bei niedriger Geschwindigkeit einmischen</name>
+  <name lang="it">Mescolare il burro a bassa velocità</name>
+  <description lang="en">Reduce the speed to low and gradually add in soft, room temperature butter. Continue kneading on low for about 5 minutes until the butter is fully incorporated. Check the dough using the window test</description>
+  <description lang="zh-Hans">将速度降低到低速，并逐渐加入软化的室温黄油。在低速下继续揉搓约5分钟，直到完全混合黄油。使用窗户测试检查面团</description>
+  <description lang="ja">スピードを低速にして、徐々に柔らかい室温のバターを加えます。バターが完全に組み込まれるまで、低速で約5分間練り続けます。窓テストを使用して生地を確認します</description>
+  <description lang="fr">Réduisez la vitesse à basse vitesse et ajoutez progressivement du beurre mou à température ambiante. Continuez à pétrir à basse vitesse pendant environ 5 minutes jusqu'à ce que le beurre soit totalement incorporé. Vérifiez la pâte en utilisant le test de la fenêtre</description>
+  <description lang="ar">قلل من السرعة إلى السرعة المنخفضة وأضف ببطء زبدة طرية على درجة حرارة الغرفة. استمر في العجن على سرعة منخفضة لمدة حوالي 5 دقائق حتى يتم تضمين الزبدة تمامًا. تحقق من العجين باستخدام اختبار النافذة</description>
+  <description lang="es">Reduzca la velocidad a baja velocidad y agregue gradualmente mantequilla suave a temperatura ambiente. Continúe amasando a baja velocidad durante aproximadamente 5 minutos hasta que la mantequilla esté completamente incorporada. Verifique la masa usando la prueba de la ventana</description>
+  <description lang="ko">속도를 낮추고 부드러운 실온 버터를 점진적으로 넣습니다. 버터가 완전히 통합될 때까지 낮은 속도로 약 5 분간 계속 반죽합니다. 창 테스트를 사용하여 반죽을 확인합니다</description>
+  <description lang="zh-Hant">將速度降低到低速，並逐漸加入軟化的室溫黃油。在低速下繼續揉搓約5分鐘，直到完全混合黃油。使用窗戶測試檢查麵團</description>
+  <description lang="hi">गति को कम करें और धीरे-धीरे मुलायम, कमरे के तापमान वाला मक्खन डालें। मक्खन पूरी तरह से मिलाया जाने तक लगभग 5 मिनट तक कम गति पर गूंथते रहें। खिड़की के परीक्षण का उपयोग करके आटा जांचें</description>
+  <description lang="de">Reduzieren Sie die Geschwindigkeit auf niedrig und fügen Sie langsam weiche, raumtemperierte Butter hinzu. Kneten Sie weiter bei niedriger Geschwindigkeit für etwa 5 Minuten, bis die Butter vollständig eingearbeitet ist. Überprüfen Sie den Teig mit dem Fenstertest</description>
+  <description lang="it">Abbassa la velocità a bassa velocità e aggiungi gradualmente burro morbido a temperatura ambiente. Continua a impastare a bassa velocità per circa 5 minuti fino a quando il burro è completamente incorporato. Controlla l'impasto usando il test della finestra</description>
+</ml>
+
+  </step>
+  <step name="Kneading on high speed for about 3-5 minutes" description="The dough should now be smooth and not too sticky to the touch. If it has not passed the window test, increase the speed and continue kneading for a few more minutes. Perform the window test and check the dough temperature frequently. It's crucial to avoid over-kneading and to maintain the dough temperature between 20-24 degrees Celsius or 68-75 degrees Fahrenheit." targettemperature="24" time="5" alertoption="true">
+<ml>
+  <name lang="en">Kneading on high speed for about 3-5 minutes</name>
+  <name lang="zh-Hans">高速搅拌约3-5分钟</name>
+  <name lang="ja">高速で約3-5分間こねる</name>
+  <name lang="fr">Pétrissage à vitesse élevée pendant environ 3 à 5 minutes</name>
+  <name lang="ar">العجن بسرعة عالية لمدة حوالي 3-5 دقائق</name>
+  <name lang="es">Amasar a alta velocidad durante aproximadamente 3-5 minutos</name>
+  <name lang="ko">약 3-5 분간 고속으로 반죽하기</name>
+  <name lang="zh-Hant">高速攪拌約3-5分鐘</name>
+  <name lang="hi">लगभग 3-5 मिनट के लिए उच्च गति पर गूंथना</name>
+  <name lang="de">Kneten bei hoher Geschwindigkeit für etwa 3-5 Minuten</name>
+  <name lang="it">Impastare a velocità elevata per circa 3-5 minuti</name>
+  <description lang="en">The dough should now be smooth and not too sticky to the touch. If it has not passed the window test, increase the speed and continue kneading for a few more minutes. Perform the window test and check the dough temperature frequently. It's crucial to avoid over-kneading and to maintain the dough temperature between 20-24 degrees Celsius or 68-75 degrees Fahrenheit.</description>
+  <description lang="zh-Hans">现在面团应该变得光滑，触感不会太粘。如果未通过窗户测试，请增加速度，继续搅拌几分钟。频繁进行窗户测试并检查面团温度。避免过度搅拌并保持面团温度在摄氏20-24度或华氏68-75度之间至关重要。</description>
+  <description lang="ja">生地は今、滑らかで触ってもあまりベタつかないはずです。窓テストに合格しない場合は、速度を上げてさらに数分間こね続けます。窓テストを行い、生地の温度を頻繁に確認します。過度なこねることを避け、生地の温度を摂氏20〜24度または華氏68〜75度の間に保つことが重要です。</description>
+  <description lang="fr">La pâte doit maintenant être lisse et ne pas trop coller au toucher. Si elle n'a pas passé le test de la fenêtre, augmentez la vitesse et continuez à pétrir pendant quelques minutes de plus. Effectuez le test de la fenêtre et vérifiez fréquemment la température de la pâte. Il est crucial d'éviter de trop pétrir et de maintenir la température de la pâte entre 20 et 24 degrés Celsius ou entre 68 et 75 degrés Fahrenheit.</description>
+  <description lang="ar">يجب أن تكون العجينة الآن ناعمة وغير لزجة للمس. إذا لم تكن قد اجتازت اختبار النافذة ، زد السرعة وواصل العجن لبضع دقائق إضافية. قم بإجراء اختبار النافذة وتحقق من درجة حرارة العجين بانتظام. من الضروري تجنب العجن الزائد والحفاظ على درجة حرارة العجين بين 20 و 24 درجة مئوية أو بين 68 و 75 درجة فهرنهايت.</description>
+  <description lang="es">La masa debe estar ahora suave y no demasiado pegajosa al tacto. Si no ha pasado la prueba de la ventana, aumenta la velocidad y continúa amasando durante unos minutos más. Realiza la prueba de la ventana y verifica frecuentemente la temperatura de la masa. Es crucial evitar amasar en exceso y mantener la temperatura de la masa entre 20 y 24 grados Celsius o entre 68 y 75 grados Fahrenheit.</description>
+  <description lang="ko">이제 반죽은 부드럽고 만져도 너무 끈적이지 않아야합니다. 창 테스트를 통과하지 못한 경우 속도를 올리고 몇 분 더 반죽을 계속합니다. 창 테스트를 수행하고 반죽 온도를 자주 확인하십시오. 과다한 반죽을 피하고 반죽 온도를 섭씨 20-24도 또는 화씨 68-75도 사이로 유지하는 것이 중요합니다.</description>
+  <description lang="zh-Hant">現在麵團應該變得光滑，觸感不會太黏。如果未通過窗戶測試，請增加速度，繼續攪拌幾分鐘。頻繁進行窗戶測試並檢查麵團溫度。避免過度攪拌並保持麵團溫度在攝氏20-24度或華氏68-75度之間至關重要。</description>
+  <description lang="hi">अब आटा चिकना होना चाहिए और छूने में बहुत चिपचिपा नहीं होना चाहिए। यदि यह खिड़की का परीक्षण नहीं किया है, तो गति बढ़ाएं और कुछ और मिनटों तक गूंथाई करें। खिड़की की परीक्षा करें और अक्सर आटा का तापमान जांचें। अधिक गूंथाई और आटा का तापमान 20-24 डिग्री सेल्सियस या 68-75 डिग्री फारेनहाइट के बीच बनाए रखना महत्वपूर्ण है।</description>
+  <description lang="de">Der Teig sollte jetzt glatt sein und beim Berühren nicht zu klebrig. Wenn er den Fenstertest nicht bestanden hat, erhöhen Sie die Geschwindigkeit und kneten Sie noch einige Minuten weiter. Führen Sie den Fenstertest durch und überprüfen Sie häufig die Teigtemperatur. Es ist entscheidend, übermäßiges Kneten zu vermeiden und die Teigtemperatur zwischen 20 und 24 Grad Celsius oder zwischen 68 und 75 Grad Fahrenheit zu halten.</description>
+  <description lang="it">L'impasto dovrebbe ora essere liscio e non troppo appiccicoso al tatto. Se non ha superato il test della finestra, aumenta la velocità e continua a impastare per qualche minuto in più. Effettua il test della finestra e controlla frequentemente la temperatura dell'impasto. È cruciale evitare di impastare troppo e mantenere la temperatura dell'impasto tra i 20 e i 24 gradi Celsius o tra i 68 e i 75 gradi Fahrenheit.</description>
+</ml>
+
+
+  </step>
+  <step name="Shape the brioche dough" description="Transfer the brioche dough to a work surface. The dough should now be very smooth and not sticky to the surface or touch. Divide the dough if necessary, and shape it as desired. Once again, it's critical not to let the dough temperature rise above 24 degrees Celsius or 75 degrees Fahrenheit" alertoption="false">
+<ml>
+  <name lang="en">Shape the brioche dough</name>
+  <name lang="zh-Hans">塑造奶油面团</name>
+  <name lang="ja">ブリオッシュ生地を形作る</name>
+  <name lang="fr">Façonner la pâte à brioche</name>
+  <name lang="ar">تشكيل عجينة البريوش</name>
+  <name lang="es">Dar forma a la masa de brioche</name>
+  <name lang="ko">브리오슈 반죽 모양 만들기</name>
+  <name lang="zh-Hant">塑造奶油麵團</name>
+  <name lang="hi">ब्रिओश आटा आकार दें</name>
+  <name lang="de">Formen des Brioche-Teigs</name>
+  <name lang="it">Dare forma all'impasto della brioche</name>
+  <description lang="en">Transfer the brioche dough to a work surface. The dough should now be very smooth and not sticky to the surface or touch. Divide the dough if necessary, and shape it as desired. Once again, it's critical not to let the dough temperature rise above 24 degrees Celsius or 75 degrees Fahrenheit</description>
+  <description lang="zh-Hans">将奶油面团转移到工作台上。现在面团应该非常光滑，不会粘在表面或触感。如有必要，分割面团并按所需形状塑造。再次强调，面团温度不得超过摄氏24度或华氏75度。</description>
+  <description lang="ja">ブリオッシュ生地を作業面に移します。生地は今、非常に滑らかで表面や触感に粘りつかないはずです。必要に応じて生地を分割し、希望の形に整えます。再度、生地の温度が摂氏24度または華氏75度を超えないようにすることが重要です。</description>
+  <description lang="fr">Transférer la pâte à brioche sur une surface de travail. La pâte doit maintenant être très lisse et ne pas coller à la surface ou au toucher. Divisez la pâte si nécessaire et façonnez-la comme vous le souhaitez. Une fois de plus, il est crucial de ne pas laisser la température de la pâte dépasser 24 degrés Celsius ou 75 degrés Fahrenheit.</description>
+  <description lang="ar">قم بنقل عجينة البريوش إلى سطح العمل. يجب أن تكون العجينة الآن ناعمة للغاية ولا تلتصق بالسطح أو اللمس. قسم العجينة إذا لزم الأمر ، وشكلها كما تريد. مرة أخرى ، من الأساسي عدم السماح بارتفاع حرارة العجينة فوق 24 درجة مئوية أو 75 درجة فهرنهايت.</description>
+  <description lang="es">Transfiere la masa de brioche a una superficie de trabajo. La masa debe estar ahora muy suave y no pegajosa en la superficie o al tacto. Divide la masa si es necesario y dale la forma deseada. Una vez más, es crucial no permitir que la temperatura de la masa suba por encima de 24 grados Celsius o 75 grados Fahrenheit.</description>
+  <description lang="ko">브리오슈 반죽을 작업 대상으로 옮깁니다. 이제 반죽은 매우 부드럽고 표면이나 만질 때 끈적이지 않아야합니다. 필요한 경우 반죽을 나누고 원하는 모양으로 만듭니다. 다시 한 번 반복하지만 반죽 온도가 섭씨 24도 또는 화씨 75도를 넘지 않도록 주의해야합니다.</description>
+  <description lang="zh-Hant">將奶油麵團轉移到工作台上。現在麵團應該非常光滑，不會粘在表面或觸感。如有需要，分割麵團並按所需形狀塑造。再次強調，麵團溫度不得超過攝氏24度或華氏75度。</description>
+  <description lang="hi">ब्रिओश आटा को काम करने की सतह पर स्थानांतरित करें। अब आटा बहुत ही चिकना होना चाहिए और सतह या स्पर्श को चिपचिपा नहीं होना चाहिए। यदि आवश्यक हो तो आटा को विभाजित करें और वांछित रूप में आकार दें। एक बार फिर, आटा का तापमान 24 डिग्री सेल्सियस या 75 डिग्री फारेनहाइट से ऊपर नहीं जाने देना महत्वपूर्ण है।</description>
+  <description lang="de">Übertragen Sie den Brioche-Teig auf eine Arbeitsfläche. Der Teig sollte jetzt sehr glatt sein und nicht an der Oberfläche oder beim Berühren kleben. Teilen Sie den Teig bei Bedarf auf und formen Sie ihn nach Wunsch. Nochmals ist es entscheidend, die Teigtemperatur nicht über 24 Grad Celsius oder 75 Grad Fahrenheit steigen zu lassen.</description>
+  <description lang="it">Trasferire l'impasto della brioche su una superficie di lavoro. L'impasto dovrebbe ora essere molto liscio e non appiccicoso sulla superficie o al tatto. Dividere l'impasto se necessario e dargli la forma desiderata. Ancora una volta, è fondamentale non lasciare che la temperatura dell'impasto salga oltre i 24 gradi Celsius o i 75 gradi Fahrenheit.</description>
+</ml>
+
+  </step>
+  <step name="Refrigerate the dough overnight" description="Cover the dough and place it in the fridge for at least 4-5 hours, or ideally overnight, for cold slow fermentation and to allow gluten to develop." targettemperature="4" time="720" alertoption="false">
+<ml>
+  <name lang="en">Refrigerate the dough overnight</name>
+  <name lang="zh-Hans">将面团冷藏过夜</name>
+  <name lang="ja">生地を一晩冷蔵する</name>
+  <name lang="fr">Réfrigérer la pâte toute la nuit</name>
+  <name lang="ar">وضع العجين في الثلاجة طوال الليل</name>
+  <name lang="es">Refrigera la masa durante toda la noche</name>
+  <name lang="ko">반죽을 하룻밤 동안 냉장 보관</name>
+  <name lang="zh-Hant">將麵團冷藏過夜</name>
+  <name lang="hi">आटा रात भर फ्रिज में रखें</name>
+  <name lang="de">Den Teig über Nacht im Kühlschrank aufbewahren</name>
+  <name lang="it">Mettere l'impasto in frigo durante la notte</name>
+  <description lang="en">Cover the dough and place it in the fridge for at least 4-5 hours, or ideally overnight, for cold slow fermentation and to allow gluten to develop.</description>
+  <description lang="zh-Hans">将面团盖好，放入冰箱至少4-5小时，最好是整夜，以进行冷慢发酵并促使面筋发展。</description>
+  <description lang="ja">生地を覆い、少なくとも4〜5時間、理想的には一晩中、冷蔵庫で冷やし、ゆっくりと冷たい発酵をさせ、グルテンを発達させます。</description>
+  <description lang="fr">Couvrir la pâte et la placer au réfrigérateur pendant au moins 4 à 5 heures, ou idéalement toute la nuit, pour une fermentation lente et froide et permettre le développement du gluten.</description>
+  <description lang="ar">استخدم قماشًا لتغطية العجينة وضعها في الثلاجة لمدة لا تقل عن 4-5 ساعات ، أو بشكل مثالي طوال الليل ، للتخمير البارد البطيء وللسماح بتطوير الغلوتين.</description>
+  <description lang="es">Cubre la masa y colócala en el refrigerador durante al menos 4-5 horas, o idealmente durante toda la noche, para una fermentación lenta y fría y permitir que se desarrolle el gluten.</description>
+  <description lang="ko">반죽을 덮고 냉장고에 최소 4-5 시간, 이상적으로는 하룻밤 동안 넣어 차가운 느린 발효를 하고 글루텐이 발달하도록 합니다.</description>
+  <description lang="zh-Hant">將麵團蓋好，放入冰箱至少4-5小時，最好是整夜，進行冷慢發酵並促使麵筋發展。</description>
+  <description lang="hi">आटा को ढंकें और फ्रिज में कम से कम 4-5 घंटे, या आदर्श रूप से पूरी रात के लिए रखें, ठंडे धीमे फ़ेरमेंटेशन के लिए और ग्लूटेन को विकसित करने के लिए।</description>
+  <description lang="de">Den Teig abdecken und mindestens 4-5 Stunden oder idealerweise über Nacht in den Kühlschrank stellen, um eine kalte langsame Gärung zu ermöglichen und die Glutenentwicklung zu fördern.</description>
+  <description lang="it">Coprire l'impasto e metterlo in frigo per almeno 4-5 ore, o idealmente durante la notte, per una fermentazione lenta e fredda e per consentire lo sviluppo del glutine.</description>
+</ml>
+
+  </step>
+  <step name="Final shaping (optional)" description="If you want to add fillings or other ingredients, add them now as desired and then shape the buns or loaves. After this step, you can either keep them in the fridge for up to 3 days or proceed directly to the final proofing step." alertoption="false">
+<ml>
+  <name lang="en">Final shaping (optional)</name>
+  <name lang="zh-Hans">最终造型（可选）</name>
+  <name lang="ja">最終形成（オプション）</name>
+  <name lang="fr">Façonnage final (optionnel)</name>
+  <name lang="ar">التشكيل النهائي (اختياري)</name>
+  <name lang="es">Formado final (opcional)</name>
+  <name lang="ko">최종 형태 결정 (선택 사항)</name>
+  <name lang="zh-Hant">最終造型（可選）</name>
+  <name lang="hi">अंतिम आकार देना (वैकल्पिक)</name>
+  <name lang="de">Endgültige Formgebung (optional)</name>
+  <name lang="it">Formatura finale (opzionale)</name>
+  <description lang="en">If you want to add fillings or other ingredients, add them now as desired and then shape the buns or loaves. After this step, you can either keep them in the fridge for up to 3 days or proceed directly to the final proofing step.</description>
+  <description lang="zh-Hans">如果您想添加馅料或其他配料，请现在按照需要添加，然后形成面包或面包。 在此步骤之后，您可以将它们保存在冰箱中最多3天，或者直接进行最终发酵步骤。</description>
+  <description lang="ja">具体的な補充や他の材料を追加する場合は、希望どおりに今すぐ追加し、その後、パンまたはローブを形成します。 この手順の後、それらを最大3日間冷蔵庫に保存するか、直接最終的な発酵手順に進むことができます。</description>
+  <description lang="fr">Si vous souhaitez ajouter des garnitures ou d'autres ingrédients, ajoutez-les maintenant selon vos souhaits, puis façonnez les petits pains ou les pains. Après cette étape, vous pouvez soit les conserver au réfrigérateur pendant jusqu'à 3 jours, soit passer directement à l'étape finale de la fermentation.</description>
+  <description lang="ar">إذا كنت ترغب في إضافة حشوات أو مكونات أخرى ، فأضفها الآن حسب الرغبة ثم اشكل الخبز أو الأرغفة. بعد هذه الخطوة ، يمكنك إما الاحتفاظ بها في الثلاجة لمدة تصل إلى 3 أيام أو المضي قدمًا مباشرة إلى خطوة التخمير النهائية.</description>
+  <description lang="es">Si deseas agregar rellenos u otros ingredientes, agrégalos ahora según lo desees y luego da forma a los bollos o panes. Después de este paso, puedes mantenerlos en el refrigerador por hasta 3 días o proceder directamente al paso final de la fermentación.</description>
+  <description lang="ko">추가로 재료를 넣고 싶다면 원하는대로 추가한 후, 빵이나 빵 모양을 만듭니다. 이 단계 이후에는 최대 3 일 동안 냉장고에 보관하거나 직접 최종 발효 단계로 진행할 수 있습니다.</description>
+  <description lang="zh-Hant">如果您想添加餡料或其他配料，請現在按照需要添加，然後形成麵包或麵包。 在此步驟之後，您可以將它們保存在冰箱中最多3天，或者直接進行最終發酵步驟。</description>
+  <description lang="hi">यदि आप भराव या अन्य सामग्री जोड़ना चाहते हैं, तो उन्हें अब अपनी पसंद के अनुसार जोड़ें और फिर बन्स या लोफ्स को आकार दें। इस चरण के बाद, आप इन्हें अधिकतम 3 दिनों तक फ्रिज में रख सकते हैं या सीधे अंतिम सिद्धि चरण में आगे बढ़ सकते हैं।</description>
+  <description lang="de">Wenn Sie Füllungen oder andere Zutaten hinzufügen möchten, fügen Sie diese jetzt nach Belieben hinzu und formen Sie dann die Brötchen oder Brote. Nach diesem Schritt können Sie sie entweder bis zu 3 Tage im Kühlschrank aufbewahren oder direkt zum letzten Gärungsschritt übergehen.</description>
+  <description lang="it">Se desideri aggiungere ripieni o altri ingredienti, aggiungili ora come desiderato e quindi dà forma ai panini o alle pagnotte. Dopo questo passaggio, puoi tenerli in frigo per un massimo di 3 giorni o procedere direttamente alla fase finale di lievitazione.</description>
+</ml>
+
+  </step>
+  <step name="Final proofing" description="Final proof the dough at 32-36 degrees Celsius or 90-96 degrees Fahrenheit for about 2 hours, or until it doubles or triples in size. The final proofing time can vary depending on the proofing temperature and humidity. Glaze the final dough if required; it is now ready for the oven!" targettemperature="32" time="120" alertoption="true">
+<ml>
+  <name lang="en">Final proofing</name>
+  <name lang="zh-Hans">最终发酵</name>
+  <name lang="ja">最終発酵</name>
+  <name lang="fr">Dernière fermentation</name>
+  <name lang="ar">التخمير النهائي</name>
+  <name lang="es">Fermentación final</name>
+  <name lang="ko">최종 발효</name>
+  <name lang="zh-Hant">最終發酵</name>
+  <name lang="hi">अंतिम सिद्धि</name>
+  <name lang="de">Endgültiges Gehenlassen</name>
+  <name lang="it">Ultima lievitazione</name>
+  <description lang="en">Final proof the dough at 32-36 degrees Celsius or 90-96 degrees Fahrenheit for about 2 hours, or until it doubles or triples in size. The final proofing time can vary depending on the proofing temperature and humidity. Glaze the final dough if required; it is now ready for the oven!</description>
+  <description lang="zh-Hans">将面团最终发酵在32-36摄氏度或90-96华氏度约2小时，直到其体积增加两到三倍。 最终发酵时间可能会根据发酵温度和湿度而变化。 如果需要，给最终面团涂抹上一层蛋液； 现在已经可以放入烤箱烘烤了！</description>
+  <description lang="ja">生地を32-36度の摂氏または90-96度の華氏で約2時間、または2倍または3倍の大きさになるまで最終発酵させます。 最終発酵時間は、発酵温度と湿度によって異なる場合があります。 必要に応じて最終生地にグレーズを施します。これでオーブンの準備ができました！</description>
+  <description lang="fr">Dernière fermentation de la pâte à une température de 32 à 36 degrés Celsius ou 90 à 96 degrés Fahrenheit pendant environ 2 heures, ou jusqu'à ce qu'elle double ou triple de volume. Le temps de dernière fermentation peut varier en fonction de la température et de l'humidité de fermentation. Vernissez la pâte finale si nécessaire ; elle est maintenant prête pour le four !</description>
+  <description lang="ar">يتم التخمير النهائي للعجين عند درجة حرارة تتراوح بين 32-36 درجة مئوية أو 90-96 درجة فهرنهايت لمدة تقريبًا 2 ساعة ، أو حتى يتضاعف أو يتراوح حجمه بين الضعف والثلاثة أضعاف. يمكن أن يختلف وقت التخمير النهائي اعتمادًا على درجة حرارة التخمير والرطوبة. تغطية العجين النهائي إذا لزم الأمر ؛ إنه الآن جاهز للفرن!</description>
+  <description lang="es">Deje fermentar la masa final a 32-36 grados Celsius o 90-96 grados Fahrenheit durante aproximadamente 2 horas, o hasta que duplique o triplique su tamaño. El tiempo de fermentación final puede variar según la temperatura y la humedad de fermentación. Si es necesario, barnice la masa final; ¡ahora está lista para el horno!</description>
+  <description lang="ko">32~36도 섭씨 또는 90~96도 화씨에서 약 2시간 동안 최종 발효를 하고 크기가 두 배에서 세 배로 증가 할 때까지 기다립니다. 최종 발효 시간은 발효 온도와 습도에 따라 다를 수 있습니다. 필요한 경우 최종 반죽에 유을 바르십시오. 이제 오븐에 넣을 준비가되었습니다!</description>
+  <description lang="zh-Hant">在32-36攝氏度或90-96華氏度的溫度下最終發酵約2小時，或直到其體積增加兩到三倍。 最終發酵時間可能會根據發酵溫度和濕度而變化。 如果需要，給最終面團塗抹上一層蛋液； 現在已經可以放入烤箱烘烤了！</description>
+  <description lang="hi">32-36 डिग्री सेल्सियस या 90-96 डिग्री फारनहाइट पर लगभग 2 घंटे के लिए आखिरी सिद्धि करें, या जब तक यह दोगुना या तीनगुना न हो जाए। आखिरी सिद्धि का समय सिद्धि के तापमान और नमी के आधार पर भिन्न हो सकता है। यदि आवश्यक हो तो अंतिम आटा पर एक परत लगाएं; यह अब ओवन के लिए तैयार है!</description>
+  <description lang="de">Die endgültige Teigruhe bei 32-36 Grad Celsius oder 90-96 Grad Fahrenheit etwa 2 Stunden lang durchführen, oder bis sich ihr Volumen verdoppelt oder verdreifacht hat. Die endgültige Ruhezeit kann je nach Gärttemperatur und Luftfeuchtigkeit variieren. Den endgültigen Teig bei Bedarf glasieren; er ist jetzt bereit für den Ofen!</description>
+  <description lang="it">Ultima lievitazione dell'impasto a 32-36 gradi Celsius o 90-96 gradi Fahrenheit per circa 2 ore, o fino a quando raddoppia o triplica di volume. Il tempo di ultima lievitazione può variare a seconda della temperatura e dell'umidità della lievitazione. Lucidare l'impasto finale se necessario; è ora pronto per il forno!</description>
+</ml>
+
+  </step>
 </recipe>

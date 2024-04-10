@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<dm>
+	<uicontent>
+		
+	</uicontent>
+	<recipes>
+		<recipe name="Poolish Pizza Dough"
+				id="1"
+				url="https://cxc1292.github.io/bz/Recipes/Poolish.xml"
+				file="XML.Recipes.Poolish.xml"
+				thumbnail="poolish.png"
+				version="1.0"
+				status="WaitingForDownload"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Poolish Pizza Dough</name>
+				<name lang="zh-Hans">液种法比萨面团</name>
+				<name lang="ja">プーリッシュ</name>
+				<name lang="fr">Pâte Poolish</name>
+				<name lang="ar">بوليش</name>
+				<name lang="es">Poolish</name>
+				<name lang="ko">풀리쉬</name>
+				<name lang="zh-Hant">液種法比薩麵團</name>
+				<name lang="hi">पुलिश</name>
+				<name lang="de">Poolish</name>
+				<name lang="it">Poolish</name>
+				<description lang="zh-Hans">用液种法制作发面团</description>
+				<description lang="ja">プーリッシュ発酵種で生地を作る</description>
+				<description lang="fr">Préparation de la pâte à pain avec une fermentation Poolish</description>
+				<description lang="ar">تحضير عجينة الخبز باستخدام التخمير بالبوليش</description>
+				<description lang="es">Haciendo masa con fermentación Poolish</description>
+				<description lang="ko">풀리쉬 발효 도우 만들기</description>
+				<description lang="zh-Hant">用液種法製作麵團</description>
+				<description lang="hi">पुलिश फर्मेंटेशन के साथ आटा बनाना</description>
+				<description lang="de">Herstellung von Teig mit Poolish-Fermentation</description>
+				<description lang="it">Preparazione dell'impasto con fermentazione Poolish</description>
+			</ml>
+		</recipe>
+
+		<recipe name="Express Pizza Dough"
+				id="2"
+				url="https://cxc1292.github.io/bz/Recipes/ExpressPizzaDough.xml"
+				file="XML.Recipes.ExpressPizzaDough.xml"
+				thumbnail="express_pizza_dough.png"
+				version="1.0"
+				status="CommingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Express Pizza Dough</name>
+				<name lang="zh-Hans">快速比萨面团</name>
+				<name lang="ja">簡単ピザ生地</name>
+				<name lang="fr">Pâte à pizza express</name>
+				<name lang="ar">عجينة بيتزا سريعة</name>
+				<name lang="es">Masa de pizza exprés</name>
+				<name lang="ko">간편 피자 도우</name>
+				<name lang="zh-Hant">快速比薩麵團</name>
+				<name lang="hi">जल्दी पिज्जा का आटा</name>
+				<name lang="de">Schnelle Pizzateig</name>
+				<name lang="it">Pasta per pizza express</name>
+				<description lang="en">Get your pizza dough ready in a few hours.</description>
+				<description lang="zh-Hans">几个小时即可准备好比萨面团。</description>
+				<description lang="ja">数時間でピザ生地の準備が完了します。</description>
+				<description lang="fr">Préparez votre pâte à pizza en quelques heures.</description>
+				<description lang="ar">جهز عجينة البيتزا الخاصة بك في غضون ساعات قليلة</description>
+				<description lang="es">Tenga su masa de pizza lista en unas pocas horas.</description>
+				<description lang="ko">몇 시간 만에 피자 도우를 준비하세요.</description>
+				<description lang="zh-Hant">幾個小時即可準備好比薩麵團。</description>
+				<description lang="hi">कुछ ही घंटों में अपना पिज्जा का आटा तैयार कर लें।</description>
+				<description lang="de">Machen Sie Ihren Pizzateig in wenigen Stunden fertig.</description>
+				<description lang="it">Prepara il tuo impasto per pizza in poche ore.</description>
+			</ml>
+		</recipe>
+		<recipe name="Classic Brioche"
+				id="3"
+				url="https://cxc1292.github.io/bz/Recipes/ClassicBrioche.xml"
+				file="XML.Recipes.ClassicBrioche.xml"
+				thumbnail="classicbrioche.png"
+				version="1.0"
+				status="WaitingForDownload"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Classic Brioche</name>
+				<name lang="zh-Hans">经典布莉欧</name>
+				<name lang="ja">クラシックブリオッシュ</name>
+				<name lang="fr">Brioche classique</name>
+				<name lang="ar">بريوش كلاسيكي</name>
+				<name lang="es">Brioche clásico</name>
+				<name lang="ko">클래식 브리오슈</name>
+				<name lang="zh-Hant">經典布莉歐</name>
+				<name lang="hi">क्लासिक ब्रियोश</name>
+				<name lang="de">Klassische Brioche</name>
+				<name lang="it">Brioche classico</name>
+				<description lang="en">Elevate your baking with this versatile brioche dough. It's ideal for countless sweet and savory creations.</description>
+				<description lang="zh-Hans">用这款百搭的布莉欧面团提升您的烘焙技巧。 它非常适合制作无数甜味和咸味菜肴。</description>
+				<description lang="ja">この多目的に使えるブリオッシュ生地で、あなたの焼き菓子作りをワンランクアップさせましょう。 甘いものからしょっぱいものまで、さまざまな料理に最適です。</description>
+				<description lang="fr">Élevez votre pâtisserie avec cette pâte à brioche polyvalente. Elle est idéale pour d'innombrables créations sucrées et salées.</description>
+				<description lang="ar">ارتقِ بحرفة الخبز لديك مع عجينة البريوش متعددة الاستخدامات هذه. إنها مثالية للعديد من الإبداعات الحلوة والمالحة. </description>
+				<description lang="es">Eleva tu horneado con esta versátil masa de brioche. Es ideal para innumerables creaciones dulces y saladas.</description>
+				<description lang="ko">이 다용도 브리오슈 반죽으로 베이킹을 한 단계 업그레이드하십시오. 달콤하고 맛있는 수많은 요리에 이상적입니다.</description>
+				<description lang="zh-Hant">用這款百搭的布莉歐面團提升您的烘焙技巧。 它非常適合製作無數甜味和鹹味菜肴。</description>
+				<description lang="hi">इस बहुमुखी ब्रियोश आटा के साथ अपनी बेकिंग को ऊपर उठाएं। यह अनगिनत मीठे और नमकीन व्यंजनों के लिए आदर्श है। </description>
+				<description lang="de">Heben Sie Ihr Backen mit diesem vielseitigen Brioche-Teig auf ein neues Level.</description>
+			</ml>			
+		</recipe>
+		<recipe name="Rich Brioche"
+				id="4"
+				url="https://cxc1292.github.io/bz/Recipes/RichBrioche.xml"
+				file="XML.Recipes.RichBrioche.xml"
+				thumbnail="rich_brioche.png"
+				version="1.0"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Rich Brioche</name>
+				<name lang="zh-Hans">浓郁布里奥奇</name>
+				<name lang="ja">ブリオッシュ</name>
+				<name lang="fr">Brioche riche</name>
+				<name lang="ar">بريوش غني</name>
+				<name lang="es">Brioche rico</name>
+				<name lang="ko">부유한 브리오슈</name>
+				<name lang="zh-Hant">濃郁布里奥奇</name>
+				<name lang="hi">रिच ब्रिओश</name>
+				<name lang="de">Reichhaltige Brioche</name>
+				<name lang="it">Brioche Ricca</name>
+				<description lang="en">Rich and delicious brioche dough with 100% butter. To increase the chance of success for this dough is temperature control and longer kneading time.</description>
+				<description lang="zh-Hans">富含100%黄油的浓郁美味的面团。控制温度和延长揉面时间可以增加面团成功的机会。</description>
+				<description lang="ja">100％バターを使用したリッチでおいしいブリオッシュ生地。この生地の成功率を高めるには、温度管理と長いこね時間が必要です。</description>
+				<description lang="fr">Pâte à brioche riche et délicieuse avec 100% de beurre. Pour augmenter les chances de réussite de cette pâte, il est nécessaire de contrôler la température et de prolonger le temps de pétrissage.</description>
+				<description lang="ar">عجينة بريوش غنية ولذيذة بنسبة 100٪ زبدة. لزيادة فرص نجاح هذه العجينة يجب التحكم في درجة الحرارة وزيادة وقت العجن.</description>
+				<description lang="es">Masa de brioche rica y deliciosa con 100% mantequilla. Para aumentar la posibilidad de éxito de esta masa es necesario controlar la temperatura y alargar el tiempo de amasado.</description>
+				<description lang="ko">100% 버터를 사용한 풍부하고 맛있는 브리오슈 반죽. 이 반죽의 성공 확률을 높이려면 온도를 조절하고 반죽 시간을 더 길게 하는 것이 좋습니다.</description>
+				<description lang="zh-Hant">富含100%奶油的濃郁美味麵團。要增加這種麵團成功的機會，需要控制溫度和延長揉麵時間。</description>
+				<description lang="hi">100% मक्खन के साथ रिच और स्वादिष्ट ब्रिओश आटा। इस आटे की सफलता की संभावना बढ़ाने के लिए तापमान नियंत्रण और लंबे समय तक गूंधने का समय आवश्यक है।</description>
+				<description lang="de">Reichhaltiger und köstlicher Brioche-Teig mit 100% Butter. Um die Erfolgschancen dieses Teigs zu erhöhen, ist eine Temperaturkontrolle und längere Knetzeit erforderlich.</description>
+				<description lang="it">Impasto di brioche ricco e delizioso con il 100% di burro. Per aumentare le possibilità di successo di questo impasto è necessario controllare la temperatura e allungare i tempi di impasto.</description>
+			</ml>			
+		</recipe>
+		<recipe name="Pasta Dough"
+				id="5"
+				url="https://cxc1292.github.io/bz/Recipes/PastaDough.xml"
+				file="XML.Recipes.PastaDough.xml"
+				access="free"
+				thumbnail="pasta.png"
+				status="ComingSoon" ownerid="1">
+			<ml>
+				<name lang="en">Pasta Dough</name>
+				<name lang="zh-Hans">意大利面面团</name>
+				<name lang="ja">パスタ生地</name>
+				<name lang="fr">Pâte à Pâtes</name>
+				<name lang="ar">عجينة المعكرونة</name>
+				<name lang="es">Masa de Pasta</name>
+				<name lang="ko">파스타 반죽</name>
+				<name lang="zh-Hant">意大利麵麵團</name>
+				<name lang="hi">पास्ता आटा</name>
+				<name lang="de">Nudelteig</name>
+				<name lang="it">Impasto per Pasta</name>
+				<description lang="en">Master the art of homemade pasta with our simple yet delicious dough recipe, perfect for crafting authentic Italian dishes.</description>
+				<description lang="zh-Hans">用我们简单而美味的面团食谱精通自制意大利面的艺术，非常适合制作正宗的意大利菜。</description>
+				<description lang="ja">私たちのシンプルで美味しい生地レシピで手作りパスタの技術をマスターし、正統なイタリア料理を作り上げましょう。</description>
+				<description lang="fr">Maîtrisez l'art des pâtes maison avec notre recette de pâte simple mais délicieuse, parfaite pour créer des plats italiens authentiques.</description>
+				<description lang="ar">استوعب فن صنع المعكرونة المنزلية مع وصفتنا البسيطة ولكن اللذيذة لعجينة المعكرونة ، مثالية لصنع الأطباق الإيطالية الأصيلة.</description>
+				<description lang="es">Domina el arte de la pasta casera con nuestra sencilla pero deliciosa receta de masa, perfecta para elaborar auténticos platos italianos.</description>
+				<description lang="ko">우리의 간단하지만 맛있는 반죽 레시피로 집에서 만든 파스타의 기술을 습득하고, 정통 이탈리아 요리를 만드는 데 완벽합니다.</description>
+				<description lang="zh-Hant">用我們簡單而美味的麵團食譜精通自製義大利麵的藝術，非常適合製作正宗的意大利菜。</description>
+				<description lang="hi">हमारी सरल लेकिन स्वादिष्ट आटे की रेसिपी के साथ घर पर बनाई गई पास्ता कला को अभ्यास करें, जो सत्यान्वेषी इतालवी व्यंजनों को बनाने के लिए उत्कृष्ट है।</description>
+				<description lang="de">Meistern Sie die Kunst der hausgemachten Pasta mit unserem einfachen, aber köstlichen Teigrezept, das perfekt für die Zubereitung authentischer italienischer Gerichte geeignet ist.</description>
+				<description lang="it">Padroneggia l'arte della pasta fatta in casa con la nostra semplice ma deliziosa ricetta per l'impasto, perfetta per creare autentici piatti italiani.</description>
+			</ml>
+		</recipe>
+		<recipe name="Soughdough Starter"
+				id="6"
+				url="https://cxc1292.github.io/bz/Recipes/SourdoughStarter.xml"
+				file="XML.Recipes.SourdoughStarter.xml"
+				version="1.0"
+				thumbnail="sourdough_starter.png"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Sourdough Starter</name>
+				<name lang="zh-Hans">酵头种</name>
+				<name lang="ja">サワードウスターター</name>
+				<name lang="fr">Levain</name>
+				<name lang="ar">خميرة حمضية</name>
+				<name lang="es">Masa Madre</name>
+				<name lang="ko">사워도우 스타터</name>
+				<name lang="zh-Hant">酵頭種</name>
+				<name lang="hi">सौअरडो स्टार्टर</name>
+				<name lang="de">Sauerteigansatz</name>
+				<name lang="it">Lievito Madre</name>
+				<description lang="en">Start your sourdough journey with our easy-to-follow starter recipe, crafted to cultivate the perfect blend of tangy flavor and bubbly texture.</description>
+				<description lang="zh-Hans">使用我们易于跟随的酵头种食谱开始您的酸面团之旅，培育出完美的酸味风味和多气泡质感。</description>
+				<description lang="ja">私たちのわかりやすいスターターレシピでサワードウの旅を始め、酸っぱい風味と泡立つ質感の完璧なブレンドを育てます。</description>
+				<description lang="fr">Commencez votre voyage dans le monde du levain avec notre recette de départ simple à suivre, conçue pour cultiver le parfait équilibre entre le goût acidulé et la texture mousseuse.</description>
+				<description lang="ar">ابدأ رحلتك في عالم الخميرة الحمضية مع وصفتنا البسيطة لبدء التتبيل، مصممة لزراعة مزيج مثالي من النكهة الحامضة والقوام الفوّار.</description>
+				<description lang="es">Inicia tu viaje con la masa madre con nuestra sencilla receta de inicio, diseñada para cultivar la mezcla perfecta de sabor agrio y textura burbujeante.</description>
+				<description lang="ko">우리의 쉬운 따라하기 레시피로 사워도우 스타터를 시작하고, 신랄한 풍미와 거품 형태의 완벽한 조화를 육성하세요.</description>
+				<description lang="zh-Hant">使用我們易於跟隨的酵頭種食譜開始您的酸麵團之旅，培育出完美的酸味風味和多氣泡質感。</description>
+				<description lang="hi">हमारी सरल स्टार्टर रेसिपी के साथ अपने सौअरडो यात्रा की शुरुआत करें, जो अमल में आसान है, और जो संकरी रस और फुलफुले रवा का पूरा मिश्रण उत्पन्न करता है।</description>
+				<description lang="de">Starten Sie Ihre Sauerteigreise mit unserem leicht zu befolgenden Startrezept, das entwickelt wurde, um die perfekte Mischung aus säuerlichem Geschmack und luftiger Textur zu kultivieren.</description>
+				<description lang="it">Inizia il tuo viaggio nel mondo del lievito madre con la nostra semplice ricetta di avvio, progettata per coltivare la perfetta miscela di sapore agrodolce e consistenza schiumosa.</description>
+			</ml>			
+		</recipe>
+		<recipe name="Soughdough"
+				id="7"
+				url="https://cxc1292.github.io/bz/Recipes/Sourdough.xml"
+				file="XML.Recipes.Sourdough.xml"
+				version="1.0"
+				thumbnail="sourdough.png"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Sourdough</name>
+				<name lang="zh-Hans">酸面团</name>
+				<name lang="ja">サワードウ</name>
+				<name lang="fr">Levain</name>
+				<name lang="ar">عجينة حامضة</name>
+				<name lang="es">Masa Madre</name>
+				<name lang="ko">사워도우</name>
+				<name lang="zh-Hant">酸麵團</name>
+				<name lang="hi">सौअरडो</name>
+				<name lang="de">Sauerteig</name>
+				<name lang="it">Lievito Madre</name>
+				<description lang="en">Join the sourdough revolution and bake your way to perfection with our simple yet rewarding recipe, offering a satisfying baking experience for all.</description>
+				<description lang="zh-Hans">加入自制酸面团的行列，用我们简单而有回报的食谱走向完美，为所有人提供令人满意的烘焙体验。</description>
+				<description lang="ja">酸味のある生地革命に参加し、シンプルでありながらも報酬のあるレシピで完璧なパンを焼き上げ、すべての人に満足のいく焼き菓子の体験を提供します。</description>
+				<description lang="fr">Rejoignez la révolution du levain et faites votre chemin vers la perfection avec notre recette simple mais enrichissante, offrant une expérience de cuisson satisfaisante pour tous.</description>
+				<description lang="ar">انضم إلى ثورة العجينة الحامضة واطبخ طريقك إلى الكمال مع وصفتنا البسيطة والمجزية، والتي تقدم تجربة خبز مرضية للجميع.</description>
+				<description lang="es">Únete a la revolución de la masa madre y hornea tu camino hacia la perfección con nuestra receta simple pero gratificante, ofreciendo una experiencia de horneado satisfactoria para todos.</description>
+				<description lang="ko">사워도우 혁명에 합류하고 간단하지만 보상이 풍부한 레시피로 완벽한 빵을 굽고 모두에게 만족스러운 베이킹 경험을 제공하세요.</description>
+				<description lang="zh-Hant">加入自製酸麵團的行列，用我們簡單而有回報的食譜走向完美，為所有人提供令人滿意的烘焙體驗。</description>
+				<description lang="hi">सौअरडो क्रांति में शामिल हों और हमारे सरल लेकिन प्रोत्साहक रेसिपी के साथ परिपूर्णता की ओर अपना पथ बनाएं, जो सभी के लिए एक संतोषजनक बेकिंग अनुभव प्रदान करता है।</description>
+				<description lang="de">Schließen Sie sich der Sauerteig-Revolution an und backen Sie sich mit unserem einfachen, aber lohnenden Rezept den Weg zur Perfektion, das für alle ein befriedigendes Backerlebnis bietet.</description>
+				<description lang="it">Unisciti alla rivoluzione del lievito madre e cuoci la tua strada verso la perfezione con la nostra semplice ma gratificante ricetta, offrendo un'esperienza di cottura soddisfacente per tutti.</description>
+			</ml>
+		</recipe>
+		<recipe name="Roti Dough"
+				id="8"
+				url="https://cxc1292.github.io/bz/Recipes/RotiDough.xml"
+				file="XML.Recipes.RotiDough.xml"
+				thumbnail ="roti.png"
+				version="1.0"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Roti Dough</name>
+				<name lang="zh-Hans">面团</name>
+				<name lang="ja">ロティ生地</name>
+				<name lang="fr">Pâte à Roti</name>
+				<name lang="ar">عجينة الروتي</name>
+				<name lang="es">Masa de Roti</name>
+				<name lang="ko">로티 반죽</name>
+				<name lang="zh-Hant">餅皮麵團</name>
+				<name lang="hi">रोटी आटा</name>
+				<name lang="de">Roti-Teig</name>
+				<name lang="it">Impasto per Roti</name>
+				<description lang="en">Experience the authentic flavors of Indian cuisine with our simple yet delicious roti dough recipe, perfect for creating soft and fluffy flatbreads.</description>
+				<description lang="zh-Hans">用我们简单而美味的面团食谱体验印度美食的正宗味道，非常适合制作柔软蓬松的烤饼。</description>
+				<description lang="ja">当社のシンプルで美味しいロティ生地のレシピで本格的なインド料理の味を体験し、柔らかくふわふわのフラットブレッドを作りましょう。</description>
+				<description lang="fr">Découvrez les saveurs authentiques de la cuisine indienne avec notre recette simple mais délicieuse de pâte à roti, parfaite pour créer des pains plats moelleux et aérés.</description>
+				<description lang="ar">استمتع بنكهات المأكولات الهندية الأصيلة مع وصفتنا البسيطة ولكن اللذيذة لعجينة الروتي ، مثالية لإعداد الخبز الطري والهوائي.</description>
+				<description lang="es">Experimenta los sabores auténticos de la cocina india con nuestra sencilla pero deliciosa receta de masa de roti, perfecta para crear panes planos suaves y esponjosos.</description>
+				<description lang="ko">우리의 간단하지만 맛있는 로티 반죽 레시피로 인도 요리의 정통 맛을 경험하십시오. 부드럽고 푹신한 빵을 만드는 데 완벽합니다.</description>
+				<description lang="zh-Hant">用我們簡單而美味的餅皮麵團食譜品嘗印度美食的正宗味道，非常適合製作柔軟蓬鬆的烤餅。</description>
+				<description lang="hi">हमारे सरल लेकिन स्वादिष्ट रोटी आटे की रेसिपी के साथ भारतीय व्यंजनों के प्राचीन स्वाद का अनुभव करें, जो की नरम और फूली हुई फ्लैटब्रेड्स बनाने के लिए उत्तम है।</description>
+				<description lang="de">Erleben Sie die authentischen Aromen der indischen Küche mit unserem einfachen, aber köstlichen Roti-Teig-Rezept, das perfekt ist, um weiche und flauschige Fladenbrote zu kreieren.</description>
+				<description lang="it">Vivi i sapori autentici della cucina indiana con la nostra semplice ma deliziosa ricetta per l'impasto di roti, perfetta per creare pane piatto morbido e soffice.</description>
+			</ml>
+		</recipe>
+		<recipe name="Ramen Dough"
+				id="9"
+				url="https://cxc1292.github.io/bz/Recipes/RamenDough.xml"
+				file="XML.Recipes.RamenDough.xml"
+				version="1.0"
+				thumbnail ="ramen.png"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Ramen Dough</name>
+				<name lang="zh-Hans">拉面面团</name>
+				<name lang="ja">ラーメン生地</name>
+				<name lang="fr">Pâte à Ramen</name>
+				<name lang="ar">عجينة الرامن</name>
+				<name lang="es">Masa de Ramen</name>
+				<name lang="ko">라면 반죽</name>
+				<name lang="zh-Hant">拉麵麵團</name>
+				<name lang="hi">रामन आटा</name>
+				<name lang="de">Ramen-Teig</name>
+				<name lang="it">Impasto per Ramen</name>
+				<description lang="en">Unlock the secrets of traditional ramen-making with our easy-to-follow dough recipe, designed to elevate your homemade ramen to gourmet status.</description>
+				<description lang="zh-Hans">使用我们易于跟随的面团食谱，揭示传统拉面制作的秘密，旨在将您的自制拉面提升至美食级别。</description>
+				<description lang="ja">私たちの分かりやすい生地のレシピで、伝統的なラーメン作りの秘密を解き明かし、自家製ラーメンをグルメなものに昇華させます。</description>
+				<description lang="fr">Déverrouillez les secrets de la fabrication traditionnelle de ramen avec notre recette de pâte facile à suivre, conçue pour élever votre ramen maison au statut de gourmet.</description>
+				<description lang="ar">افتح أسرار صنع الرامن التقليدية مع وصفتنا لعجينة سهلة المتابعة ، مصممة لرفع رامن البيتزا الخاص بك إلى مستوى الذواقة.</description>
+				<description lang="es">Descubre los secretos de la elaboración tradicional de ramen con nuestra fácil receta de masa, diseñada para elevar tu ramen casero al estatus de gourmet.</description>
+				<description lang="ko">우리의 쉽게 따라 할 수있는 반죽 레시피로 전통적인 라면 만들기의 비밀을 해제하고, 당신의 집에서 만든 라면을 고급스러운 것으로 만들어 보세요.</description>
+				<description lang="zh-Hant">使用我們易於跟隨的麵團食譜，揭示傳統拉麵製作的秘密，旨在將您的自製拉麵提升至美食級別。</description>
+				<description lang="hi">हमारे आसान डो की रेसिपी के साथ पारंपरिक रामेन बनाने के रहस्यों को खोलें, जो आपके घर के बने रामन को गुरमेट स्तर तक उत्तेजित करने के लिए डिज़ाइन किया गया है।</description>
+				<description lang="de">Entdecken Sie die Geheimnisse der traditionellen Ramen-Herstellung mit unserem leicht zu befolgenden Teigrezept, das Ihren hausgemachten Ramen zum Gourmet-Erlebnis macht.</description>
+				<description lang="it">Svela i segreti della preparazione tradizionale dei ramen con la nostra semplice ricetta per l'impasto, progettata per elevare il tuo ramen fatto in casa allo status di gourmet.</description>
+			</ml>
+		</recipe>
+		<recipe name="Chinese Dumpling Dough"
+				id="10"
+				url="https://cxc1292.github.io/bz/Recipes/ChineseDumplingDough.xml"
+				file="XML.Recipes.ChineseDumplingDough.xml"
+				version="1.0"
+				thumbnail="chinese_dumpling.png"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Chinese Dumpling Dough</name>
+				<name lang="zh-Hans">中国饺子面团</name>
+				<name lang="ja">中国の餃子の生地</name>
+				<name lang="fr">Pâte à Dumplings Chinois</name>
+				<name lang="ar">عجينة الفطائر الصينية</name>
+				<name lang="es">Masa de Empanadillas Chinas</name>
+				<name lang="ko">중국 만두 반죽</name>
+				<name lang="zh-Hant">中國餃子麵團</name>
+				<name lang="hi">चाइनीज़ दम्पुक्लिंग आटा</name>
+				<name lang="de">Chinesischer Teig für Teigtaschen</name>
+				<name lang="it">Impasto per Ravioli Cinesi</name>
+				<description lang="en">Do you want to make delicious homemade Chinese dumplings? You can make perfect dumpling wraps following this recipe.</description>
+				<description lang="zh-Hans">您想制作美味的自制中国饺子吗？ 按照这个食谱，您可以制作出完美的饺子皮。</description>
+				<description lang="ja">美味しい自家製の中国の餃子を作りたいですか？ このレシピに従って、完璧な餃子の包みを作ることができます。</description>
+				<description lang="fr">Voulez-vous faire de délicieuses raviolis chinois faits maison ? Vous pouvez réaliser des enveloppements de raviolis parfaits en suivant cette recette.</description>
+				<description lang="ar">هل تريد تحضير الفطائر الصينية المنزلية اللذيذة؟ يمكنك صنع قشور فطائر مثالية باتباع هذه الوصفة.</description>
+				<description lang="es">¿Quieres hacer deliciosas empanadillas chinas caseras? Puedes hacer envolturas de empanadillas perfectas siguiendo esta receta.</description>
+				<description lang="ko">맛있는 집에서 만든 중국 만두를 만들고 싶나요? 이 레시피를 따르면 완벽한 만두 껍질을 만들 수 있습니다.</description>
+				<description lang="zh-Hant">您想製作美味的自製中國餃子嗎？ 按照這個食譜，您可以製作出完美的餃子皮。</description>
+				<description lang="hi">क्या आप स्वादिष्ट घर के बने चाइनीज दम्पुक्लिंग बनाना चाहते हैं? इस रेसिपी का पालन करके आप परफेक्ट दम्पुक्लिंग व्रैप बना सकते हैं।</description>
+				<description lang="de">Möchten Sie köstliche hausgemachte chinesische Teigtaschen machen? Sie können perfekte Teigtaschenhüllen herstellen, wenn Sie diesem Rezept folgen.</description>
+				<description lang="it">Vuoi preparare deliziosi ravioli cinesi fatti in casa? Puoi realizzare involucri di ravioli perfetti seguendo questa ricetta.</description>
+			</ml>			
+		</recipe>
+		<recipe name="Cong You Bing (Spring Onion Pancake)"
+				id="11"
+				url="https://cxc1292.github.io/bz/Recipes/CongYouBing.xml"
+				file="XML.Recipes.CongYouBing.xml"
+				thumbnail ="congyoubing.png"
+				version="1.0"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Cong You Bing</name>
+				<name lang="zh-Hans">葱油饼</name>
+				<name lang="ja">ツァイヨウビン</name>
+				<name lang="fr">Cong You Bing</name>
+				<name lang="ar">كونغ يو بينغ</name>
+				<name lang="es">Cong You Bing</name>
+				<name lang="ko">콩 요 빙</name>
+				<name lang="zh-Hant">蔥油餅</name>
+				<name lang="hi">कोंग यो बिंग</name>
+				<name lang="de">Cong You Bing</name>
+				<name lang="it">Cong You Bing</name>
+				<description lang="en">The dough from this recipe is perfect for making delicious, soft and moist Cong You Bing (Spring onion Pancake).</description>
+				<description lang="zh-Hans">此食谱中的面团非常适合制作美味、柔软、湿润的葱油饼。</description>
+				<description lang="ja">このレシピの生地は、美味しくて柔らかくてしっとりとした葱油饼（ねぎのパンケーキ）を作るのに最適です。</description>
+				<description lang="fr">La pâte de cette recette est parfaite pour préparer de délicieuses et moelleuses Cong You Bing (Pancake à la ciboulette).</description>
+				<description lang="ar">العجين من هذه الوصفة مثالي لصنع كونغ يو بينغ اللذيذة والناعمة والرطبة (الفطيرة البصلية).</description>
+				<description lang="es">La masa de esta receta es perfecta para hacer deliciosas, suaves y húmedas Cong You Bing (panqueques de cebolla de primavera).</description>
+				<description lang="ko">이 레시피의 반죽은 맛있고 부드럽고 촉촉한 콩 요 빙 (파전)을 만드는 데 완벽합니다.</description>
+				<description lang="zh-Hant">此食譜中的麵團非常適合製作美味、柔軟、濕潤的蔥油餅。</description>
+				<description lang="hi">इस रेसिपी का आटा स्वादिष्ट, नरम और गीले कोंग यो बिंग (प्याज पैनकेक) बनाने के लिए उत्तम है।</description>
+				<description lang="de">Der Teig aus diesem Rezept ist perfekt für die Zubereitung von leckeren, weichen und feuchten Cong You Bing (Frühlingszwiebel-Pfannkuchen) geeignet.</description>
+				<description lang="it">L'impasto di questa ricetta è perfetto per preparare deliziosi, morbidi e umidi Cong You Bing (pancake di cipolla primaverile).</description>
+			</ml>
+		</recipe>
+		<recipe name="Crepe Batter"
+				id="12"
+				url="https://cxc1292.github.io/bz/Recipes/CrepeBatter.xml"
+				file="XML.Recipes.CrepeBatter.xml"
+				version="1.0"
+				status="ComingSoon"
+				access="free"
+				ownerid="1">
+			<ml>
+				<name lang="en">Crepe Batter</name>
+				<name lang="zh-Hans">薄煎饼面糊</name>
+				<name lang="ja">クレープ生地</name>
+				<name lang="fr">Pâte à Crêpes</name>
+				<name lang="ar">عجينة الكريب</name>
+				<name lang="es">Masa para Crepas</name>
+				<name lang="ko">크레페 반죽</name>
+				<name lang="zh-Hant">薄餅麵糊</name>
+				<name lang="hi">क्रेप बैटर</name>
+				<name lang="de">Crêpe-Teig</name>
+				<name lang="it">Impasto per Crepes</name>
+				<description lang="en">Elevate your breakfast or dessert game with our foolproof crepe batter recipe, perfect for both sweet and savory fillings.</description>
+				<description lang="zh-Hans">使用我们的无敌薄煎饼面糊食谱，为您的早餐或甜点提升一个档次，适用于甜食和咸食馅料。</description>
+				<description lang="ja">私たちの確実なクレープ生地レシピで、朝食やデザートを引き上げましょう。甘いものからしょっぱいものまで、両方のフィリングに最適です。</description>
+				<description lang="fr">Rehaussez votre petit-déjeuner ou vos desserts avec notre recette infaillible de pâte à crêpes, parfaite pour les garnitures sucrées et salées.</description>
+				<description lang="ar">أضف طابعًا خاصًا إلى وجبة الإفطار أو الحلوى باستخدام وصفتنا المضمونة لعجينة الكريب ، مثالية للحشوات الحلوة والمالحة على حد سواء.</description>
+				<description lang="es">Eleva tu desayuno o postre con nuestra infalible receta de masa para crepas, perfecta para rellenos dulces y salados.</description>
+				<description lang="ko">우리의 확실한 크레페 반죽 레시피로 아침 식사나 디저트를 업그레이드하세요. 달콤하고 짠 맛 모두에 적합합니다.</description>
+				<description lang="zh-Hant">使用我們的無敵薄餅麵糊食譜，為您的早餐或甜點提升一個檔次，適用於甜食和鹹食餡料。</description>
+				<description lang="hi">हमारे विश्वसनीय क्रेप बैटर रेसिपी के साथ अपने नाश्ते या मिठाई को बेहतर बनाएं, जो मिठे और खारे भराव के लिए सही है।</description>
+				<description lang="de">Verleihen Sie Ihrem Frühstück oder Dessert mit unserem unfehlbaren Crêpe-Teig-Rezept das gewisse Etwas, perfekt für süße und herzhafte Füllungen gleichermaßen.</description>
+				<description lang="it">Eleva la tua colazione o il tuo dessert con la nostra ricetta infallibile per l'impasto delle crepes, perfetto per ripieni dolci e salati.</description>
+			</ml>
+		</recipe>
+ 	</recipes>
+</dm>

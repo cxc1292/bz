@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<recipe id="1" ownerid="1" name="Poolish Pizza Dough" thumbnail="poolish.png" created="2024-Mar-10" description="Making dough with Poolish fermentation" status="active">
+<recipe id="1" ownerid="1" name="Poolish Pizza Dough" version="1.0" thumbnail="poolish.png" created="2024-Mar-10" description="Making dough with Poolish fermentation" status="active">
 	<ml>
+		<name lang="en">Poolish Pizza Dough</name>
 		<name lang="zh-Hans">液种法</name>
 		<name lang="ja">プーリッシュ</name>
 		<name lang="fr">Pâte Poolish</name>
