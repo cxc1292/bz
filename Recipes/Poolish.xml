@@ -2,13 +2,13 @@
 <recipe id="1" ownerid="1" name="Poolish Pizza Dough" version="1.0" thumbnail="poolish.png" created="2024-Mar-10" description="Making dough with Poolish fermentation" status="active">
 	<ml>
 		<name lang="en">Poolish Pizza Dough</name>
-		<name lang="zh-Hans">液种法</name>
+		<name lang="zh-Hans">液种法比萨面团</name>
 		<name lang="ja">プーリッシュ</name>
 		<name lang="fr">Pâte Poolish</name>
 		<name lang="ar">بوليش</name>
 		<name lang="es">Poolish</name>
 		<name lang="ko">풀리쉬</name>
-		<name lang="zh-Hant">液種法</name>
+		<name lang="zh-Hant">液種法比萨面团</name>
 		<name lang="hi">पुलिश</name>
 		<name lang="de">Poolish</name>
 		<name lang="it">Poolish</name>
@@ -37,7 +37,7 @@
 				<name lang="de">Klein (8 Zoll)</name>
 				<name lang="it">Piccolo (8 pollici)</name>
 			</ml>
-		</doughsize> 
+		</doughsize>
 		<doughsize name="Regular 10&quot;" weight="250">
 			<ml>
 				<name lang="zh-Hans">普通（10英寸）</name>
