@@ -106,7 +106,7 @@
 
                 setPlateWeight(i);
             }
-            var n = total / 49.3;
+            var n = total / 48.1;
             document.getElementById("batches").innerHTML = n.toFixed(2);
             if (Number.isInteger(remder))
                 boxes += remder;
@@ -134,10 +134,10 @@
             var improver = 250 * factor;
             var gluten = 300 * factor;
             var milkpowder = (750 * factor);
-            var sugar = (4500 * factor);
-            var egg = (2500 * factor);
-            var water = (13000 * factor);
-            var butter = (2500 * factor);
+            var sugar = (4000 * factor);
+            var egg = (2000 * factor);
+            var water = (13300 * factor);
+            var butter = (2000 * factor);
             var total = flour + yeast + salt + improver + gluten + milkpowder + sugar + egg + water + butter;
 
             document.getElementById("sp_flour").innerHTML = flour.toLocaleString() + "g";
@@ -480,31 +480,31 @@
         <label for="checkbox6"><span>奶粉</span><span id="sp_milkpowder"> 750g</span></label><br>
 
         <input type="checkbox" id="checkbox7">
-        <label for="checkbox7"><span>糖</span><span id="sp_sugar"> 4,500g</span></label><br>
+        <label for="checkbox7"><span>糖</span><span id="sp_sugar"> 4,000g</span></label><br>
 
         <div class="divider">-----------------------------------------</div>
 
         <input type="checkbox" id="checkbox8">
-        <label for="checkbox8"><span>蛋</span><span id="sp_egg"> 2,500g</span></label><br>
+        <label for="checkbox8"><span>蛋</span><span id="sp_egg"> 2,000g</span></label><br>
 
         <input type="checkbox" id="checkbox9">
-        <label for="checkbox9"><span>水+冰</span><span id="sp_water"> 13,000g</span></label><br>
+        <label for="checkbox9"><span>水+冰</span><span id="sp_water"> 13,300g</span></label><br>
 
         <div class="divider">----------------------------------------- <span style="font-size:12pt;">(7 + 4)</span></div>
 
         <input type="checkbox" id="checkbox10">
-        <label for="checkbox10"><span>黄油</span><span id="sp_butter"> 2,500g</span></label><br>
+        <label for="checkbox10"><span>黄油</span><span id="sp_butter"> 2,000g</span></label><br>
 
         <div class="divider">----------------------------------------- <span style="font-size:12pt;">(7 + 4)</span></div>
 
         <table>
             <tr>
                 <td style="font-size:30pt;font-weight:bold">
-                    <span>总重：</span><span id="sp_total">49,300g</span>
+                    <span>总重：</span><span id="sp_total">48,100g</span>
 </td>
             </tr>
         </table>
     </div>
-    <div class="footer">&copy;2023 BREADZONE Version: 3.1</div>
+    <div class="footer">&copy;2023 BREADZONE Version: 3.2</div>
 </body>
 </html>
